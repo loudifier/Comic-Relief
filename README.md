@@ -28,8 +28,6 @@ Comic Relief is in maintenance mode. Bugfixes to the Regular and Bold weights wi
 
 ## Building
 
-Font cannot be built automatically yet, need to dig in to Google Fonts documentation to figure this out. For now, FontForge .sfd files can be found in /sources.
-
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
 
 If you want to build fonts manually on your own computer:
