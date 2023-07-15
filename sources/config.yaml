@@ -1,7 +1,9 @@
 sources:
-  - Rubik.glyphs
-  - Rubik-Italic.glyphs
-axisOrder:
-  - wght
-  - ital
-familyName: Rubik
+  - ComicRelief-Regular.ufo
+  - ComicRelief-Bold.ufo
+familyName: "Comic Relief"
+outputDir: "../fonts"
+buildOTF: false
+googleFonts: true
+removeOutlineOverlaps: false
+buildVariable: false

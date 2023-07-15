@@ -1,41 +1,4 @@
-----
-
-## Setting up your font
-
-* **New repositories.** Hit the green button above ("Use this template") to create your own repository. We then need to update the workflow permissions. Go to Settings > Actions > General > Workflow permissions and enable "Read and write permissions". Finally, rerun the failed github action by going to Actions > Initial commit > Re-run jobs > Re-run all jobs.
-
-*Please note that a Github Action job will be executed once you've created the repository which will populate the readme and build dependencies. This job will fail because it was executed with incorrect permissions. The steps above will fix the permissions issue and rerun the job. Please wait for the job to complete and pass before pulling the repo to your local system.*
-
-* **Updating a repository.** To update your font repository to bring in the latest best-practices from the Google Fonts Project Template, run `make update-project-template` from the command line.
-
-* Replace the font sources in the `sources` directory with your own font sources. These sources may be either in Glyphs format or UFO/Designspace formats.\
-\
-Unlike many open source distributors, Google Fonts is **curated**. Fonts shipped to the platform have to match the [Google Fonts Specifications](https://github.com/googlefonts/gf-docs/tree/main/Spec). Please read them carefully.\
-\
-*(The sample font provided in this template is [Rubik](https://github.com/googlefonts/rubik/) by Philipp Hubert, Sebastian Fischer, and contributors.)*
-
-* Then reference the sources in the file `sources/config.yaml`, as well as making any other changes you would like to make based on the instructions in the [Google Fonts Builder documentation](https://github.com/googlefonts/gftools/blob/main/Lib/gftools/builder/__init__.py).
-
-
-* Add yourself to the `AUTHORS.txt` and `CONTRIBUTORS.txt` files.
-
-* Update the first line of the OFL.txt (year and project name). Update also the Copyright string in the sources, it has to be the same as the OFL.txt. The `.glyphs` file in this repo gives you required base charset and font info.
-
-* Finally, add and commit any files you have modified (i.e. `README.md`, `AUTHORS.txt`, `CONTRIBUTORS.txt`, the font sources, and `sources/config.yaml`) to git, then push to GitHub. Please be aware that Github Actions may take a few minutes to build your font family. It is worthwhile inspecting the progress in the "Actions" tab.
-
-* Fill out `DESCRIPTION.en_us.html` with a description about your font.
-
-* If Github Actions has successfully built the family, you will find the font binaries in the Actions tab. The official Github Actions documentation provides further [information](https://docs.github.com/en/actions/managing-workflow-runs/downloading-workflow-artifacts).
-
-* Once you are happy with your font, add promotional assets in the documentation directory. Make it different from the pic you use in this README. You can get inspired by existing tweet @googlefonts like: https://twitter.com/googlefonts/status/1415562928657416192.
-
-* Google Fonts uses Github Releases to manage font families. If you feel your font project has hit a milestone, you must create a new release for it. In order to do this, go to the releases page and hit the "Draft a new release button". You must provide a tag number and title which can only be a decimal number e.g 0.100, 1.000 etc. For the body text, mention what has changed since the last release. Once you are done, hit the "Publish release" button. Here is an example which fulfills the requirements, https://github.com/m4rc1e/test-ufr-family/releases/tag/2.019. For more info regarding Github release, please see the official Github Release [documentation](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository). **Please note that Github Actions must be able to build the fonts before you can make a release. Once you have made a release, the fonts and tests assets will be attached to the release automatically. This may take a while since the fonts and tests will be built from scratch so please be patient.**
-
-* Remove this section from the readme. :-)
-----
-
-
-# My Font
+# Comic Relief
 
 [![][Fontbakery]](https://loudifier.github.io/Comic-Relief/fontbakery/fontbakery-report.html)
 [![][Universal]](https://loudifier.github.io/Comic-Relief/fontbakery/fontbakery-report.html)
@@ -49,17 +12,23 @@ Unlike many open source distributors, Google Fonts is **curated**. Fonts shipped
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Floudifier%2FComic-Relief%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Floudifier%2FComic-Relief%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Description of your font goes here. We recommend to start with a very short presentation line (the kind you would use on twitter to present your project for example), and then add as much details as necesary :-) Origin of the project, idea of usage, concept of creation… but also number of masters, axes, character sets, etc.
+Comic Relief is a typeface designed to be metrically equivalent to the popular Comic Sans MS. Comic Relief can be used in place of Comic Sans MS without having to move, resize, or reset any part of the copy. Perfect for missing cat posters and all of your WordArt needs!
 
-Don't hesitate to create images!
+Comic Relief is copylefted using the SIL Open Font License, so feel free to use it, modify it, or embed it as you see fit. It is available here on GitHub and is in the process of being added to Google Fonts.
 
-![Sample Image](documentation/image1.png)
+![Sample Image](documentation/cat-poster.jpg)
 
-## About
+## Features and development
 
-Description of you and/or organisation goes here.
+Comic Relief includes every glyph in Comic Sans MS Regular and Bold, as it existed in standard copies of Windows 7 and earlier. An italic variant of Comic Sans MS was introduced in Windows 8, but *Comic Relief does not have a metrically-equivalent italic variant*. An italic variant is the next major feature... eventually.
+
+Similarly, there is a "Pro" version of Comic Sans that includes additional glyphs, swashes, ligatures, etc. Comic Relief is not a metrically equivalent replacement for Comic Sans Pro, but some sort of "Comic Relief Preaux" typeface is on the list of someday-when-I-have-more-time projects.
+
+Comic Relief is in maintenance mode. Bugfixes to the Regular and Bold weights will be prioritized, but there is no timeline for italic or Preaux variants. Please file a bug if you find an issue or would like to see something tweaked. Contributions are very welcome, especially if you want to tackle italic or Preaux.
 
 ## Building
+
+Font cannot be built automatically yet, need to dig in to Google Fonts documentation to figure this out. For now, FontForge .sfd files can be found in /sources.
 
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
 
@@ -73,13 +42,18 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-When you update your font (new version or new release), please report all notable changes here, with a date.
-[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
-Changelog example:
+**17 JAN 2013, v1.0**
+- Initial release. Contains all glyphs necessary to replace Comic Sans MS Regular V5.0
 
-**26 May 2021. Version 2.13**
-- MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
+*Note: This is the version on FontSquirrel since 2013, and probably the most widely used version of Comic Relief. I tried asking them to update to v1.1, but never received a response. If somebody at FontSquirrel reads this, please update to the latest version.*
+
+**19 NOV 2013, v1.1**
+- Bold Variant added
+- Highest/lowest points adjusted for better compatibility with Comic Sans MS
+- Crossbar of lowercase 't' raised slightly
+
+**15 JUL 2013, v1.1.1 (initial version added to GitHub)**
+- Changed OS/2 Win Descent from -42 to 0 to get sources to compile with gftools
 
 ## License
 

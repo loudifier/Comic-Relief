@@ -122,3 +122,4 @@ wsproto==1.2.0
 youseedee==0.3.0
 zipp==3.16.2
 zopfli==0.2.2
+sfdLib==2.0.0.post0
