@@ -258,7 +258,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 781:
-lessequal, greater, less, greaterequal
+lessequal, greaterequal, less, greater
 
 Width = 1045:
 equal, notequal
