@@ -63,10 +63,10 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       if: ${{ github.ref == 'refs/heads/main' }}
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.PSA }}
         publish_dir: ./out
     - name: Archive artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: ${{ env.ZIP_NAME }}
         path: |
@@ -84,9 +84,9 @@ jobs:
     env:
       ZIP_NAME: ${{ needs.build.outputs.zip_name }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Download artefact files
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: ${{ env.ZIP_NAME }}
           path: ${{ env.ZIP_NAME }}
