@@ -5,6 +5,8 @@ on: [push, release]
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.8
@@ -52,6 +54,7 @@ jobs:
       run: make convert
     - name: Build font
       run: make build
+    - uses: stefanzweifel/git-auto-commit-action@v4
     - name: Check with fontbakery
       run: make test
       continue-on-error: true
