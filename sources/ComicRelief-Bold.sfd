@@ -3,7 +3,7 @@ FontName: ComicRelief-Bold
 FullName: Comic Relief Bold
 FamilyName: Comic Relief
 Weight: Bold
-Copyright: Copyright 2013 Jeff Davis (https://github.com/loudifier/Comic-Relief) with Reserved Font Name Comic Relief
+Copyright: Copyright 2013 Jeff Davis (https://github.com/loudifier/Comic-Relief)
 FontLog: "V1.0 17 JAN 2013+AAoA-- Initial release. Contains all glyphs necessary to replace Comic Sans MS Regular V5.0+AAoACgAA-V1.1 19 NOV 2013+AAoA-- Bold Variant added+AAoA-- Very minor changes+AAoA    - Highest/lowest points adjusted for better compatibility with Comic Sans MS+AAoA    - Crossbar of lowercase 't' raised slightly+AAoACgAA-V1.1.1 12 AUG 2017+AAoA-- Points removed from subscript '4'+AAoACgAA-V1.1.2 15 JUL 2023+AAoA-- Changed OS/2 Win Descent from -42 to 0 to get sources to compile with gftools+AAoA-- Several name table changes to pass Fontbakery Google Font errors+AAoA"
 Version: 1.1
 ItalicAngle: 0
@@ -21,7 +21,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358538608
-ModificationTime: 1689467429
+ModificationTime: 1689482357
 PfmFamily: 65
 TTFWeight: 700
 TTFWidth: 5
