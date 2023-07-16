@@ -2,7 +2,7 @@
 venv
 build.stamp
 proof
-fonts
+*.ufo
 node_modules
 package-lock.json
 package.json
