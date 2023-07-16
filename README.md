@@ -47,11 +47,15 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 **19 NOV 2013, v1.1**
 - Bold Variant added
-- Highest/lowest points adjusted for better compatibility with Comic Sans MS
-- Crossbar of lowercase 't' raised slightly
+- Minor Tweaks
 
-**15 JUL 2013, v1.1.1 (initial version added to GitHub)**
+...  
+For full log and changelist see FONTLOG.txt  
+...
+
+**15 JUL 2013, v1.1.2 (initial version added to GitHub)**
 - Changed OS/2 Win Descent from -42 to 0 to get sources to compile with gftools
+- Several name table changes to pass Fontbakery Google Font errors
 
 ## License
 

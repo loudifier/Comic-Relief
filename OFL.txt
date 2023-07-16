@@ -1,4 +1,4 @@
-Copyright (c) 2013, Jeff Davis (info@loudifier.com),
+Copyright 2013 Jeff Davis (https://github.com/loudifier/Comic-Relief)
 with Reserved Font Name "Comic Relief".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
