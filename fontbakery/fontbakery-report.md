@@ -81,7 +81,7 @@ which does not match the expected format, similar to:
 
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
 But instead we have got:
-"Copyright 2013 Jeff Davis (https://github.com/loudifier/Comic-Relief) with Reserved Font Name Comic Relief" [code: bad-notice-format]
+"Copyright 2013 Jeff Davis (https://github.com/loudifier/Comic-Relief)" [code: bad-notice-format]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -258,7 +258,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 781:
-lessequal, greaterequal, less, greater
+lessequal, greater, less, greaterequal
 
 Width = 1045:
 equal, notequal
@@ -1432,7 +1432,7 @@ which does not match the expected format, similar to:
 
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
 But instead we have got:
-"Copyright 2013 Jeff Davis (https://github.com/loudifier/Comic-Relief) with Reserved Font Name Comic Relief" [code: bad-notice-format]
+"Copyright 2013 Jeff Davis (https://github.com/loudifier/Comic-Relief)" [code: bad-notice-format]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
