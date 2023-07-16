@@ -14,6 +14,9 @@ help:
 	@echo "  make images: Creates PNG specimen images in the documentation/ directory"
 	@echo
 
+convert:  venv
+	. venv/bin/activate; for sfd in sources/*.sfd; do sfd2ufo $$sfd $${sfd%%.*}.ufo; done
+
 build: build.stamp
 
 venv: venv/touchfile

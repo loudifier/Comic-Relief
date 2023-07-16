@@ -89,6 +89,8 @@ resvg-cli==0.22.0.post3
 rich==13.4.2
 rstr==3.2.1
 selenium==4.10.0
+sfdLib==2.0.0.post0
+sfdutf7==0.1.0
 sh==2.0.4
 six==1.16.0
 skia-pathops==0.8.0
