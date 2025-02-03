@@ -1,4 +1,4 @@
-Copyright 2013 Jeff Davis (https://github.com/loudifier/Comic-Relief)
+Copyright 2013 The Comic Relief Project Authors (https://github.com/loudifier/Comic-Relief)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
