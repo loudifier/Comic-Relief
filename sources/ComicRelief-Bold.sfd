@@ -9444,7 +9444,7 @@ EndChar
 
 StartChar: nonbreakingspace
 Encoding: 95 160 172
-Width: 975
+Width: 888
 GlyphClass: 2
 Flags: W
 LayerCount: 2
