@@ -3987,8 +3987,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: glyph1
-Encoding: 583 -1 1
+StartChar: uni0237
+Encoding: 583 567 1
 Width: 826
 GlyphClass: 2
 Flags: W
