@@ -30,32 +30,25 @@ Comic Relief is in maintenance mode. Bugfixes to the Regular and Bold weights wi
 
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
 
+The build process is mostly unchanged from the googlefonts-project-template, except Comic Relief is drawn in FontForge and an extra step is needed to convert the .sfd sources to .ufo
+
 If you want to build fonts manually on your own computer:
 
+* `make convert` will convert .sfd sources to .ufo
 * `make build` will produce font files.
 * `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
 * `make proof` will generate HTML proof files.
 
 The proof files and QA tests are also available automatically via GitHub Actions - look at https://loudifier.github.io/Comic-Relief.
 
-## Changelog
+You may have issues trying to build the fonts on Windows, but building on Windows via WSL works well. If you want to make your own modifications or generate a specific font format, but are not worried about automated building and tests, you can open the .sfd project files in the /sources/ folder with FontForge on Windows or Linux and export in any common font format.
 
-**17 JAN 2013, v1.0**
-- Initial release. Contains all glyphs necessary to replace Comic Sans MS Regular V5.0
+## Most Recent Change
 
-*Note: This is the version on FontSquirrel since 2013, and probably the most widely used version of Comic Relief. I tried asking them to update to v1.1, but never received a response. If somebody at FontSquirrel reads this, please update to the latest version.*
-
-**19 NOV 2013, v1.1**
-- Bold Variant added
-- Minor Tweaks
-
-...  
-For full log and changelist see FONTLOG.txt  
-...
-
-**15 JUL 2013, v1.1.2 (initial version added to GitHub)**
-- Changed OS/2 Win Descent from -42 to 0 to get sources to compile with gftools
-- Several name table changes to pass Fontbakery Google Font errors
+**V1.2 3 FEB 2025 - Added to Google Fonts!**
+- Updated OS/2 metrics to match Comic Sans MS 5.1
+- Corrected dottlessj glyph name in bold font
+- Update copyright strings to match Google Fonts format
 
 ## License
 
