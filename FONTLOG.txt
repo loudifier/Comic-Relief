@@ -13,3 +13,8 @@ V1.1.1 12 AUG 2017
 V1.1.2 15 JUL 2023
 - Changed OS/2 Win Descent from -42 to 0 to get sources to compile with gftools
 - Several name table changes to pass Fontbakery Google Font errors
+
+V1.2 3 FEB 2025 - Added to Google Fonts!
+- Updated OS/2 metrics to match Comic Sans MS 5.1
+- Corrected dottlessj glyph name in bold font
+- Update copyright strings to match Google Fonts format
