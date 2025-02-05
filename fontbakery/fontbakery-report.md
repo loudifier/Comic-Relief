@@ -10,7 +10,7 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[21] ComicRelief-Bold.ttf</summary>
+<details><summary>[20] ComicRelief-Bold.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Check METADATA.pb includes production subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.metadata.html#"></a></summary>
@@ -114,24 +114,6 @@ fontbakery version: 0.12.10
 
 * 🔥 **FAIL** <p>Current FontBakery version is 0.12.10, while a newer 0.13.2 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
  [code: outdated-fontbakery]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Space and non-breaking space have the same width? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Space and non-breaking space have differing width: The space glyph named space is 888 font units wide, non-breaking space named (nonbreakingspace) is 975 font units wide, and both should be positive and the same. GlyphsApp has &quot;Sidebearing arithmetic&quot; (<a href="https://glyphsapp.com/tutorials/spacing">https://glyphsapp.com/tutorials/spacing</a>) which allows you to set the non-breaking space width to always equal the space width.</p>
- [code: different-widths]
 
 
 
@@ -1082,9 +1064,9 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2017 DOUBLE LOW LINE: try adding math</li>
 <li>U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK: try adding adlam</li>
@@ -1105,7 +1087,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, math, yi, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: symbols, tai-tham, yi, math</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -5020,7 +5002,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The most common width is 984 among a set of 6 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 781:
-less, greater, greaterequal, lessequal</p>
+greater, greaterequal, less, lessequal</p>
 <p>Width = 1045:
 notequal, equal</p>
 <p>Width = 1269:
@@ -5130,9 +5112,9 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2017 DOUBLE LOW LINE: try adding math</li>
 <li>U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK: try adding adlam</li>
@@ -5153,7 +5135,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, math, yi, tai-tham</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: symbols, tai-tham, yi, math</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -8176,7 +8158,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 10 | 0 | 7 | 26 | 228 | 15 | 198 | 0 | 
+| 10 | 0 | 6 | 26 | 228 | 15 | 199 | 0 | 
 | 2% | 0% | 1% | 5% | 47% | 3% | 41% | 0% | 
 
 
