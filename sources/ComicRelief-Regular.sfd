@@ -4,7 +4,7 @@ FullName: Comic Relief
 FamilyName: Comic Relief
 Weight: Regular
 Copyright: Copyright 2013 The Comic Relief Project Authors (https://github.com/loudifier/Comic-Relief)
-FontLog: "V1.0 17 JAN 2013+AAoA-- Initial release. Contains all glyphs necessary to replace Comic Sans MS Regular V5.0+AAoACgAA-V1.1 19 NOV 2013+AAoA-- Bold Variant added+AAoA-- Very minor changes+AAoA    - Highest/lowest points adjusted for better compatibility with Comic Sans MS+AAoA    - Crossbar of lowercase 't' raised slightly+AAoACgAA-V1.1.1 12 AUG 2017+AAoA-- Points removed from subscript '4'+AAoACgAA-V1.1.2 15 JUL 2023+AAoA-- Changed OS/2 Win Descent from -42 to 0 to get sources to compile with gftools+AAoA-- Several name table changes to pass Fontbakery Google Font errors+AAoACgAA-V1.2 3 FEB 2025 - Added to Google Fonts!+AAoA-- Updated OS/2 metrics to match Comic Sans MS 5.1+AAoA-- Corrected dottlessj glyph name in bold font+AAoA-- Update copyright strings to match Google Fonts format"
+FontLog: "V1.0 17 JAN 2013+AAoA-- Initial release. Contains all glyphs necessary to replace Comic Sans MS Regular V5.0+AAoACgAA-V1.1 19 NOV 2013+AAoA-- Bold Variant added+AAoA-- Very minor changes+AAoA    - Highest/lowest points adjusted for better compatibility with Comic Sans MS+AAoA    - Crossbar of lowercase 't' raised slightly+AAoACgAA-V1.1.1 12 AUG 2017+AAoA-- Points removed from subscript '4'+AAoACgAA-V1.1.2 15 JUL 2023+AAoA-- Changed OS/2 Win Descent from -42 to 0 to get sources to compile with gftools+AAoA-- Several name table changes to pass Fontbakery Google Font errors+AAoACgAA-V1.2 3 FEB 2025 - Added to Google Fonts!+AAoA-- Added capital German double S, which extends Comic Relief slightly outside the character set of Comic Sans MS+AAoA-- Updated OS/2 metrics to match Comic Sans MS 5.1+AAoA-- Corrected dottlessj glyph name in bold font+AAoA-- Update copyright strings to match Google Fonts format"
 Version: 1.200
 ItalicAngle: 0
 UnderlinePosition: -185
@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358538608
-ModificationTime: 1738646062
+ModificationTime: 1738718110
 PfmFamily: 65
 TTFWeight: 400
 TTFWidth: 5
@@ -3938,7 +3938,6 @@ LangName: 1069 "" "" "Arrunta"
 LangName: 1033 "" "" "" "" "" "Version 1.200" "" "" "Loudifier" "Jeff Davis" "Comic Relief is a typeface designed to be metrically equivalent to the popular Comic Sans MS. Go to https://github.com/loudifier/Comic-Relief for more info." "https://github.com/loudifier/Comic-Relief" "https://github.com/loudifier/Comic-Relief" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL"
 GaspTable: 3 8 2 15 1 65535 3 0
 Encoding: Custom
-Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -72
@@ -3959,10 +3958,10 @@ Grid
  1904 1504.19 l 25
 EndSplineSet
 TeXData: 1 0 0 313344 156672 104448 525952 -1048576 104448 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 592 590
+BeginChars: 591 591
 
 StartChar: glyph0
-Encoding: 582 -1 0
+Encoding: 580 -1 0
 Width: 1024
 GlyphClass: 2
 Flags: W
@@ -3984,7 +3983,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0237
-Encoding: 583 567 1
+Encoding: 581 567 1
 Width: 826
 GlyphClass: 2
 Flags: W
@@ -4011,7 +4010,7 @@ Validated: 33
 EndChar
 
 StartChar: glyph2
-Encoding: 584 -1 2
+Encoding: 582 -1 2
 Width: 1333
 GlyphClass: 2
 Flags: W
@@ -5461,7 +5460,6 @@ SplineSet
  1024 156 l 2,29,30
  962 -26 962 -26 872 -19 c 0,0,1
 EndSplineSet
-Validated: 33
 EndChar
 
 StartChar: N
@@ -5832,7 +5830,7 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1313 1242 m 2,0,-1
+1313 1242 m 6,0,-1
  402 169 l 1,1,-1
  1259 166 l 2,2,3
  1383 166 1383 166 1382 53 c 0,4,5
@@ -5840,13 +5838,13 @@ SplineSet
  214 -46 l 2,7,8
  92 -45 92 -45 92 59 c 0,9,10
  92 116 92 116 133 165 c 2,11,-1
- 1067 1285 l 1,12,-1
- 214 1290 l 2,13,14
- 92 1291 92 1291 92 1395 c 0,15,16
- 92 1506 92 1506 208 1506 c 2,17,-1
- 1259 1502 l 2,18,19
- 1383 1502 1383 1502 1382 1389 c 0,20,21
- 1382 1323 1382 1323 1313 1242 c 2,0,-1
+ 1067 1285 l 5,12,-1
+ 214 1290 l 6,13,14
+ 92 1291 92 1291 92 1395 c 4,15,16
+ 92 1506 92 1506 208 1506 c 6,17,-1
+ 1259 1502 l 6,18,19
+ 1383 1502 1383 1502 1382 1389 c 4,20,21
+ 1382 1323 1382 1323 1313 1242 c 6,0,-1
 EndSplineSet
 Validated: 33
 EndChar
@@ -6297,13 +6295,13 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-300 1610 m 1,0,1
- 404 1610 404 1610 402 1511 c 2,2,-1
- 371 64 l 2,3,4
- 370 -45 370 -45 262 -43 c 0,5,6
- 172 -41 172 -41 174 66 c 2,7,-1
- 208 1517 l 2,8,9
- 210 1608 210 1608 300 1610 c 1,0,1
+300 1610 m 5,0,1
+ 404 1610 404 1610 402 1511 c 6,2,-1
+ 371 64 l 6,3,4
+ 370 -45 370 -45 262 -43 c 4,5,6
+ 172 -41 172 -41 174 66 c 6,7,-1
+ 208 1517 l 6,8,9
+ 210 1608 210 1608 300 1610 c 5,0,1
 EndSplineSet
 Validated: 33
 EndChar
@@ -7219,7 +7217,7 @@ Validated: 1
 EndChar
 
 StartChar: dagger
-Encoding: 525 8224 130
+Encoding: 524 8224 130
 Width: 1222
 GlyphClass: 2
 Flags: W
@@ -7441,7 +7439,7 @@ Validated: 33
 EndChar
 
 StartChar: bullet
-Encoding: 527 8226 135
+Encoding: 526 8226 135
 Width: 793
 GlyphClass: 2
 Flags: W
@@ -7646,7 +7644,7 @@ Validated: 33
 EndChar
 
 StartChar: trademark
-Encoding: 546 8482 140
+Encoding: 545 8482 140
 Width: 1808
 GlyphClass: 2
 Flags: W
@@ -7730,7 +7728,7 @@ Validated: 1
 EndChar
 
 StartChar: notequal
-Encoding: 564 8800 143
+Encoding: 562 8800 143
 Width: 1045
 GlyphClass: 2
 Flags: W
@@ -7814,7 +7812,7 @@ Validated: 37
 EndChar
 
 StartChar: infinity
-Encoding: 561 8734 146
+Encoding: 559 8734 146
 Width: 1714
 GlyphClass: 2
 Flags: W
@@ -7881,7 +7879,7 @@ Validated: 33
 EndChar
 
 StartChar: lessequal
-Encoding: 565 8804 148
+Encoding: 563 8804 148
 Width: 781
 GlyphClass: 2
 Flags: W
@@ -7901,7 +7899,7 @@ Validated: 1
 EndChar
 
 StartChar: greaterequal
-Encoding: 566 8805 149
+Encoding: 564 8805 149
 Width: 781
 GlyphClass: 2
 Flags: W
@@ -7998,7 +7996,7 @@ Validated: 33
 EndChar
 
 StartChar: partialdiff
-Encoding: 553 8706 152
+Encoding: 552 8706 152
 Width: 1042
 GlyphClass: 2
 Flags: W
@@ -8028,7 +8026,7 @@ Validated: 33
 EndChar
 
 StartChar: summation
-Encoding: 556 8721 153
+Encoding: 555 8721 153
 Width: 1530
 GlyphClass: 2
 Flags: W
@@ -8039,7 +8037,7 @@ Validated: 1
 EndChar
 
 StartChar: product
-Encoding: 555 8719 154
+Encoding: 554 8719 154
 Width: 1860
 GlyphClass: 2
 Flags: W
@@ -8085,7 +8083,7 @@ Validated: 33
 EndChar
 
 StartChar: integral
-Encoding: 562 8747 156
+Encoding: 560 8747 156
 Width: 1433
 GlyphClass: 2
 Flags: W
@@ -8309,7 +8307,7 @@ Validated: 33
 EndChar
 
 StartChar: radical
-Encoding: 560 8730 165
+Encoding: 558 8730 165
 Width: 1244
 GlyphClass: 2
 Flags: W
@@ -8372,7 +8370,7 @@ Validated: 33
 EndChar
 
 StartChar: approxequal
-Encoding: 563 8776 167
+Encoding: 561 8776 167
 Width: 1269
 GlyphClass: 2
 Flags: W
@@ -8434,7 +8432,7 @@ Validated: 1
 EndChar
 
 StartChar: ellipsis
-Encoding: 528 8230 171
+Encoding: 527 8230 171
 Width: 1383
 GlyphClass: 2
 Flags: W
@@ -8553,7 +8551,7 @@ Validated: 1
 EndChar
 
 StartChar: quotedblleft
-Encoding: 522 8220 180
+Encoding: 521 8220 180
 Width: 806
 GlyphClass: 2
 Flags: W
@@ -8579,7 +8577,7 @@ Validated: 33
 EndChar
 
 StartChar: quotedblright
-Encoding: 523 8221 181
+Encoding: 522 8221 181
 Width: 806
 GlyphClass: 2
 Flags: W
@@ -8695,7 +8693,7 @@ Validated: 1
 EndChar
 
 StartChar: lozenge
-Encoding: 576 9674 185
+Encoding: 574 9674 185
 Width: 1479
 GlyphClass: 2
 Flags: W
@@ -8761,7 +8759,7 @@ Validated: 1
 EndChar
 
 StartChar: fraction
-Encoding: 536 8260 188
+Encoding: 535 8260 188
 AltUni2: 002215.ffffffff.0
 Width: 1661
 GlyphClass: 2
@@ -8781,7 +8779,7 @@ Validated: 33
 EndChar
 
 StartChar: Euro
-Encoding: 541 8364 189
+Encoding: 540 8364 189
 Width: 1250
 GlyphClass: 2
 Flags: W
@@ -8808,7 +8806,7 @@ Validated: 37
 EndChar
 
 StartChar: guilsinglleft
-Encoding: 532 8249 190
+Encoding: 531 8249 190
 Width: 781
 GlyphClass: 2
 Flags: W
@@ -8819,7 +8817,7 @@ Validated: 1
 EndChar
 
 StartChar: guilsinglright
-Encoding: 533 8250 191
+Encoding: 532 8250 191
 Width: 781
 GlyphClass: 2
 Flags: W
@@ -8830,7 +8828,7 @@ Validated: 1
 EndChar
 
 StartChar: fi
-Encoding: 580 64257 192
+Encoding: 578 64257 192
 Width: 1349
 GlyphClass: 2
 Flags: W
@@ -8882,7 +8880,7 @@ Validated: 33
 EndChar
 
 StartChar: fl
-Encoding: 581 64258 193
+Encoding: 579 64258 193
 Width: 1343
 GlyphClass: 2
 Flags: W
@@ -8917,7 +8915,7 @@ Validated: 33
 EndChar
 
 StartChar: daggerdbl
-Encoding: 526 8225 194
+Encoding: 525 8225 194
 Width: 1222
 GlyphClass: 2
 Flags: W
@@ -8987,7 +8985,7 @@ Validated: 33
 EndChar
 
 StartChar: quotedblbase
-Encoding: 524 8222 197
+Encoding: 523 8222 197
 Width: 843
 GlyphClass: 2
 Flags: W
@@ -9013,7 +9011,7 @@ Validated: 33
 EndChar
 
 StartChar: perthousand
-Encoding: 529 8240 198
+Encoding: 528 8240 198
 Width: 2542
 GlyphClass: 2
 Flags: W
@@ -9649,7 +9647,7 @@ Validated: 33
 EndChar
 
 StartChar: minus
-Encoding: 557 8722 237
+Encoding: 556 8722 237
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -9835,7 +9833,7 @@ Validated: 33
 EndChar
 
 StartChar: sfthyphen
-Encoding: 585 -1 246
+Encoding: 583 -1 246
 Width: 853
 GlyphClass: 2
 Flags: W
@@ -9854,7 +9852,7 @@ Validated: 1
 EndChar
 
 StartChar: franc
-Encoding: 538 8355 247
+Encoding: 537 8355 247
 Width: 2026
 GlyphClass: 2
 Flags: W
@@ -10030,7 +10028,7 @@ Validated: 33
 EndChar
 
 StartChar: Ohm
-Encoding: 547 8486 259
+Encoding: 546 8486 259
 Width: 1966
 GlyphClass: 2
 Flags: W
@@ -10041,7 +10039,7 @@ Validated: 1
 EndChar
 
 StartChar: Delta
-Encoding: 554 8710 260
+Encoding: 553 8710 260
 Width: 1627
 GlyphClass: 2
 Flags: W
@@ -10080,7 +10078,7 @@ Validated: 1
 EndChar
 
 StartChar: middot
-Encoding: 586 -1 263
+Encoding: 584 -1 263
 Width: 510
 GlyphClass: 2
 Flags: W
@@ -10891,7 +10889,7 @@ Validated: 1
 EndChar
 
 StartChar: exclamdbl
-Encoding: 534 8252 315
+Encoding: 533 8252 315
 Width: 921
 GlyphClass: 2
 Flags: W
@@ -10903,7 +10901,7 @@ Validated: 1
 EndChar
 
 StartChar: nsuperior
-Encoding: 537 8319 316
+Encoding: 536 8319 316
 Width: 1079
 GlyphClass: 2
 Flags: W
@@ -10931,7 +10929,7 @@ Validated: 33
 EndChar
 
 StartChar: peseta
-Encoding: 540 8359 317
+Encoding: 539 8359 317
 Width: 2435
 GlyphClass: 2
 Flags: W
@@ -10980,7 +10978,7 @@ Validated: 1
 EndChar
 
 StartChar: minute
-Encoding: 530 8242 321
+Encoding: 529 8242 321
 Width: 369
 GlyphClass: 2
 Flags: W
@@ -10999,7 +10997,7 @@ Validated: 33
 EndChar
 
 StartChar: second
-Encoding: 531 8243 322
+Encoding: 530 8243 322
 Width: 678
 GlyphClass: 2
 Flags: W
@@ -11011,7 +11009,7 @@ Validated: 1
 EndChar
 
 StartChar: afii61248
-Encoding: 542 8453 323
+Encoding: 541 8453 323
 Width: 1680
 GlyphClass: 2
 Flags: W
@@ -11043,7 +11041,7 @@ Validated: 33
 EndChar
 
 StartChar: afii61289
-Encoding: 543 8467 324
+Encoding: 542 8467 324
 Width: 1001
 GlyphClass: 2
 Flags: W
@@ -11948,7 +11946,7 @@ Validated: 1
 EndChar
 
 StartChar: uF003
-Encoding: 587 -1 389
+Encoding: 585 -1 389
 Width: 795
 GlyphClass: 2
 Flags: W
@@ -11969,7 +11967,7 @@ Validated: 33
 EndChar
 
 StartChar: uF004
-Encoding: 588 -1 390
+Encoding: 586 -1 390
 Width: 795
 GlyphClass: 2
 Flags: W
@@ -11993,7 +11991,7 @@ Validated: 1
 EndChar
 
 StartChar: uF005
-Encoding: 589 -1 391
+Encoding: 587 -1 391
 Width: 795
 GlyphClass: 2
 Flags: W
@@ -12225,7 +12223,7 @@ Validated: 1
 EndChar
 
 StartChar: radicalex
-Encoding: 535 8254 407
+Encoding: 534 8254 407
 Width: 1250
 GlyphClass: 2
 Flags: W
@@ -12244,7 +12242,7 @@ Validated: 33
 EndChar
 
 StartChar: afii08941
-Encoding: 539 8356 408
+Encoding: 538 8356 408
 Width: 1625
 GlyphClass: 2
 Flags: W
@@ -12301,7 +12299,7 @@ Validated: 33
 EndChar
 
 StartChar: estimated
-Encoding: 548 8494 409
+Encoding: 547 8494 409
 Width: 1125
 GlyphClass: 2
 Flags: W
@@ -12333,7 +12331,7 @@ Validated: 33
 EndChar
 
 StartChar: oneeighth
-Encoding: 549 8539 410
+Encoding: 548 8539 410
 Width: 1333
 GlyphClass: 2
 Flags: W
@@ -12346,7 +12344,7 @@ Validated: 1
 EndChar
 
 StartChar: threeeighths
-Encoding: 550 8540 411
+Encoding: 549 8540 411
 Width: 1333
 GlyphClass: 2
 Flags: W
@@ -12359,7 +12357,7 @@ Validated: 1
 EndChar
 
 StartChar: fiveeighths
-Encoding: 551 8541 412
+Encoding: 550 8541 412
 Width: 1333
 GlyphClass: 2
 Flags: W
@@ -12393,7 +12391,7 @@ Validated: 33
 EndChar
 
 StartChar: seveneighths
-Encoding: 552 8542 413
+Encoding: 551 8542 413
 Width: 1333
 GlyphClass: 2
 Flags: W
@@ -12645,7 +12643,6 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 48 77 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Nu
@@ -14041,7 +14038,6 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 48 77 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: afii10031
@@ -15749,7 +15745,7 @@ Validated: 1
 EndChar
 
 StartChar: afii61352
-Encoding: 544 8470 565
+Encoding: 543 8470 565
 Width: 2370
 GlyphClass: 2
 Flags: W
@@ -15799,7 +15795,7 @@ Validated: 33
 EndChar
 
 StartChar: H22073
-Encoding: 573 9633 566
+Encoding: 571 9633 566
 Width: 1504
 GlyphClass: 2
 Flags: W
@@ -15821,7 +15817,7 @@ Validated: 1
 EndChar
 
 StartChar: H18543
-Encoding: 574 9642 567
+Encoding: 572 9642 567
 Width: 1316
 GlyphClass: 2
 Flags: W
@@ -15838,7 +15834,7 @@ Validated: 1
 EndChar
 
 StartChar: H18551
-Encoding: 575 9643 568
+Encoding: 573 9643 568
 Width: 1316
 GlyphClass: 2
 Flags: W
@@ -15860,7 +15856,7 @@ Validated: 1
 EndChar
 
 StartChar: H18533
-Encoding: 577 9679 569
+Encoding: 575 9679 569
 Width: 1316
 GlyphClass: 2
 Flags: W
@@ -15888,7 +15884,7 @@ Validated: 1
 EndChar
 
 StartChar: openbullet
-Encoding: 578 9702 570
+Encoding: 576 9702 570
 Width: 1316
 GlyphClass: 2
 Flags: W
@@ -16017,7 +16013,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2120
-Encoding: 545 8480 574
+Encoding: 544 8480 574
 Width: 2384
 GlyphClass: 2
 Flags: W
@@ -16081,7 +16077,7 @@ Validated: 33
 EndChar
 
 StartChar: uni2500
-Encoding: 567 9472 575
+Encoding: 565 9472 575
 Width: 1451
 GlyphClass: 2
 Flags: W
@@ -16098,7 +16094,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2502
-Encoding: 568 9474 576
+Encoding: 566 9474 576
 Width: 1451
 GlyphClass: 2
 Flags: W
@@ -16115,7 +16111,7 @@ Validated: 1
 EndChar
 
 StartChar: uni250C
-Encoding: 569 9484 577
+Encoding: 567 9484 577
 Width: 1451
 GlyphClass: 2
 Flags: W
@@ -16134,7 +16130,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2510
-Encoding: 570 9488 578
+Encoding: 568 9488 578
 Width: 1451
 GlyphClass: 2
 Flags: W
@@ -16153,7 +16149,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2514
-Encoding: 571 9492 579
+Encoding: 569 9492 579
 Width: 1451
 GlyphClass: 2
 Flags: W
@@ -16172,7 +16168,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2518
-Encoding: 572 9496 580
+Encoding: 570 9496 580
 Width: 1451
 GlyphClass: 2
 Flags: W
@@ -16191,7 +16187,7 @@ Validated: 1
 EndChar
 
 StartChar: uni266A
-Encoding: 579 9834 581
+Encoding: 577 9834 581
 Width: 1024
 GlyphClass: 2
 Flags: W
@@ -16265,7 +16261,7 @@ Substitution2: "'locl' Localized Forms in Latin lookup 1 subtable" tcommaaccent
 EndChar
 
 StartChar: dottediacute
-Encoding: 590 -1 586
+Encoding: 588 -1 586
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -16278,7 +16274,7 @@ Validated: 1
 EndChar
 
 StartChar: NameMe.591
-Encoding: 591 -1 587
+Encoding: 589 -1 587
 Width: 1333
 Flags: W
 LayerCount: 2
@@ -16318,7 +16314,7 @@ Validated: 1
 EndChar
 
 StartChar: NameMe.559
-Encoding: 559 -1 589
+Encoding: 557 -1 589
 Width: 1333
 Flags: W
 LayerCount: 2
@@ -16345,6 +16341,39 @@ SplineSet
  514 -44 514 -44 514 -120 c 5,24,25
 EndSplineSet
 Validated: 33
+EndChar
+
+StartChar: uni1E9E
+Encoding: 590 7838 590
+Width: 1293
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+246 56 m 18,0,1
+ 244 -53 244 -53 137 -51 c 0,2,3
+ 46.4540376779 -49.0099788501 46.4540376779 -49.0099788501 49 58 c 2,4,5
+ 81 1403 81 1403 81 1403 c 1,6,7
+ 81 1506.51889683 81 1506.51889683 208 1506 c 2,8,9
+ 208 1506 208 1506 1187 1502 c 2,10,11
+ 1311 1501 1311 1501 1310 1389 c 0,12,13
+ 1310 1322.36705202 1310 1322.36705202 1241 1242 c 2,14,15
+ 1216 1189 1216 1189 895 839 c 1,16,17
+ 1070 689 1070 689 1103.5 529 c 0,18,19
+ 1165 239 1165 239 1096 112 c 0,20,21
+ 995 -74 995 -74 697 -47 c 0,22,23
+ 449 -24 449 -24 448 101 c 0,24,25
+ 448 226 448 226 598 178 c 0,26,27
+ 831 103 831 103 903 184 c 0,28,29
+ 968 256 968 256 933 446 c 0,30,31
+ 904 601 904 601 733 730 c 0,32,33
+ 659 786 659 786 660.5 833 c 128,-1,34
+ 662 880 662 880 715 930 c 0,35,-1
+ 1022 1285 l 1,36,37
+ 1022 1285 1022 1285 272.678616945 1289.65604562 c 9,38,-1
+ 246 56 l 18,0,1
+81 1403 m 1025,39,40
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

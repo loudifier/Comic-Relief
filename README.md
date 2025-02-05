@@ -46,6 +46,7 @@ You may have issues trying to build the fonts on Windows, but building on Window
 ## Most Recent Change
 
 **V1.2 3 FEB 2025 - Added to Google Fonts!**
+- Added capital German double S, which extends Comic Relief slightly outside the character set of Comic Sans MS
 - Updated OS/2 metrics to match Comic Sans MS 5.1
 - Corrected dottlessj glyph name in bold font
 - Update copyright strings to match Google Fonts format
