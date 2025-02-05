@@ -1,2 +1,2 @@
-fontbakery[googlefonts]>=0.9.2
-gftools[qa]>=0.9.23
+# Placeholder file, update the requirements by running `make update`.
+-r requirements-test.in

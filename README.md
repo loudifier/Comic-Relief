@@ -45,7 +45,8 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 **V1.2 3 FEB 2025 - Added to Google Fonts!**
 - Added capital German double S, which extends Comic Relief slightly outside the character set of Comic Sans MS
-- Updated OS/2 metrics to match Comic Sans MS 5.1
+- Updated OS/2 metrics to meet Google Fonts requirements, or otherwise match Comic Sans MS 5.1
+- Adjusted width on bold non-breaking space to match regular space, mismatch in Comic Sans MS appears to be abug
 - Corrected dottlessj glyph name in bold font
 - Update copyright strings to match Google Fonts format
 
