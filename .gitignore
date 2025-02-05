@@ -1,5 +1,7 @@
 *~
+out
 venv
+venv-test
 build.stamp
 proof
 *.ufo
@@ -8,6 +10,8 @@ package-lock.json
 package.json
 master_ufo
 instance_ufo
+.ninja_log
+build.ninja
 
 # OS generated files #
 ######################

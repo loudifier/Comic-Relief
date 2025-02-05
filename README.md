@@ -30,7 +30,7 @@ Comic Relief is in maintenance mode. Bugfixes to the Regular and Bold weights wi
 
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
 
-The build process is mostly unchanged from the googlefonts-project-template, except Comic Relief is drawn in FontForge and an extra step is needed to convert the .sfd sources to .ufo
+The build and test process is customized from the googlefonts-project-template. Comic Relief is drawn in FontForge and an extra step is needed to convert the .sfd sources to .ufo and the automated builds are a bit of a house of cards that you don't want to try running on Windows. If you are not worried about automated building and tests, you can open the .sfd project files in the /sources/ folder with FontForge on Windows or Linux and export in any common font format.
 
 If you want to build fonts manually on your own computer:
 
@@ -40,8 +40,6 @@ If you want to build fonts manually on your own computer:
 * `make proof` will generate HTML proof files.
 
 The proof files and QA tests are also available automatically via GitHub Actions - look at https://loudifier.github.io/Comic-Relief.
-
-You may have issues trying to build the fonts on Windows, but building on Windows via WSL works well. If you want to make your own modifications or generate a specific font format, but are not worried about automated building and tests, you can open the .sfd project files in the /sources/ folder with FontForge on Windows or Linux and export in any common font format.
 
 ## Most Recent Change
 
