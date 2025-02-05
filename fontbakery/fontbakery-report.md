@@ -50,9 +50,6 @@ Fontbakery version: 0.8.13
 	- 0x0304 (COMBINING MACRON)
 
 
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
 	- 0x0307 (COMBINING DOT ABOVE)
 
 
@@ -93,7 +90,7 @@ Fontbakery version: 0.8.13
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.13.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.13.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
@@ -1221,9 +1218,6 @@ The following glyphs do not have the recommended number of contours:
 	- 0x0304 (COMBINING MACRON)
 
 
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
 	- 0x0307 (COMBINING DOT ABOVE)
 
 
@@ -1264,7 +1258,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.13.1 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* 🔥 **FAIL** Current Font Bakery version is 0.8.13, while a newer 0.13.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1360,6 +1354,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: afii10060	Contours detected: 2	Expected: 1
 
+	- Glyph name: uni1E9E	Contours detected: 2	Expected: 1
+
 	- Glyph name: Euro	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: notequal	Contours detected: 3	Expected: 1
@@ -1418,7 +1414,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: sigma	Contours detected: 3	Expected: 2
 
-	- Glyph name: tbar	Contours detected: 2	Expected: 1 
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 2	Expected: 1 
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -1433,10 +1431,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 781:
-greater, less, lessequal, greaterequal
+lessequal, greaterequal, greater, less
 
 Width = 1045:
-equal, notequal
+notequal, equal
 
 Width = 1269:
 approxequal
