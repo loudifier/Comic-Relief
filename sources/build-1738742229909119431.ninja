@@ -1,0 +1,72 @@
+# buildTTF: Build a TTF from a source file
+rule buildTTF
+  command = /home/runner/work/Comic-Relief/Comic-Relief/venv/bin/python3 -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o ttf $
+      $fontmake_type $in $args $stamp
+  description = buildTTF
+
+# autohint: Run gftools-autohint
+rule autohint
+  command = /home/runner/work/Comic-Relief/Comic-Relief/venv/bin/python3 -m $
+      gftools.builder.jobrunner gftools-autohint $args -o $out $in $stamp
+  description = autohint
+
+# fix: Run gftools-fix
+rule fix
+  command = /home/runner/work/Comic-Relief/Comic-Relief/venv/bin/python3 -m $
+      gftools.builder.jobrunner gftools-fix-font -o $out $args $in $stamp
+  description = fix
+
+# compress: Compress to webfont
+rule compress
+  command = /home/runner/work/Comic-Relief/Comic-Relief/venv/bin/python3 -m $
+      gftools.builder.jobrunner fonttools ttLib.woff2 compress -o $out $in $
+      $stamp
+  description = compress
+
+# copy: Copy a file
+rule copy
+  command = /home/runner/work/Comic-Relief/Comic-Relief/venv/bin/python3 -m $
+      gftools.builder.jobrunner cp $in $out $stamp
+  description = copy
+
+# Generating /tmp/tmpt_33ed44
+build /tmp/tmpt_33ed44: buildTTF ComicRelief-Regular.ufo
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter --keep-overlaps
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /tmp/tmp2k8ulcp8
+build /tmp/tmp2k8ulcp8: buildTTF ComicRelief-Bold.ufo
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter --keep-overlaps
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating ../fonts/webfonts/ComicRelief-Regular.woff2
+build ../fonts/webfonts/ComicRelief-Regular.woff2: compress $
+    ../fonts/ttf/ComicRelief-Regular.ttf
+  operation = compress
+# Generating ../fonts/webfonts/ComicRelief-Bold.woff2
+build ../fonts/webfonts/ComicRelief-Bold.woff2: compress $
+    ../fonts/ttf/ComicRelief-Bold.ttf
+  operation = compress
+# Generating /tmp/tmp53x42_q0
+build /tmp/tmp53x42_q0: autohint /tmp/tmpt_33ed44
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ComicRelief-Regular.ttf
+build ../fonts/ttf/ComicRelief-Regular.ttf: fix /tmp/tmp53x42_q0
+  operation = fix
+  args = 
+# Generating /tmp/tmpqqld57zc
+build /tmp/tmpqqld57zc: autohint /tmp/tmp2k8ulcp8
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/ComicRelief-Bold.ttf
+build ../fonts/ttf/ComicRelief-Bold.ttf: fix /tmp/tmpqqld57zc
+  operation = fix
+  args = 
+default ../fonts/webfonts/ComicRelief-Regular.woff2 $
+    ../fonts/webfonts/ComicRelief-Bold.woff2
