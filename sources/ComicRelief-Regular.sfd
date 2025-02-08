@@ -3938,12 +3938,13 @@ LangName: 1069 "" "" "Arrunta"
 LangName: 1033 "" "" "" "" "" "Version 1.200" "" "" "Loudifier" "Jeff Davis" "Comic Relief is a typeface designed to be metrically equivalent to the popular Comic Sans MS. Go to https://github.com/loudifier/Comic-Relief for more info." "https://github.com/loudifier/Comic-Relief" "https://github.com/loudifier/Comic-Relief" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL"
 GaspTable: 3 8 2 15 1 65535 3 0
 Encoding: Custom
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 325 13 6
+WinInfo: 0 13 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3958,10 +3959,11 @@ Grid
  1904 1504.19 l 25
 EndSplineSet
 TeXData: 1 0 0 313344 156672 104448 525952 -1048576 104448 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 610 606
+BeginChars: 1114123 606
 
 StartChar: glyph0
-Encoding: 599 -1 0
+Encoding: 1114112 -1 0
+GlifName: glyph0
 Width: 1024
 GlyphClass: 2
 Flags: W
@@ -3983,7 +3985,8 @@ Validated: 1
 EndChar
 
 StartChar: uni0237
-Encoding: 330 567 1
+Encoding: 567 567 1
+GlifName: uni0237
 Width: 826
 GlyphClass: 2
 Flags: W
@@ -4010,7 +4013,8 @@ Validated: 33
 EndChar
 
 StartChar: glyph2
-Encoding: 600 -1 2
+Encoding: 1114113 -1 2
+GlifName: glyph2
 Width: 1333
 GlyphClass: 2
 Flags: W
@@ -4029,7 +4033,8 @@ Validated: 1
 EndChar
 
 StartChar: space
-Encoding: 0 32 3
+Encoding: 32 32 3
+GlifName: space
 Width: 612
 GlyphClass: 2
 Flags: W
@@ -4039,7 +4044,8 @@ Validated: 1
 EndChar
 
 StartChar: exclam
-Encoding: 1 33 4
+Encoding: 33 33 4
+GlifName: exclam
 Width: 487
 GlyphClass: 2
 Flags: W
@@ -4077,7 +4083,8 @@ Validated: 33
 EndChar
 
 StartChar: quotedbl
-Encoding: 2 34 5
+Encoding: 34 34 5
+GlifName: quotedbl
 Width: 869
 GlyphClass: 2
 Flags: W
@@ -4111,7 +4118,8 @@ Validated: 1
 EndChar
 
 StartChar: numbersign
-Encoding: 3 35 6
+Encoding: 35 35 6
+GlifName: numbersign
 Width: 1726
 GlyphClass: 2
 Flags: W
@@ -4165,7 +4173,8 @@ Validated: 33
 EndChar
 
 StartChar: dollar
-Encoding: 4 36 7
+Encoding: 36 36 7
+GlifName: dollar
 Width: 1420
 GlyphClass: 2
 Flags: W
@@ -4222,7 +4231,8 @@ Validated: 33
 EndChar
 
 StartChar: percent
-Encoding: 5 37 8
+Encoding: 37 37 8
+GlifName: percent
 Width: 1680
 GlyphClass: 2
 Flags: W
@@ -4307,7 +4317,8 @@ Validated: 33
 EndChar
 
 StartChar: ampersand
-Encoding: 6 38 9
+Encoding: 38 38 9
+GlifName: ampersand
 Width: 1340
 GlyphClass: 2
 Flags: W
@@ -4354,7 +4365,8 @@ Validated: 33
 EndChar
 
 StartChar: quotesingle
-Encoding: 7 39 10
+Encoding: 39 39 10
+GlifName: quotesingle
 Width: 795
 GlyphClass: 2
 Flags: W
@@ -4373,7 +4385,8 @@ Validated: 33
 EndChar
 
 StartChar: parenleft
-Encoding: 8 40 11
+Encoding: 40 40 11
+GlifName: parenleft
 Width: 750
 GlyphClass: 2
 Flags: W
@@ -4397,7 +4410,8 @@ Validated: 33
 EndChar
 
 StartChar: parenright
-Encoding: 9 41 12
+Encoding: 41 41 12
+GlifName: parenright
 Width: 750
 GlyphClass: 2
 Flags: W
@@ -4421,7 +4435,8 @@ Validated: 33
 EndChar
 
 StartChar: asterisk
-Encoding: 10 42 13
+Encoding: 42 42 13
+GlifName: asterisk
 Width: 1085
 GlyphClass: 2
 Flags: W
@@ -4454,7 +4469,8 @@ Validated: 33
 EndChar
 
 StartChar: plus
-Encoding: 11 43 14
+Encoding: 43 43 14
+GlifName: plus
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -4483,7 +4499,8 @@ Validated: 33
 EndChar
 
 StartChar: comma
-Encoding: 12 44 15
+Encoding: 44 44 15
+GlifName: comma
 Width: 567
 GlyphClass: 2
 Flags: W
@@ -4502,7 +4519,8 @@ Validated: 33
 EndChar
 
 StartChar: hyphen
-Encoding: 13 45 16
+Encoding: 45 45 16
+GlifName: hyphen
 Width: 853
 GlyphClass: 2
 Flags: W
@@ -4521,7 +4539,8 @@ Validated: 1
 EndChar
 
 StartChar: period
-Encoding: 14 46 17
+Encoding: 46 46 17
+GlifName: period
 Width: 510
 GlyphClass: 2
 Flags: W
@@ -4549,7 +4568,8 @@ Validated: 1
 EndChar
 
 StartChar: slash
-Encoding: 15 47 18
+Encoding: 47 47 18
+GlifName: slash
 Width: 1048
 GlyphClass: 2
 Flags: W
@@ -4568,7 +4588,8 @@ Validated: 33
 EndChar
 
 StartChar: zero
-Encoding: 16 48 19
+Encoding: 48 48 19
+GlifName: zero
 Width: 1250
 GlyphClass: 2
 Flags: W
@@ -4590,7 +4611,8 @@ Validated: 1
 EndChar
 
 StartChar: one
-Encoding: 17 49 20
+Encoding: 49 49 20
+GlifName: one
 Width: 922
 GlyphClass: 2
 Flags: W
@@ -4618,7 +4640,8 @@ Validated: 33
 EndChar
 
 StartChar: two
-Encoding: 18 50 21
+Encoding: 50 50 21
+GlifName: two
 Width: 1250
 GlyphClass: 2
 Flags: W
@@ -4651,7 +4674,8 @@ Validated: 33
 EndChar
 
 StartChar: three
-Encoding: 19 51 22
+Encoding: 51 51 22
+GlifName: three
 Width: 1250
 GlyphClass: 2
 Flags: W
@@ -4687,7 +4711,8 @@ Validated: 33
 EndChar
 
 StartChar: four
-Encoding: 20 52 23
+Encoding: 52 52 23
+GlifName: four
 Width: 1250
 GlyphClass: 2
 Flags: W
@@ -4719,7 +4744,8 @@ Validated: 33
 EndChar
 
 StartChar: five
-Encoding: 21 53 24
+Encoding: 53 53 24
+GlifName: five
 Width: 1250
 GlyphClass: 2
 Flags: W
@@ -4751,7 +4777,8 @@ Validated: 33
 EndChar
 
 StartChar: six
-Encoding: 22 54 25
+Encoding: 54 54 25
+GlifName: six
 Width: 1250
 GlyphClass: 2
 Flags: W
@@ -4779,7 +4806,8 @@ Validated: 33
 EndChar
 
 StartChar: seven
-Encoding: 23 55 26
+Encoding: 55 55 26
+GlifName: seven
 Width: 1250
 GlyphClass: 2
 Flags: W
@@ -4803,7 +4831,8 @@ Validated: 33
 EndChar
 
 StartChar: eight
-Encoding: 24 56 27
+Encoding: 56 56 27
+GlifName: eight
 Width: 1250
 GlyphClass: 2
 Flags: W
@@ -4834,7 +4863,8 @@ Validated: 33
 EndChar
 
 StartChar: nine
-Encoding: 25 57 28
+Encoding: 57 57 28
+GlifName: nine
 Width: 1250
 GlyphClass: 2
 Flags: W
@@ -4862,7 +4892,8 @@ Validated: 33
 EndChar
 
 StartChar: colon
-Encoding: 26 58 29
+Encoding: 58 58 29
+GlifName: colon
 Width: 612
 GlyphClass: 2
 Flags: W
@@ -4874,8 +4905,9 @@ Validated: 1
 EndChar
 
 StartChar: semicolon
-Encoding: 27 59 30
+Encoding: 59 59 30
 AltUni2: 00037e.ffffffff.0
+GlifName: semicolon
 Width: 612
 GlyphClass: 2
 Flags: W
@@ -4887,7 +4919,8 @@ Validated: 1
 EndChar
 
 StartChar: less
-Encoding: 28 60 31
+Encoding: 60 60 31
+GlifName: less
 Width: 781
 GlyphClass: 2
 Flags: W
@@ -4910,7 +4943,8 @@ Validated: 33
 EndChar
 
 StartChar: equal
-Encoding: 29 61 32
+Encoding: 61 61 32
+GlifName: equal
 Width: 1045
 GlyphClass: 2
 Flags: W
@@ -4936,7 +4970,8 @@ Validated: 1
 EndChar
 
 StartChar: greater
-Encoding: 30 62 33
+Encoding: 62 62 33
+GlifName: greater
 Width: 781
 GlyphClass: 2
 Flags: W
@@ -4959,7 +4994,8 @@ Validated: 33
 EndChar
 
 StartChar: question
-Encoding: 31 63 34
+Encoding: 63 63 34
+GlifName: question
 Width: 1073
 GlyphClass: 2
 Flags: W
@@ -5000,7 +5036,8 @@ Validated: 33
 EndChar
 
 StartChar: at
-Encoding: 32 64 35
+Encoding: 64 64 35
+GlifName: at
 Width: 1907
 GlyphClass: 2
 Flags: W
@@ -5067,7 +5104,8 @@ Validated: 33
 EndChar
 
 StartChar: A
-Encoding: 33 65 36
+Encoding: 65 65 36
+GlifName: A_
 Width: 1498
 GlyphClass: 2
 Flags: W
@@ -5095,7 +5133,8 @@ Validated: 33
 EndChar
 
 StartChar: B
-Encoding: 34 66 37
+Encoding: 66 66 37
+GlifName: B_
 Width: 1291
 GlyphClass: 2
 Flags: W
@@ -5135,7 +5174,8 @@ Validated: 33
 EndChar
 
 StartChar: C
-Encoding: 35 67 38
+Encoding: 67 67 38
+GlifName: C_
 Width: 1234
 GlyphClass: 2
 Flags: W
@@ -5167,7 +5207,8 @@ Validated: 33
 EndChar
 
 StartChar: D
-Encoding: 36 68 39
+Encoding: 68 68 39
+GlifName: D_
 Width: 1478
 GlyphClass: 2
 Flags: W
@@ -5198,7 +5239,8 @@ Validated: 33
 EndChar
 
 StartChar: E
-Encoding: 37 69 40
+Encoding: 69 69 40
+GlifName: E_
 Width: 1279
 GlyphClass: 2
 Flags: W
@@ -5232,7 +5274,8 @@ Validated: 33
 EndChar
 
 StartChar: F
-Encoding: 38 70 41
+Encoding: 70 70 41
+GlifName: F_
 Width: 1243
 GlyphClass: 2
 Flags: W
@@ -5261,7 +5304,8 @@ Validated: 33
 EndChar
 
 StartChar: G
-Encoding: 39 71 42
+Encoding: 71 71 42
+GlifName: G_
 Width: 1392
 GlyphClass: 2
 Flags: W
@@ -5297,7 +5341,8 @@ Validated: 33
 EndChar
 
 StartChar: H
-Encoding: 40 72 43
+Encoding: 72 72 43
+GlifName: H_
 Width: 1573
 GlyphClass: 2
 Flags: W
@@ -5326,7 +5371,8 @@ Validated: 33
 EndChar
 
 StartChar: I
-Encoding: 41 73 44
+Encoding: 73 73 44
+GlifName: I_
 Width: 1119
 GlyphClass: 2
 Flags: W
@@ -5355,7 +5401,8 @@ Validated: 33
 EndChar
 
 StartChar: J
-Encoding: 42 74 45
+Encoding: 74 74 45
+GlifName: J_
 Width: 1362
 GlyphClass: 2
 Flags: W
@@ -5383,7 +5430,8 @@ Validated: 33
 EndChar
 
 StartChar: K
-Encoding: 43 75 46
+Encoding: 75 75 46
+GlifName: K_
 Width: 1251
 GlyphClass: 2
 Flags: W
@@ -5411,7 +5459,8 @@ Validated: 33
 EndChar
 
 StartChar: L
-Encoding: 44 76 47
+Encoding: 76 76 47
+GlifName: L_
 Width: 1128
 GlyphClass: 2
 Flags: W
@@ -5434,7 +5483,8 @@ Validated: 33
 EndChar
 
 StartChar: M
-Encoding: 45 77 48
+Encoding: 77 77 48
+GlifName: M_
 Width: 1808
 GlyphClass: 2
 Flags: W
@@ -5466,7 +5516,8 @@ Validated: 33
 EndChar
 
 StartChar: N
-Encoding: 46 78 49
+Encoding: 78 78 49
+GlifName: N_
 Width: 1632
 GlyphClass: 2
 Flags: W
@@ -5493,7 +5544,8 @@ Validated: 33
 EndChar
 
 StartChar: O
-Encoding: 47 79 50
+Encoding: 79 79 50
+GlifName: O_
 Width: 1635
 GlyphClass: 2
 Flags: W
@@ -5521,7 +5573,8 @@ Validated: 33
 EndChar
 
 StartChar: P
-Encoding: 48 80 51
+Encoding: 80 80 51
+GlifName: P_
 Width: 1066
 GlyphClass: 2
 Flags: W
@@ -5551,7 +5604,8 @@ Validated: 33
 EndChar
 
 StartChar: Q
-Encoding: 49 81 52
+Encoding: 81 81 52
+GlifName: Q_
 Width: 1795
 GlyphClass: 2
 Flags: W
@@ -5589,10 +5643,11 @@ Validated: 33
 EndChar
 
 StartChar: R
-Encoding: 50 82 53
+Encoding: 82 82 53
+GlifName: R_
 Width: 1287
 GlyphClass: 2
-Flags: W
+Flags: WO
 LayerCount: 2
 Fore
 SplineSet
@@ -5626,7 +5681,8 @@ Validated: 33
 EndChar
 
 StartChar: S
-Encoding: 51 83 54
+Encoding: 83 83 54
+GlifName: S_
 Width: 1420
 GlyphClass: 2
 Flags: W
@@ -5666,7 +5722,8 @@ Validated: 33
 EndChar
 
 StartChar: T
-Encoding: 52 84 55
+Encoding: 84 84 55
+GlifName: T_
 Width: 1392
 GlyphClass: 2
 Flags: W
@@ -5690,7 +5747,8 @@ Validated: 33
 EndChar
 
 StartChar: U
-Encoding: 53 85 56
+Encoding: 85 85 56
+GlifName: U_
 Width: 1509
 GlyphClass: 2
 Flags: W
@@ -5716,7 +5774,8 @@ Validated: 33
 EndChar
 
 StartChar: V
-Encoding: 54 86 57
+Encoding: 86 86 57
+GlifName: V_
 Width: 1331
 GlyphClass: 2
 Flags: W
@@ -5740,7 +5799,8 @@ Validated: 33
 EndChar
 
 StartChar: W
-Encoding: 55 87 58
+Encoding: 87 87 58
+GlifName: W_
 Width: 2129
 GlyphClass: 2
 Flags: W
@@ -5773,7 +5833,8 @@ Validated: 33
 EndChar
 
 StartChar: X
-Encoding: 56 88 59
+Encoding: 88 88 59
+GlifName: X_
 Width: 1482
 GlyphClass: 2
 Flags: W
@@ -5802,7 +5863,8 @@ Validated: 33
 EndChar
 
 StartChar: Y
-Encoding: 57 89 60
+Encoding: 89 89 60
+GlifName: Y_
 Width: 1301
 GlyphClass: 2
 Flags: W
@@ -5826,7 +5888,8 @@ Validated: 33
 EndChar
 
 StartChar: Z
-Encoding: 58 90 61
+Encoding: 90 90 61
+GlifName: Z_
 Width: 1420
 GlyphClass: 2
 Flags: W
@@ -5853,7 +5916,8 @@ Validated: 33
 EndChar
 
 StartChar: bracketleft
-Encoding: 59 91 62
+Encoding: 91 91 62
+GlifName: bracketleft
 Width: 771
 GlyphClass: 2
 Flags: W
@@ -5878,7 +5942,8 @@ Validated: 33
 EndChar
 
 StartChar: backslash
-Encoding: 60 92 63
+Encoding: 92 92 63
+GlifName: backslash
 Width: 1126
 GlyphClass: 2
 Flags: W
@@ -5897,7 +5962,8 @@ Validated: 33
 EndChar
 
 StartChar: bracketright
-Encoding: 61 93 64
+Encoding: 93 93 64
+GlifName: bracketright
 Width: 771
 GlyphClass: 2
 Flags: W
@@ -5922,7 +5988,8 @@ Validated: 33
 EndChar
 
 StartChar: asciicircum
-Encoding: 62 94 65
+Encoding: 94 94 65
+GlifName: asciicircum
 Width: 1190
 GlyphClass: 2
 Flags: W
@@ -5945,7 +6012,8 @@ Validated: 33
 EndChar
 
 StartChar: underscore
-Encoding: 63 95 66
+Encoding: 95 95 66
+GlifName: underscore
 Width: 1284
 GlyphClass: 2
 Flags: W
@@ -5962,7 +6030,8 @@ Validated: 1
 EndChar
 
 StartChar: grave
-Encoding: 64 96 67
+Encoding: 96 96 67
+GlifName: grave
 Width: 1139
 GlyphClass: 2
 Flags: W
@@ -5981,7 +6050,8 @@ Validated: 33
 EndChar
 
 StartChar: a
-Encoding: 65 97 68
+Encoding: 97 97 68
+GlifName: a
 Width: 1048
 GlyphClass: 2
 Flags: W
@@ -6012,7 +6082,8 @@ Validated: 33
 EndChar
 
 StartChar: b
-Encoding: 66 98 69
+Encoding: 98 98 69
+GlifName: b
 Width: 1215
 GlyphClass: 2
 Flags: W
@@ -6046,7 +6117,8 @@ Validated: 33
 EndChar
 
 StartChar: c
-Encoding: 67 99 70
+Encoding: 99 99 70
+GlifName: c
 Width: 1052
 GlyphClass: 2
 Flags: W
@@ -6076,7 +6148,8 @@ Validated: 33
 EndChar
 
 StartChar: d
-Encoding: 68 100 71
+Encoding: 100 100 71
+GlifName: d
 Width: 1203
 GlyphClass: 2
 Flags: W
@@ -6110,7 +6183,8 @@ Validated: 33
 EndChar
 
 StartChar: e
-Encoding: 69 101 72
+Encoding: 101 101 72
+GlifName: e
 Width: 1122
 GlyphClass: 2
 Flags: W
@@ -6144,7 +6218,8 @@ Validated: 33
 EndChar
 
 StartChar: f
-Encoding: 70 102 73
+Encoding: 102 102 73
+GlifName: f
 Width: 1041
 GlyphClass: 2
 Flags: W
@@ -6175,7 +6250,8 @@ Validated: 33
 EndChar
 
 StartChar: g
-Encoding: 71 103 74
+Encoding: 103 103 74
+GlifName: g
 Width: 1087
 GlyphClass: 2
 Flags: W
@@ -6210,7 +6286,8 @@ Validated: 33
 EndChar
 
 StartChar: h
-Encoding: 72 104 75
+Encoding: 104 104 75
+GlifName: h
 Width: 1183
 GlyphClass: 2
 Flags: W
@@ -6238,7 +6315,8 @@ Validated: 33
 EndChar
 
 StartChar: i
-Encoding: 73 105 76
+Encoding: 105 105 76
+GlifName: i
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -6250,7 +6328,8 @@ Validated: 1
 EndChar
 
 StartChar: j
-Encoding: 74 106 77
+Encoding: 106 106 77
+GlifName: j
 Width: 826
 GlyphClass: 2
 Flags: W
@@ -6262,7 +6341,8 @@ Validated: 1
 EndChar
 
 StartChar: k
-Encoding: 75 107 78
+Encoding: 107 107 78
+GlifName: k
 Width: 1106
 GlyphClass: 2
 Flags: W
@@ -6291,7 +6371,8 @@ Validated: 33
 EndChar
 
 StartChar: l
-Encoding: 76 108 79
+Encoding: 108 108 79
+GlifName: l
 Width: 561
 GlyphClass: 2
 Flags: W
@@ -6310,7 +6391,8 @@ Validated: 33
 EndChar
 
 StartChar: m
-Encoding: 77 109 80
+Encoding: 109 109 80
+GlifName: m
 Width: 1591
 GlyphClass: 2
 Flags: W
@@ -6347,7 +6429,8 @@ Validated: 33
 EndChar
 
 StartChar: n
-Encoding: 78 110 81
+Encoding: 110 110 81
+GlifName: n
 Width: 1072
 GlyphClass: 2
 Flags: W
@@ -6375,7 +6458,8 @@ Validated: 33
 EndChar
 
 StartChar: o
-Encoding: 79 111 82
+Encoding: 111 111 82
+GlifName: o
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -6403,7 +6487,8 @@ Validated: 33
 EndChar
 
 StartChar: p
-Encoding: 80 112 83
+Encoding: 112 112 83
+GlifName: p
 Width: 1095
 GlyphClass: 2
 Flags: W
@@ -6437,7 +6522,8 @@ Validated: 33
 EndChar
 
 StartChar: q
-Encoding: 81 113 84
+Encoding: 113 113 84
+GlifName: q
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -6470,7 +6556,8 @@ Validated: 33
 EndChar
 
 StartChar: r
-Encoding: 82 114 85
+Encoding: 114 114 85
+GlifName: r
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -6496,7 +6583,8 @@ Validated: 33
 EndChar
 
 StartChar: s
-Encoding: 83 115 86
+Encoding: 115 115 86
+GlifName: s
 Width: 997
 GlyphClass: 2
 Flags: W
@@ -6535,7 +6623,8 @@ Validated: 33
 EndChar
 
 StartChar: t
-Encoding: 84 116 87
+Encoding: 116 116 87
+GlifName: t
 Width: 965
 GlyphClass: 2
 Flags: W
@@ -6564,7 +6653,8 @@ Validated: 33
 EndChar
 
 StartChar: u
-Encoding: 85 117 88
+Encoding: 117 117 88
+GlifName: u
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -6593,7 +6683,8 @@ Validated: 33
 EndChar
 
 StartChar: v
-Encoding: 86 118 89
+Encoding: 118 118 89
+GlifName: v
 Width: 996
 GlyphClass: 2
 Flags: W
@@ -6616,7 +6707,8 @@ Validated: 33
 EndChar
 
 StartChar: w
-Encoding: 87 119 90
+Encoding: 119 119 90
+GlifName: w
 Width: 1401
 GlyphClass: 2
 Flags: W
@@ -6647,7 +6739,8 @@ Validated: 33
 EndChar
 
 StartChar: x
-Encoding: 88 120 91
+Encoding: 120 120 91
+GlifName: x
 Width: 1209
 GlyphClass: 2
 Flags: W
@@ -6676,7 +6769,8 @@ Validated: 33
 EndChar
 
 StartChar: y
-Encoding: 89 121 92
+Encoding: 121 121 92
+GlifName: y
 Width: 1066
 GlyphClass: 2
 Flags: W
@@ -6700,7 +6794,8 @@ Validated: 33
 EndChar
 
 StartChar: z
-Encoding: 90 122 93
+Encoding: 122 122 93
+GlifName: z
 Width: 1102
 GlyphClass: 2
 Flags: W
@@ -6727,7 +6822,8 @@ Validated: 33
 EndChar
 
 StartChar: braceleft
-Encoding: 91 123 94
+Encoding: 123 123 94
+GlifName: braceleft
 Width: 750
 GlyphClass: 2
 Flags: W
@@ -6758,7 +6854,8 @@ Validated: 33
 EndChar
 
 StartChar: bar
-Encoding: 92 124 95
+Encoding: 124 124 95
+GlifName: bar
 Width: 863
 GlyphClass: 2
 Flags: W
@@ -6777,7 +6874,8 @@ Validated: 33
 EndChar
 
 StartChar: braceright
-Encoding: 93 125 96
+Encoding: 125 125 96
+GlifName: braceright
 Width: 750
 GlyphClass: 2
 Flags: W
@@ -6808,7 +6906,8 @@ Validated: 33
 EndChar
 
 StartChar: asciitilde
-Encoding: 94 126 97
+Encoding: 126 126 97
+GlifName: asciitilde
 Width: 1224
 GlyphClass: 2
 Flags: W
@@ -6835,7 +6934,8 @@ Validated: 33
 EndChar
 
 StartChar: Adieresis
-Encoding: 131 196 98
+Encoding: 196 196 98
+GlifName: A_dieresis
 Width: 1498
 GlyphClass: 2
 Flags: W
@@ -6847,7 +6947,8 @@ Validated: 1
 EndChar
 
 StartChar: Aring
-Encoding: 132 197 99
+Encoding: 197 197 99
+GlifName: A_ring
 Width: 1498
 GlyphClass: 2
 Flags: W
@@ -6859,7 +6960,8 @@ Validated: 5
 EndChar
 
 StartChar: Ccedilla
-Encoding: 134 199 100
+Encoding: 199 199 100
+GlifName: C_cedilla
 Width: 1234
 GlyphClass: 2
 Flags: W
@@ -6871,7 +6973,8 @@ Validated: 5
 EndChar
 
 StartChar: Eacute
-Encoding: 136 201 101
+Encoding: 201 201 101
+GlifName: E_acute
 Width: 1279
 GlyphClass: 2
 Flags: W
@@ -6883,7 +6986,8 @@ Validated: 1
 EndChar
 
 StartChar: Ntilde
-Encoding: 144 209 102
+Encoding: 209 209 102
+GlifName: N_tilde
 Width: 1632
 GlyphClass: 2
 Flags: W
@@ -6895,7 +6999,8 @@ Validated: 1
 EndChar
 
 StartChar: Odieresis
-Encoding: 149 214 103
+Encoding: 214 214 103
+GlifName: O_dieresis
 Width: 1635
 GlyphClass: 2
 Flags: W
@@ -6907,7 +7012,8 @@ Validated: 1
 EndChar
 
 StartChar: Udieresis
-Encoding: 155 220 104
+Encoding: 220 220 104
+GlifName: U_dieresis
 Width: 1509
 GlyphClass: 2
 Flags: W
@@ -6919,7 +7025,8 @@ Validated: 1
 EndChar
 
 StartChar: aacute
-Encoding: 160 225 105
+Encoding: 225 225 105
+GlifName: aacute
 Width: 1048
 GlyphClass: 2
 Flags: W
@@ -6931,7 +7038,8 @@ Validated: 1
 EndChar
 
 StartChar: agrave
-Encoding: 159 224 106
+Encoding: 224 224 106
+GlifName: agrave
 Width: 1048
 GlyphClass: 2
 Flags: W
@@ -6943,7 +7051,8 @@ Validated: 1
 EndChar
 
 StartChar: acircumflex
-Encoding: 161 226 107
+Encoding: 226 226 107
+GlifName: acircumflex
 Width: 1048
 GlyphClass: 2
 Flags: W
@@ -6955,7 +7064,8 @@ Validated: 1
 EndChar
 
 StartChar: adieresis
-Encoding: 163 228 108
+Encoding: 228 228 108
+GlifName: adieresis
 Width: 1048
 GlyphClass: 2
 Flags: W
@@ -6967,7 +7077,8 @@ Validated: 1
 EndChar
 
 StartChar: atilde
-Encoding: 162 227 109
+Encoding: 227 227 109
+GlifName: atilde
 Width: 1048
 GlyphClass: 2
 Flags: W
@@ -6979,7 +7090,8 @@ Validated: 1
 EndChar
 
 StartChar: aring
-Encoding: 164 229 110
+Encoding: 229 229 110
+GlifName: aring
 Width: 1048
 GlyphClass: 2
 Flags: W
@@ -6991,7 +7103,8 @@ Validated: 1
 EndChar
 
 StartChar: ccedilla
-Encoding: 166 231 111
+Encoding: 231 231 111
+GlifName: ccedilla
 Width: 1052
 GlyphClass: 2
 Flags: W
@@ -7003,7 +7116,8 @@ Validated: 5
 EndChar
 
 StartChar: eacute
-Encoding: 168 233 112
+Encoding: 233 233 112
+GlifName: eacute
 Width: 1122
 GlyphClass: 2
 Flags: W
@@ -7015,7 +7129,8 @@ Validated: 1
 EndChar
 
 StartChar: egrave
-Encoding: 167 232 113
+Encoding: 232 232 113
+GlifName: egrave
 Width: 1122
 GlyphClass: 2
 Flags: W
@@ -7027,7 +7142,8 @@ Validated: 1
 EndChar
 
 StartChar: ecircumflex
-Encoding: 169 234 114
+Encoding: 234 234 114
+GlifName: ecircumflex
 Width: 1122
 GlyphClass: 2
 Flags: W
@@ -7039,7 +7155,8 @@ Validated: 1
 EndChar
 
 StartChar: edieresis
-Encoding: 170 235 115
+Encoding: 235 235 115
+GlifName: edieresis
 Width: 1122
 GlyphClass: 2
 Flags: W
@@ -7051,7 +7168,8 @@ Validated: 1
 EndChar
 
 StartChar: iacute
-Encoding: 172 237 116
+Encoding: 237 237 116
+GlifName: iacute
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -7064,7 +7182,8 @@ Substitution2: "'locl' Localized Forms in Latin lookup 0 subtable" dottediacute
 EndChar
 
 StartChar: igrave
-Encoding: 171 236 117
+Encoding: 236 236 117
+GlifName: igrave
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -7076,7 +7195,8 @@ Validated: 1
 EndChar
 
 StartChar: icircumflex
-Encoding: 173 238 118
+Encoding: 238 238 118
+GlifName: icircumflex
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -7088,7 +7208,8 @@ Validated: 1
 EndChar
 
 StartChar: idieresis
-Encoding: 174 239 119
+Encoding: 239 239 119
+GlifName: idieresis
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -7100,7 +7221,8 @@ Validated: 1
 EndChar
 
 StartChar: ntilde
-Encoding: 176 241 120
+Encoding: 241 241 120
+GlifName: ntilde
 Width: 1072
 GlyphClass: 2
 Flags: W
@@ -7112,7 +7234,8 @@ Validated: 1
 EndChar
 
 StartChar: oacute
-Encoding: 178 243 121
+Encoding: 243 243 121
+GlifName: oacute
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -7124,7 +7247,8 @@ Validated: 1
 EndChar
 
 StartChar: ograve
-Encoding: 177 242 122
+Encoding: 242 242 122
+GlifName: ograve
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -7136,7 +7260,8 @@ Validated: 1
 EndChar
 
 StartChar: ocircumflex
-Encoding: 179 244 123
+Encoding: 244 244 123
+GlifName: ocircumflex
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -7148,7 +7273,8 @@ Validated: 1
 EndChar
 
 StartChar: odieresis
-Encoding: 181 246 124
+Encoding: 246 246 124
+GlifName: odieresis
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -7160,7 +7286,8 @@ Validated: 1
 EndChar
 
 StartChar: otilde
-Encoding: 180 245 125
+Encoding: 245 245 125
+GlifName: otilde
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -7172,7 +7299,8 @@ Validated: 1
 EndChar
 
 StartChar: uacute
-Encoding: 185 250 126
+Encoding: 250 250 126
+GlifName: uacute
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -7184,7 +7312,8 @@ Validated: 1
 EndChar
 
 StartChar: ugrave
-Encoding: 184 249 127
+Encoding: 249 249 127
+GlifName: ugrave
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -7196,7 +7325,8 @@ Validated: 1
 EndChar
 
 StartChar: ucircumflex
-Encoding: 186 251 128
+Encoding: 251 251 128
+GlifName: ucircumflex
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -7208,7 +7338,8 @@ Validated: 1
 EndChar
 
 StartChar: udieresis
-Encoding: 187 252 129
+Encoding: 252 252 129
+GlifName: udieresis
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -7220,7 +7351,8 @@ Validated: 1
 EndChar
 
 StartChar: dagger
-Encoding: 542 8224 130
+Encoding: 8224 8224 130
+GlifName: dagger
 Width: 1222
 GlyphClass: 2
 Flags: W
@@ -7249,7 +7381,8 @@ Validated: 33
 EndChar
 
 StartChar: degree
-Encoding: 111 176 131
+Encoding: 176 176 131
+GlifName: degree
 Width: 838
 GlyphClass: 2
 Flags: W
@@ -7294,7 +7427,8 @@ Validated: 1
 EndChar
 
 StartChar: cent
-Encoding: 97 162 132
+Encoding: 162 162 132
+GlifName: cent
 Width: 1276
 GlyphClass: 2
 Flags: W
@@ -7337,7 +7471,8 @@ Validated: 33
 EndChar
 
 StartChar: sterling
-Encoding: 98 163 133
+Encoding: 163 163 133
+GlifName: sterling
 Width: 1625
 GlyphClass: 2
 Flags: W
@@ -7387,7 +7522,8 @@ Validated: 33
 EndChar
 
 StartChar: section
-Encoding: 102 167 134
+Encoding: 167 167 134
+GlifName: section
 Width: 1300
 GlyphClass: 2
 Flags: W
@@ -7442,7 +7578,8 @@ Validated: 33
 EndChar
 
 StartChar: bullet
-Encoding: 544 8226 135
+Encoding: 8226 8226 135
+GlifName: bullet
 Width: 793
 GlyphClass: 2
 Flags: W
@@ -7453,7 +7590,8 @@ Validated: 1
 EndChar
 
 StartChar: paragraph
-Encoding: 117 182 136
+Encoding: 182 182 136
+GlifName: paragraph
 Width: 1421
 GlyphClass: 2
 Flags: W
@@ -7480,7 +7618,8 @@ Validated: 33
 EndChar
 
 StartChar: germandbls
-Encoding: 158 223 137
+Encoding: 223 223 137
+GlifName: germandbls
 Width: 908
 GlyphClass: 2
 Flags: W
@@ -7514,7 +7653,8 @@ Validated: 33
 EndChar
 
 StartChar: registered
-Encoding: 109 174 138
+Encoding: 174 174 138
+GlifName: registered
 Width: 1629
 GlyphClass: 2
 Flags: W
@@ -7582,7 +7722,8 @@ Validated: 33
 EndChar
 
 StartChar: copyright
-Encoding: 104 169 139
+Encoding: 169 169 139
+GlifName: copyright
 Width: 1629
 GlyphClass: 2
 Flags: W
@@ -7647,7 +7788,8 @@ Validated: 33
 EndChar
 
 StartChar: trademark
-Encoding: 563 8482 140
+Encoding: 8482 8482 140
+GlifName: trademark
 Width: 1808
 GlyphClass: 2
 Flags: W
@@ -7690,7 +7832,8 @@ Validated: 33
 EndChar
 
 StartChar: acute
-Encoding: 115 180 141
+Encoding: 180 180 141
+GlifName: acute
 Width: 1139
 GlyphClass: 2
 Flags: W
@@ -7709,7 +7852,8 @@ Validated: 33
 EndChar
 
 StartChar: dieresis
-Encoding: 103 168 142
+Encoding: 168 168 142
+GlifName: dieresis
 Width: 1139
 GlyphClass: 2
 Flags: W
@@ -7731,7 +7875,8 @@ Validated: 1
 EndChar
 
 StartChar: notequal
-Encoding: 581 8800 143
+Encoding: 8800 8800 143
+GlifName: notequal
 Width: 1045
 GlyphClass: 2
 Flags: W
@@ -7751,7 +7896,8 @@ Validated: 37
 EndChar
 
 StartChar: AE
-Encoding: 133 198 144
+Encoding: 198 198 144
+GlifName: A_E_
 Width: 2226
 GlyphClass: 2
 Flags: W
@@ -7795,7 +7941,8 @@ Validated: 33
 EndChar
 
 StartChar: Oslash
-Encoding: 151 216 145
+Encoding: 216 216 145
+GlifName: O_slash
 Width: 1635
 GlyphClass: 2
 Flags: W
@@ -7815,7 +7962,8 @@ Validated: 37
 EndChar
 
 StartChar: infinity
-Encoding: 578 8734 146
+Encoding: 8734 8734 146
+GlifName: infinity
 Width: 1714
 GlyphClass: 2
 Flags: W
@@ -7846,7 +7994,8 @@ Validated: 33
 EndChar
 
 StartChar: plusminus
-Encoding: 112 177 147
+Encoding: 177 177 147
+GlifName: plusminus
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -7882,7 +8031,8 @@ Validated: 33
 EndChar
 
 StartChar: lessequal
-Encoding: 582 8804 148
+Encoding: 8804 8804 148
+GlifName: lessequal
 Width: 781
 GlyphClass: 2
 Flags: W
@@ -7902,7 +8052,8 @@ Validated: 1
 EndChar
 
 StartChar: greaterequal
-Encoding: 583 8805 149
+Encoding: 8805 8805 149
+GlifName: greaterequal
 Width: 781
 GlyphClass: 2
 Flags: W
@@ -7922,7 +8073,8 @@ Validated: 1
 EndChar
 
 StartChar: yen
-Encoding: 100 165 150
+Encoding: 165 165 150
+GlifName: yen
 Width: 1302
 GlyphClass: 2
 Flags: W
@@ -7965,7 +8117,8 @@ Validated: 33
 EndChar
 
 StartChar: mu1
-Encoding: 116 181 151
+Encoding: 181 181 151
+GlifName: mu1
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -7999,7 +8152,8 @@ Validated: 33
 EndChar
 
 StartChar: partialdiff
-Encoding: 570 8706 152
+Encoding: 8706 8706 152
+GlifName: partialdiff
 Width: 1042
 GlyphClass: 2
 Flags: W
@@ -8029,7 +8183,8 @@ Validated: 33
 EndChar
 
 StartChar: summation
-Encoding: 573 8721 153
+Encoding: 8721 8721 153
+GlifName: summation
 Width: 1530
 GlyphClass: 2
 Flags: W
@@ -8040,7 +8195,8 @@ Validated: 1
 EndChar
 
 StartChar: product
-Encoding: 572 8719 154
+Encoding: 8719 8719 154
+GlifName: product
 Width: 1860
 GlyphClass: 2
 Flags: W
@@ -8051,7 +8207,8 @@ Validated: 1
 EndChar
 
 StartChar: pi
-Encoding: 413 960 155
+Encoding: 960 960 155
+GlifName: pi
 Width: 1286
 GlyphClass: 2
 Flags: W
@@ -8086,7 +8243,8 @@ Validated: 33
 EndChar
 
 StartChar: integral
-Encoding: 579 8747 156
+Encoding: 8747 8747 156
+GlifName: integral
 Width: 1433
 GlyphClass: 2
 Flags: W
@@ -8115,7 +8273,8 @@ Validated: 33
 EndChar
 
 StartChar: ordfeminine
-Encoding: 105 170 157
+Encoding: 170 170 157
+GlifName: ordfeminine
 Width: 1079
 GlyphClass: 2
 Flags: W
@@ -8146,7 +8305,8 @@ Validated: 33
 EndChar
 
 StartChar: ordmasculine
-Encoding: 121 186 158
+Encoding: 186 186 158
+GlifName: ordmasculine
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -8191,7 +8351,8 @@ Validated: 33
 EndChar
 
 StartChar: Omega
-Encoding: 390 937 159
+Encoding: 937 937 159
+GlifName: O_mega
 Width: 1966
 GlyphClass: 2
 Flags: W
@@ -8232,7 +8393,8 @@ Validated: 33
 EndChar
 
 StartChar: ae
-Encoding: 165 230 160
+Encoding: 230 230 160
+GlifName: ae
 Width: 1867
 GlyphClass: 2
 Flags: W
@@ -8244,7 +8406,8 @@ Validated: 5
 EndChar
 
 StartChar: oslash
-Encoding: 183 248 161
+Encoding: 248 248 161
+GlifName: oslash
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -8264,7 +8427,8 @@ Validated: 37
 EndChar
 
 StartChar: questiondown
-Encoding: 126 191 162
+Encoding: 191 191 162
+GlifName: questiondown
 Width: 1073
 GlyphClass: 2
 Flags: W
@@ -8275,7 +8439,8 @@ Validated: 1
 EndChar
 
 StartChar: exclamdown
-Encoding: 96 161 163
+Encoding: 161 161 163
+GlifName: exclamdown
 Width: 487
 GlyphClass: 2
 Flags: W
@@ -8286,7 +8451,8 @@ Validated: 1
 EndChar
 
 StartChar: logicalnot
-Encoding: 107 172 164
+Encoding: 172 172 164
+GlifName: logicalnot
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -8310,7 +8476,8 @@ Validated: 33
 EndChar
 
 StartChar: radical
-Encoding: 577 8730 165
+Encoding: 8730 8730 165
+GlifName: radical
 Width: 1244
 GlyphClass: 2
 Flags: W
@@ -8337,7 +8504,8 @@ Validated: 33
 EndChar
 
 StartChar: florin
-Encoding: 319 402 166
+Encoding: 402 402 166
+GlifName: florin
 Width: 874
 GlyphClass: 2
 Flags: W
@@ -8373,7 +8541,8 @@ Validated: 33
 EndChar
 
 StartChar: approxequal
-Encoding: 580 8776 167
+Encoding: 8776 8776 167
+GlifName: approxequal
 Width: 1269
 GlyphClass: 2
 Flags: W
@@ -8385,7 +8554,8 @@ Validated: 1
 EndChar
 
 StartChar: uni0394
-Encoding: 370 916 168
+Encoding: 916 916 168
+GlifName: uni0394
 Width: 1627
 GlyphClass: 2
 Flags: W
@@ -8411,7 +8581,8 @@ Validated: 33
 EndChar
 
 StartChar: guillemotleft
-Encoding: 106 171 169
+Encoding: 171 171 169
+GlifName: guillemotleft
 Width: 1183
 GlyphClass: 2
 Flags: W
@@ -8423,7 +8594,8 @@ Validated: 1
 EndChar
 
 StartChar: guillemotright
-Encoding: 122 187 170
+Encoding: 187 187 170
+GlifName: guillemotright
 Width: 1183
 GlyphClass: 2
 Flags: W
@@ -8435,7 +8607,8 @@ Validated: 1
 EndChar
 
 StartChar: ellipsis
-Encoding: 545 8230 171
+Encoding: 8230 8230 171
+GlifName: ellipsis
 Width: 1383
 GlyphClass: 2
 Flags: W
@@ -8448,7 +8621,8 @@ Validated: 1
 EndChar
 
 StartChar: nonbreakingspace
-Encoding: 95 160 172
+Encoding: 160 160 172
+GlifName: nonbreakingspace
 Width: 612
 GlyphClass: 2
 Flags: W
@@ -8458,7 +8632,8 @@ Validated: 1
 EndChar
 
 StartChar: Agrave
-Encoding: 127 192 173
+Encoding: 192 192 173
+GlifName: A_grave
 Width: 1498
 GlyphClass: 2
 Flags: W
@@ -8470,7 +8645,8 @@ Validated: 1
 EndChar
 
 StartChar: Atilde
-Encoding: 130 195 174
+Encoding: 195 195 174
+GlifName: A_tilde
 Width: 1498
 GlyphClass: 2
 Flags: W
@@ -8482,7 +8658,8 @@ Validated: 1
 EndChar
 
 StartChar: Otilde
-Encoding: 148 213 175
+Encoding: 213 213 175
+GlifName: O_tilde
 Width: 1635
 GlyphClass: 2
 Flags: W
@@ -8494,7 +8671,8 @@ Validated: 1
 EndChar
 
 StartChar: OE
-Encoding: 273 338 176
+Encoding: 338 338 176
+GlifName: O_E_
 Width: 2445
 GlyphClass: 2
 Flags: W
@@ -8506,7 +8684,8 @@ Validated: 5
 EndChar
 
 StartChar: oe
-Encoding: 274 339 177
+Encoding: 339 339 177
+GlifName: oe
 Width: 1837
 GlyphClass: 2
 Flags: W
@@ -8518,7 +8697,8 @@ Validated: 5
 EndChar
 
 StartChar: endash
-Encoding: 531 8211 178
+Encoding: 8211 8211 178
+GlifName: endash
 Width: 904
 GlyphClass: 2
 Flags: W
@@ -8537,7 +8717,8 @@ Validated: 33
 EndChar
 
 StartChar: emdash
-Encoding: 532 8212 179
+Encoding: 8212 8212 179
+GlifName: emdash
 Width: 1808
 GlyphClass: 2
 Flags: W
@@ -8556,7 +8737,8 @@ Validated: 1
 EndChar
 
 StartChar: quotedblleft
-Encoding: 539 8220 180
+Encoding: 8220 8220 180
+GlifName: quotedblleft
 Width: 806
 GlyphClass: 2
 Flags: W
@@ -8582,7 +8764,8 @@ Validated: 33
 EndChar
 
 StartChar: quotedblright
-Encoding: 540 8221 181
+Encoding: 8221 8221 181
+GlifName: quotedblright
 Width: 806
 GlyphClass: 2
 Flags: W
@@ -8608,7 +8791,8 @@ Validated: 33
 EndChar
 
 StartChar: quoteleft
-Encoding: 535 8216 182
+Encoding: 8216 8216 182
+GlifName: quoteleft
 Width: 369
 GlyphClass: 2
 Flags: W
@@ -8627,8 +8811,9 @@ Validated: 33
 EndChar
 
 StartChar: quoteright
-Encoding: 536 8217 183
+Encoding: 8217 8217 183
 AltUni2: 00201b.ffffffff.0
+GlifName: quoteright
 Width: 369
 GlyphClass: 2
 Flags: W
@@ -8647,7 +8832,8 @@ Validated: 33
 EndChar
 
 StartChar: divide
-Encoding: 182 247 184
+Encoding: 247 247 184
+GlifName: divide
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -8698,7 +8884,8 @@ Validated: 1
 EndChar
 
 StartChar: lozenge
-Encoding: 593 9674 185
+Encoding: 9674 9674 185
+GlifName: lozenge
 Width: 1479
 GlyphClass: 2
 Flags: W
@@ -8740,7 +8927,8 @@ Validated: 1
 EndChar
 
 StartChar: ydieresis
-Encoding: 190 255 186
+Encoding: 255 255 186
+GlifName: ydieresis
 Width: 1066
 GlyphClass: 2
 Flags: W
@@ -8752,7 +8940,8 @@ Validated: 1
 EndChar
 
 StartChar: Ydieresis
-Encoding: 311 376 187
+Encoding: 376 376 187
+GlifName: Y_dieresis
 Width: 1301
 GlyphClass: 2
 Flags: W
@@ -8764,8 +8953,9 @@ Validated: 1
 EndChar
 
 StartChar: fraction
-Encoding: 553 8260 188
+Encoding: 8260 8260 188
 AltUni2: 002215.ffffffff.0
+GlifName: fraction
 Width: 1661
 GlyphClass: 2
 Flags: W
@@ -8784,7 +8974,8 @@ Validated: 33
 EndChar
 
 StartChar: Euro
-Encoding: 558 8364 189
+Encoding: 8364 8364 189
+GlifName: E_uro
 Width: 1250
 GlyphClass: 2
 Flags: W
@@ -8811,7 +9002,8 @@ Validated: 37
 EndChar
 
 StartChar: guilsinglleft
-Encoding: 549 8249 190
+Encoding: 8249 8249 190
+GlifName: guilsinglleft
 Width: 781
 GlyphClass: 2
 Flags: W
@@ -8822,7 +9014,8 @@ Validated: 1
 EndChar
 
 StartChar: guilsinglright
-Encoding: 550 8250 191
+Encoding: 8250 8250 191
+GlifName: guilsinglright
 Width: 781
 GlyphClass: 2
 Flags: W
@@ -8833,7 +9026,8 @@ Validated: 1
 EndChar
 
 StartChar: fi
-Encoding: 597 64257 192
+Encoding: 64257 64257 192
+GlifName: fi
 Width: 1349
 GlyphClass: 2
 Flags: W
@@ -8885,7 +9079,8 @@ Validated: 33
 EndChar
 
 StartChar: fl
-Encoding: 598 64258 193
+Encoding: 64258 64258 193
+GlifName: fl
 Width: 1343
 GlyphClass: 2
 Flags: W
@@ -8920,7 +9115,8 @@ Validated: 33
 EndChar
 
 StartChar: daggerdbl
-Encoding: 543 8225 194
+Encoding: 8225 8225 194
+GlifName: daggerdbl
 Width: 1222
 GlyphClass: 2
 Flags: W
@@ -8959,8 +9155,9 @@ Validated: 33
 EndChar
 
 StartChar: periodcentered
-Encoding: 118 183 195
+Encoding: 183 183 195
 AltUni2: 002219.ffffffff.0
+GlifName: periodcentered
 Width: 510
 GlyphClass: 2
 Flags: W
@@ -8971,7 +9168,8 @@ Validated: 1
 EndChar
 
 StartChar: quotesinglbase
-Encoding: 537 8218 196
+Encoding: 8218 8218 196
+GlifName: quotesinglbase
 Width: 612
 GlyphClass: 2
 Flags: W
@@ -8990,7 +9188,8 @@ Validated: 33
 EndChar
 
 StartChar: quotedblbase
-Encoding: 541 8222 197
+Encoding: 8222 8222 197
+GlifName: quotedblbase
 Width: 843
 GlyphClass: 2
 Flags: W
@@ -9016,7 +9215,8 @@ Validated: 33
 EndChar
 
 StartChar: perthousand
-Encoding: 546 8240 198
+Encoding: 8240 8240 198
+GlifName: perthousand
 Width: 2542
 GlyphClass: 2
 Flags: W
@@ -9030,7 +9230,8 @@ Validated: 32769
 EndChar
 
 StartChar: Acircumflex
-Encoding: 129 194 199
+Encoding: 194 194 199
+GlifName: A_circumflex
 Width: 1498
 GlyphClass: 2
 Flags: W
@@ -9042,7 +9243,8 @@ Validated: 1
 EndChar
 
 StartChar: Ecircumflex
-Encoding: 137 202 200
+Encoding: 202 202 200
+GlifName: E_circumflex
 Width: 1279
 GlyphClass: 2
 Flags: W
@@ -9054,7 +9256,8 @@ Validated: 1
 EndChar
 
 StartChar: Aacute
-Encoding: 128 193 201
+Encoding: 193 193 201
+GlifName: A_acute
 Width: 1498
 GlyphClass: 2
 Flags: W
@@ -9066,7 +9269,8 @@ Validated: 1
 EndChar
 
 StartChar: Edieresis
-Encoding: 138 203 202
+Encoding: 203 203 202
+GlifName: E_dieresis
 Width: 1279
 GlyphClass: 2
 Flags: W
@@ -9078,7 +9282,8 @@ Validated: 1
 EndChar
 
 StartChar: Egrave
-Encoding: 135 200 203
+Encoding: 200 200 203
+GlifName: E_grave
 Width: 1279
 GlyphClass: 2
 Flags: W
@@ -9090,7 +9295,8 @@ Validated: 1
 EndChar
 
 StartChar: Iacute
-Encoding: 140 205 204
+Encoding: 205 205 204
+GlifName: I_acute
 Width: 1119
 GlyphClass: 2
 Flags: W
@@ -9102,7 +9308,8 @@ Validated: 1
 EndChar
 
 StartChar: Icircumflex
-Encoding: 141 206 205
+Encoding: 206 206 205
+GlifName: I_circumflex
 Width: 1119
 GlyphClass: 2
 Flags: W
@@ -9114,7 +9321,8 @@ Validated: 1
 EndChar
 
 StartChar: Idieresis
-Encoding: 142 207 206
+Encoding: 207 207 206
+GlifName: I_dieresis
 Width: 1119
 GlyphClass: 2
 Flags: W
@@ -9126,7 +9334,8 @@ Validated: 1
 EndChar
 
 StartChar: Igrave
-Encoding: 139 204 207
+Encoding: 204 204 207
+GlifName: I_grave
 Width: 1119
 GlyphClass: 2
 Flags: W
@@ -9138,7 +9347,8 @@ Validated: 1
 EndChar
 
 StartChar: Oacute
-Encoding: 146 211 208
+Encoding: 211 211 208
+GlifName: O_acute
 Width: 1635
 GlyphClass: 2
 Flags: W
@@ -9150,7 +9360,8 @@ Validated: 1
 EndChar
 
 StartChar: Ocircumflex
-Encoding: 147 212 209
+Encoding: 212 212 209
+GlifName: O_circumflex
 Width: 1635
 GlyphClass: 2
 Flags: W
@@ -9162,7 +9373,8 @@ Validated: 1
 EndChar
 
 StartChar: Ograve
-Encoding: 145 210 210
+Encoding: 210 210 210
+GlifName: O_grave
 Width: 1635
 GlyphClass: 2
 Flags: W
@@ -9174,7 +9386,8 @@ Validated: 1
 EndChar
 
 StartChar: Uacute
-Encoding: 153 218 211
+Encoding: 218 218 211
+GlifName: U_acute
 Width: 1509
 GlyphClass: 2
 Flags: W
@@ -9186,7 +9399,8 @@ Validated: 1
 EndChar
 
 StartChar: Ucircumflex
-Encoding: 154 219 212
+Encoding: 219 219 212
+GlifName: U_circumflex
 Width: 1509
 GlyphClass: 2
 Flags: W
@@ -9198,7 +9412,8 @@ Validated: 1
 EndChar
 
 StartChar: Ugrave
-Encoding: 152 217 213
+Encoding: 217 217 213
+GlifName: U_grave
 Width: 1509
 GlyphClass: 2
 Flags: W
@@ -9210,7 +9425,8 @@ Validated: 1
 EndChar
 
 StartChar: dotlessi
-Encoding: 240 305 214
+Encoding: 305 305 214
+GlifName: dotlessi
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -9229,7 +9445,8 @@ Validated: 33
 EndChar
 
 StartChar: circumflex
-Encoding: 331 710 215
+Encoding: 710 710 215
+GlifName: circumflex
 Width: 1190
 GlyphClass: 2
 Flags: W
@@ -9240,7 +9457,8 @@ Validated: 1
 EndChar
 
 StartChar: tilde
-Encoding: 338 732 216
+Encoding: 732 732 216
+GlifName: tilde
 Width: 1139
 GlyphClass: 2
 Flags: W
@@ -9251,7 +9469,8 @@ Validated: 1
 EndChar
 
 StartChar: macron
-Encoding: 333 713 217
+Encoding: 713 713 217
+GlifName: macron
 Width: 1139
 GlyphClass: 2
 Flags: W
@@ -9270,7 +9489,8 @@ Validated: 1
 EndChar
 
 StartChar: breve
-Encoding: 334 728 218
+Encoding: 728 728 218
+GlifName: breve
 Width: 1139
 GlyphClass: 2
 Flags: W
@@ -9291,7 +9511,8 @@ Validated: 33
 EndChar
 
 StartChar: dotaccent
-Encoding: 335 729 219
+Encoding: 729 729 219
+GlifName: dotaccent
 Width: 1139
 GlyphClass: 2
 Flags: W
@@ -9302,7 +9523,8 @@ Validated: 1
 EndChar
 
 StartChar: ring
-Encoding: 336 730 220
+Encoding: 730 730 220
+GlifName: ring
 Width: 1139
 GlyphClass: 2
 Flags: W
@@ -9313,7 +9535,8 @@ Validated: 1
 EndChar
 
 StartChar: cedilla
-Encoding: 119 184 221
+Encoding: 184 184 221
+GlifName: cedilla
 Width: 1139
 GlyphClass: 2
 Flags: W
@@ -9339,7 +9562,8 @@ Validated: 33
 EndChar
 
 StartChar: hungarumlaut
-Encoding: 339 733 222
+Encoding: 733 733 222
+GlifName: hungarumlaut
 Width: 1139
 GlyphClass: 2
 Flags: W
@@ -9365,7 +9589,8 @@ Validated: 33
 EndChar
 
 StartChar: ogonek
-Encoding: 337 731 223
+Encoding: 731 731 223
+GlifName: ogonek
 Width: 1139
 GlyphClass: 2
 Flags: W
@@ -9391,7 +9616,8 @@ Validated: 33
 EndChar
 
 StartChar: caron
-Encoding: 332 711 224
+Encoding: 711 711 224
+GlifName: caron
 Width: 1139
 GlyphClass: 2
 Flags: W
@@ -9414,7 +9640,8 @@ Validated: 33
 EndChar
 
 StartChar: Lslash
-Encoding: 256 321 225
+Encoding: 321 321 225
+GlifName: L_slash
 Width: 1128
 GlyphClass: 2
 Flags: W
@@ -9434,7 +9661,8 @@ Validated: 37
 EndChar
 
 StartChar: lslash
-Encoding: 257 322 226
+Encoding: 322 322 226
+GlifName: lslash
 Width: 465
 GlyphClass: 2
 Flags: W
@@ -9454,7 +9682,8 @@ Validated: 37
 EndChar
 
 StartChar: Scaron
-Encoding: 287 352 227
+Encoding: 352 352 227
+GlifName: S_caron
 Width: 1420
 GlyphClass: 2
 Flags: W
@@ -9466,7 +9695,8 @@ Validated: 1
 EndChar
 
 StartChar: scaron
-Encoding: 288 353 228
+Encoding: 353 353 228
+GlifName: scaron
 Width: 997
 GlyphClass: 2
 Flags: W
@@ -9478,7 +9708,8 @@ Validated: 1
 EndChar
 
 StartChar: Zcaron
-Encoding: 316 381 229
+Encoding: 381 381 229
+GlifName: Z_caron
 Width: 1420
 GlyphClass: 2
 Flags: W
@@ -9490,7 +9721,8 @@ Validated: 1
 EndChar
 
 StartChar: zcaron
-Encoding: 317 382 230
+Encoding: 382 382 230
+GlifName: zcaron
 Width: 1102
 GlyphClass: 2
 Flags: W
@@ -9502,7 +9734,8 @@ Validated: 1
 EndChar
 
 StartChar: brokenbar
-Encoding: 101 166 231
+Encoding: 166 166 231
+GlifName: brokenbar
 Width: 828
 GlyphClass: 2
 Flags: W
@@ -9528,7 +9761,8 @@ Validated: 1
 EndChar
 
 StartChar: Eth
-Encoding: 143 208 232
+Encoding: 208 208 232
+GlifName: E_th
 Width: 1478
 GlyphClass: 2
 Flags: W
@@ -9548,7 +9782,8 @@ Validated: 37
 EndChar
 
 StartChar: eth
-Encoding: 175 240 233
+Encoding: 240 240 233
+GlifName: eth
 Width: 1042
 GlyphClass: 2
 Flags: W
@@ -9588,7 +9823,8 @@ Validated: 33
 EndChar
 
 StartChar: Yacute
-Encoding: 156 221 234
+Encoding: 221 221 234
+GlifName: Y_acute
 Width: 1301
 GlyphClass: 2
 Flags: W
@@ -9600,7 +9836,8 @@ Validated: 1
 EndChar
 
 StartChar: Thorn
-Encoding: 157 222 235
+Encoding: 222 222 235
+GlifName: T_horn
 Width: 1066
 GlyphClass: 2
 Flags: W
@@ -9626,7 +9863,8 @@ Validated: 33
 EndChar
 
 StartChar: thorn
-Encoding: 189 254 236
+Encoding: 254 254 236
+GlifName: thorn
 Width: 1095
 GlyphClass: 2
 Flags: W
@@ -9652,7 +9890,8 @@ Validated: 33
 EndChar
 
 StartChar: minus
-Encoding: 574 8722 237
+Encoding: 8722 8722 237
+GlifName: minus
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -9671,7 +9910,8 @@ Validated: 1
 EndChar
 
 StartChar: onesuperior
-Encoding: 120 185 238
+Encoding: 185 185 238
+GlifName: onesuperior
 Width: 1333
 GlyphClass: 2
 Flags: W
@@ -9699,7 +9939,8 @@ Validated: 33
 EndChar
 
 StartChar: twosuperior
-Encoding: 113 178 239
+Encoding: 178 178 239
+GlifName: twosuperior
 Width: 1333
 GlyphClass: 2
 Flags: W
@@ -9730,7 +9971,8 @@ Validated: 33
 EndChar
 
 StartChar: threesuperior
-Encoding: 114 179 240
+Encoding: 179 179 240
+GlifName: threesuperior
 Width: 1333
 GlyphClass: 2
 Flags: W
@@ -9760,7 +10002,8 @@ Validated: 33
 EndChar
 
 StartChar: onehalf
-Encoding: 124 189 241
+Encoding: 189 189 241
+GlifName: onehalf
 Width: 1333
 GlyphClass: 2
 Flags: W
@@ -9773,7 +10016,8 @@ Validated: 1
 EndChar
 
 StartChar: onequarter
-Encoding: 123 188 242
+Encoding: 188 188 242
+GlifName: onequarter
 Width: 1333
 GlyphClass: 2
 Flags: W
@@ -9786,7 +10030,8 @@ Validated: 1
 EndChar
 
 StartChar: threequarters
-Encoding: 125 190 243
+Encoding: 190 190 243
+GlifName: threequarters
 Width: 1333
 GlyphClass: 2
 Flags: W
@@ -9799,7 +10044,8 @@ Validated: 1
 EndChar
 
 StartChar: yacute
-Encoding: 188 253 244
+Encoding: 253 253 244
+GlifName: yacute
 Width: 1066
 GlyphClass: 2
 Flags: W
@@ -9811,7 +10057,8 @@ Validated: 1
 EndChar
 
 StartChar: multiply
-Encoding: 150 215 245
+Encoding: 215 215 245
+GlifName: multiply
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -9840,7 +10087,8 @@ Validated: 33
 EndChar
 
 StartChar: sfthyphen
-Encoding: 601 -1 246
+Encoding: 1114114 -1 246
+GlifName: sfthyphen
 Width: 853
 GlyphClass: 2
 Flags: W
@@ -9859,7 +10107,8 @@ Validated: 1
 EndChar
 
 StartChar: franc
-Encoding: 555 8355 247
+Encoding: 8355 8355 247
+GlifName: franc
 Width: 2026
 GlyphClass: 2
 Flags: W
@@ -9871,7 +10120,8 @@ Validated: 1
 EndChar
 
 StartChar: Gbreve
-Encoding: 221 286 248
+Encoding: 286 286 248
+GlifName: G_breve
 Width: 1392
 GlyphClass: 2
 Flags: W
@@ -9883,7 +10133,8 @@ Validated: 1
 EndChar
 
 StartChar: gbreve
-Encoding: 222 287 249
+Encoding: 287 287 249
+GlifName: gbreve
 Width: 1087
 GlyphClass: 2
 Flags: W
@@ -9895,7 +10146,8 @@ Validated: 1
 EndChar
 
 StartChar: Idotaccent
-Encoding: 239 304 250
+Encoding: 304 304 250
+GlifName: I_dotaccent
 Width: 1119
 GlyphClass: 2
 Flags: W
@@ -9907,7 +10159,8 @@ Validated: 1
 EndChar
 
 StartChar: Scedilla
-Encoding: 285 350 251
+Encoding: 350 350 251
+GlifName: S_cedilla
 Width: 1420
 GlyphClass: 2
 Flags: W
@@ -9920,7 +10173,8 @@ Substitution2: "'locl' Localized Forms in Latin lookup 1 subtable" Scommaaccent
 EndChar
 
 StartChar: scedilla
-Encoding: 286 351 252
+Encoding: 351 351 252
+GlifName: scedilla
 Width: 997
 GlyphClass: 2
 Flags: W
@@ -9933,7 +10187,8 @@ Substitution2: "'locl' Localized Forms in Latin lookup 1 subtable" scommaaccent
 EndChar
 
 StartChar: Cacute
-Encoding: 197 262 253
+Encoding: 262 262 253
+GlifName: C_acute
 Width: 1234
 GlyphClass: 2
 Flags: W
@@ -9945,7 +10200,8 @@ Validated: 1
 EndChar
 
 StartChar: cacute
-Encoding: 198 263 254
+Encoding: 263 263 254
+GlifName: cacute
 Width: 1052
 GlyphClass: 2
 Flags: W
@@ -9957,7 +10213,8 @@ Validated: 1
 EndChar
 
 StartChar: Ccaron
-Encoding: 203 268 255
+Encoding: 268 268 255
+GlifName: C_caron
 Width: 1234
 GlyphClass: 2
 Flags: W
@@ -9969,7 +10226,8 @@ Validated: 1
 EndChar
 
 StartChar: ccaron
-Encoding: 204 269 256
+Encoding: 269 269 256
+GlifName: ccaron
 Width: 1052
 GlyphClass: 2
 Flags: W
@@ -9981,7 +10239,8 @@ Validated: 1
 EndChar
 
 StartChar: dcroat
-Encoding: 208 273 257
+Encoding: 273 273 257
+GlifName: dcroat
 Width: 1234
 GlyphClass: 2
 Flags: W
@@ -10001,7 +10260,8 @@ Validated: 37
 EndChar
 
 StartChar: mu
-Encoding: 409 956 258
+Encoding: 956 956 258
+GlifName: mu
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -10035,7 +10295,8 @@ Validated: 33
 EndChar
 
 StartChar: Ohm
-Encoding: 564 8486 259
+Encoding: 8486 8486 259
+GlifName: O_hm
 Width: 1966
 GlyphClass: 2
 Flags: W
@@ -10046,7 +10307,8 @@ Validated: 1
 EndChar
 
 StartChar: Delta
-Encoding: 571 8710 260
+Encoding: 8710 8710 260
+GlifName: D_elta
 Width: 1627
 GlyphClass: 2
 Flags: W
@@ -10057,7 +10319,8 @@ Validated: 1
 EndChar
 
 StartChar: hyphenminus
-Encoding: 108 173 261
+Encoding: 173 173 261
+GlifName: hyphenminus
 Width: 853
 GlyphClass: 2
 Flags: W
@@ -10068,7 +10331,8 @@ Validated: 1
 EndChar
 
 StartChar: overscore
-Encoding: 110 175 262
+Encoding: 175 175 262
+GlifName: overscore
 Width: 1284
 GlyphClass: 2
 Flags: W
@@ -10085,7 +10349,8 @@ Validated: 1
 EndChar
 
 StartChar: middot
-Encoding: 602 -1 263
+Encoding: 1114115 -1 263
+GlifName: middot
 Width: 510
 GlyphClass: 2
 Flags: W
@@ -10113,7 +10378,8 @@ Validated: 1
 EndChar
 
 StartChar: Abreve
-Encoding: 193 258 264
+Encoding: 258 258 264
+GlifName: A_breve
 Width: 1498
 GlyphClass: 2
 Flags: W
@@ -10125,7 +10391,8 @@ Validated: 1
 EndChar
 
 StartChar: abreve
-Encoding: 194 259 265
+Encoding: 259 259 265
+GlifName: abreve
 Width: 1048
 GlyphClass: 2
 Flags: W
@@ -10137,7 +10404,8 @@ Validated: 1
 EndChar
 
 StartChar: Aogonek
-Encoding: 195 260 266
+Encoding: 260 260 266
+GlifName: A_ogonek
 Width: 1498
 GlyphClass: 2
 Flags: W
@@ -10149,7 +10417,8 @@ Validated: 5
 EndChar
 
 StartChar: aogonek
-Encoding: 196 261 267
+Encoding: 261 261 267
+GlifName: aogonek
 Width: 1048
 GlyphClass: 2
 Flags: W
@@ -10161,7 +10430,8 @@ Validated: 5
 EndChar
 
 StartChar: Dcaron
-Encoding: 205 270 268
+Encoding: 270 270 268
+GlifName: D_caron
 Width: 1478
 GlyphClass: 2
 Flags: W
@@ -10173,7 +10443,8 @@ Validated: 1
 EndChar
 
 StartChar: dcaron
-Encoding: 206 271 269
+Encoding: 271 271 269
+GlifName: dcaron
 Width: 1698
 GlyphClass: 2
 Flags: W
@@ -10185,7 +10456,8 @@ Validated: 1
 EndChar
 
 StartChar: Dslash
-Encoding: 207 272 270
+Encoding: 272 272 270
+GlifName: D_slash
 Width: 1478
 GlyphClass: 2
 Flags: W
@@ -10196,7 +10468,8 @@ Validated: 5
 EndChar
 
 StartChar: Eogonek
-Encoding: 215 280 271
+Encoding: 280 280 271
+GlifName: E_ogonek
 Width: 1279
 GlyphClass: 2
 Flags: W
@@ -10208,7 +10481,8 @@ Validated: 5
 EndChar
 
 StartChar: eogonek
-Encoding: 216 281 272
+Encoding: 281 281 272
+GlifName: eogonek
 Width: 1122
 GlyphClass: 2
 Flags: W
@@ -10220,7 +10494,8 @@ Validated: 5
 EndChar
 
 StartChar: Ecaron
-Encoding: 217 282 273
+Encoding: 282 282 273
+GlifName: E_caron
 Width: 1279
 GlyphClass: 2
 Flags: W
@@ -10232,7 +10507,8 @@ Validated: 1
 EndChar
 
 StartChar: ecaron
-Encoding: 218 283 274
+Encoding: 283 283 274
+GlifName: ecaron
 Width: 1122
 GlyphClass: 2
 Flags: W
@@ -10244,7 +10520,8 @@ Validated: 1
 EndChar
 
 StartChar: Lacute
-Encoding: 248 313 275
+Encoding: 313 313 275
+GlifName: L_acute
 Width: 1128
 GlyphClass: 2
 Flags: W
@@ -10256,7 +10533,8 @@ Validated: 1
 EndChar
 
 StartChar: lacute
-Encoding: 249 314 276
+Encoding: 314 314 276
+GlifName: lacute
 Width: 561
 GlyphClass: 2
 Flags: W
@@ -10268,7 +10546,8 @@ Validated: 1
 EndChar
 
 StartChar: Lcaron
-Encoding: 252 317 277
+Encoding: 317 317 277
+GlifName: L_caron
 Width: 1128
 GlyphClass: 2
 Flags: W
@@ -10280,7 +10559,8 @@ Validated: 1
 EndChar
 
 StartChar: lcaron
-Encoding: 253 318 278
+Encoding: 318 318 278
+GlifName: lcaron
 Width: 951
 GlyphClass: 2
 Flags: W
@@ -10292,7 +10572,8 @@ Validated: 1
 EndChar
 
 StartChar: Ldot
-Encoding: 254 319 279
+Encoding: 319 319 279
+GlifName: L_dot
 Width: 1128
 GlyphClass: 2
 Flags: W
@@ -10304,7 +10585,8 @@ Validated: 1
 EndChar
 
 StartChar: ldot
-Encoding: 255 320 280
+Encoding: 320 320 280
+GlifName: ldot
 Width: 809
 GlyphClass: 2
 Flags: W
@@ -10316,7 +10598,8 @@ Validated: 1
 EndChar
 
 StartChar: Nacute
-Encoding: 258 323 281
+Encoding: 323 323 281
+GlifName: N_acute
 Width: 1632
 GlyphClass: 2
 Flags: W
@@ -10328,7 +10611,8 @@ Validated: 1
 EndChar
 
 StartChar: nacute
-Encoding: 259 324 282
+Encoding: 324 324 282
+GlifName: nacute
 Width: 1072
 GlyphClass: 2
 Flags: W
@@ -10340,7 +10624,8 @@ Validated: 1
 EndChar
 
 StartChar: Ncaron
-Encoding: 262 327 283
+Encoding: 327 327 283
+GlifName: N_caron
 Width: 1632
 GlyphClass: 2
 Flags: W
@@ -10352,7 +10637,8 @@ Validated: 1
 EndChar
 
 StartChar: ncaron
-Encoding: 263 328 284
+Encoding: 328 328 284
+GlifName: ncaron
 Width: 1072
 GlyphClass: 2
 Flags: W
@@ -10364,7 +10650,8 @@ Validated: 1
 EndChar
 
 StartChar: Odblacute
-Encoding: 271 336 285
+Encoding: 336 336 285
+GlifName: O_dblacute
 Width: 1635
 GlyphClass: 2
 Flags: W
@@ -10376,7 +10663,8 @@ Validated: 1
 EndChar
 
 StartChar: odblacute
-Encoding: 272 337 286
+Encoding: 337 337 286
+GlifName: odblacute
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -10388,7 +10676,8 @@ Validated: 1
 EndChar
 
 StartChar: Racute
-Encoding: 275 340 287
+Encoding: 340 340 287
+GlifName: R_acute
 Width: 1287
 GlyphClass: 2
 Flags: W
@@ -10400,7 +10689,8 @@ Validated: 1
 EndChar
 
 StartChar: racute
-Encoding: 276 341 288
+Encoding: 341 341 288
+GlifName: racute
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -10412,7 +10702,8 @@ Validated: 1
 EndChar
 
 StartChar: Rcaron
-Encoding: 279 344 289
+Encoding: 344 344 289
+GlifName: R_caron
 Width: 1287
 GlyphClass: 2
 Flags: W
@@ -10424,7 +10715,8 @@ Validated: 1
 EndChar
 
 StartChar: rcaron
-Encoding: 280 345 290
+Encoding: 345 345 290
+GlifName: rcaron
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -10436,7 +10728,8 @@ Validated: 1
 EndChar
 
 StartChar: Sacute
-Encoding: 281 346 291
+Encoding: 346 346 291
+GlifName: S_acute
 Width: 1420
 GlyphClass: 2
 Flags: W
@@ -10448,7 +10741,8 @@ Validated: 1
 EndChar
 
 StartChar: sacute
-Encoding: 282 347 292
+Encoding: 347 347 292
+GlifName: sacute
 Width: 997
 GlyphClass: 2
 Flags: W
@@ -10460,7 +10754,8 @@ Validated: 1
 EndChar
 
 StartChar: Tcommaaccent
-Encoding: 328 538 293
+Encoding: 538 538 293
+GlifName: T_commaaccent
 Width: 1392
 GlyphClass: 2
 Flags: W
@@ -10472,7 +10767,8 @@ Validated: 1
 EndChar
 
 StartChar: tcommaaccent
-Encoding: 329 539 294
+Encoding: 539 539 294
+GlifName: tcommaaccent
 Width: 965
 GlyphClass: 2
 Flags: W
@@ -10484,7 +10780,8 @@ Validated: 1
 EndChar
 
 StartChar: Tcaron
-Encoding: 291 356 295
+Encoding: 356 356 295
+GlifName: T_caron
 Width: 1392
 GlyphClass: 2
 Flags: W
@@ -10496,7 +10793,8 @@ Validated: 1
 EndChar
 
 StartChar: tcaron
-Encoding: 292 357 296
+Encoding: 357 357 296
+GlifName: tcaron
 Width: 1309
 GlyphClass: 2
 Flags: W
@@ -10508,7 +10806,8 @@ Validated: 1
 EndChar
 
 StartChar: Uring
-Encoding: 301 366 297
+Encoding: 366 366 297
+GlifName: U_ring
 Width: 1509
 GlyphClass: 2
 Flags: W
@@ -10520,7 +10819,8 @@ Validated: 1
 EndChar
 
 StartChar: uring
-Encoding: 302 367 298
+Encoding: 367 367 298
+GlifName: uring
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -10532,7 +10832,8 @@ Validated: 1
 EndChar
 
 StartChar: Udblacute
-Encoding: 303 368 299
+Encoding: 368 368 299
+GlifName: U_dblacute
 Width: 1509
 GlyphClass: 2
 Flags: W
@@ -10544,7 +10845,8 @@ Validated: 1
 EndChar
 
 StartChar: udblacute
-Encoding: 304 369 300
+Encoding: 369 369 300
+GlifName: udblacute
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -10556,7 +10858,8 @@ Validated: 1
 EndChar
 
 StartChar: Zacute
-Encoding: 312 377 301
+Encoding: 377 377 301
+GlifName: Z_acute
 Width: 1420
 GlyphClass: 2
 Flags: W
@@ -10568,7 +10871,8 @@ Validated: 1
 EndChar
 
 StartChar: zacute
-Encoding: 313 378 302
+Encoding: 378 378 302
+GlifName: zacute
 Width: 1102
 GlyphClass: 2
 Flags: W
@@ -10580,7 +10884,8 @@ Validated: 1
 EndChar
 
 StartChar: Zdot
-Encoding: 314 379 303
+Encoding: 379 379 303
+GlifName: Z_dot
 Width: 1420
 GlyphClass: 2
 Flags: W
@@ -10592,7 +10897,8 @@ Validated: 1
 EndChar
 
 StartChar: zdot
-Encoding: 315 380 304
+Encoding: 380 380 304
+GlifName: zdot
 Width: 1102
 GlyphClass: 2
 Flags: W
@@ -10604,7 +10910,8 @@ Validated: 1
 EndChar
 
 StartChar: Gamma
-Encoding: 369 915 305
+Encoding: 915 915 305
+GlifName: G_amma
 Width: 1262
 GlyphClass: 2
 Flags: W
@@ -10628,7 +10935,8 @@ Validated: 33
 EndChar
 
 StartChar: Theta
-Encoding: 374 920 306
+Encoding: 920 920 306
+GlifName: T_heta
 Width: 1635
 GlyphClass: 2
 Flags: W
@@ -10648,7 +10956,8 @@ Validated: 1
 EndChar
 
 StartChar: Phi
-Encoding: 387 934 307
+Encoding: 934 934 307
+GlifName: P_hi
 Width: 1307
 GlyphClass: 2
 Flags: W
@@ -10691,7 +11000,8 @@ Validated: 33
 EndChar
 
 StartChar: alpha
-Encoding: 398 945 308
+Encoding: 945 945 308
+GlifName: alpha
 Width: 1091
 GlyphClass: 2
 Flags: W
@@ -10722,7 +11032,8 @@ Validated: 33
 EndChar
 
 StartChar: delta
-Encoding: 401 948 309
+Encoding: 948 948 309
+GlifName: delta
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -10760,7 +11071,8 @@ Validated: 33
 EndChar
 
 StartChar: epsilon
-Encoding: 402 949 310
+Encoding: 949 949 310
+GlifName: epsilon
 Width: 1007
 GlyphClass: 2
 Flags: W
@@ -10795,7 +11107,8 @@ Validated: 33
 EndChar
 
 StartChar: sigma
-Encoding: 416 963 311
+Encoding: 963 963 311
+GlifName: sigma
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -10815,7 +11128,8 @@ Validated: 37
 EndChar
 
 StartChar: tau
-Encoding: 417 964 312
+Encoding: 964 964 312
+GlifName: tau
 Width: 965
 GlyphClass: 2
 Flags: W
@@ -10839,7 +11153,8 @@ Validated: 33
 EndChar
 
 StartChar: phi
-Encoding: 419 966 313
+Encoding: 966 966 313
+GlifName: phi
 Width: 1260
 GlyphClass: 2
 Flags: W
@@ -10874,7 +11189,8 @@ Validated: 33
 EndChar
 
 StartChar: underscoredbl
-Encoding: 534 8215 314
+Encoding: 8215 8215 314
+GlifName: underscoredbl
 Width: 1284
 GlyphClass: 2
 Flags: W
@@ -10896,7 +11212,8 @@ Validated: 1
 EndChar
 
 StartChar: exclamdbl
-Encoding: 551 8252 315
+Encoding: 8252 8252 315
+GlifName: exclamdbl
 Width: 921
 GlyphClass: 2
 Flags: W
@@ -10908,7 +11225,8 @@ Validated: 1
 EndChar
 
 StartChar: nsuperior
-Encoding: 554 8319 316
+Encoding: 8319 8319 316
+GlifName: nsuperior
 Width: 1079
 GlyphClass: 2
 Flags: W
@@ -10936,7 +11254,8 @@ Validated: 33
 EndChar
 
 StartChar: peseta
-Encoding: 557 8359 317
+Encoding: 8359 8359 317
+GlifName: peseta
 Width: 2435
 GlyphClass: 2
 Flags: W
@@ -10949,7 +11268,8 @@ Validated: 5
 EndChar
 
 StartChar: IJ
-Encoding: 241 306 318
+Encoding: 306 306 318
+GlifName: I_J_
 Width: 2307
 GlyphClass: 2
 Flags: W
@@ -10961,7 +11281,8 @@ Validated: 1
 EndChar
 
 StartChar: ij
-Encoding: 242 307 319
+Encoding: 307 307 319
+GlifName: ij
 Width: 1086
 GlyphClass: 2
 Flags: W
@@ -10973,7 +11294,8 @@ Validated: 1
 EndChar
 
 StartChar: napostrophe
-Encoding: 264 329 320
+Encoding: 329 329 320
+GlifName: napostrophe
 Width: 1272
 GlyphClass: 2
 Flags: W
@@ -10985,7 +11307,8 @@ Validated: 1
 EndChar
 
 StartChar: minute
-Encoding: 547 8242 321
+Encoding: 8242 8242 321
+GlifName: minute
 Width: 369
 GlyphClass: 2
 Flags: W
@@ -11004,7 +11327,8 @@ Validated: 33
 EndChar
 
 StartChar: second
-Encoding: 548 8243 322
+Encoding: 8243 8243 322
+GlifName: second
 Width: 678
 GlyphClass: 2
 Flags: W
@@ -11016,7 +11340,8 @@ Validated: 1
 EndChar
 
 StartChar: afii61248
-Encoding: 559 8453 323
+Encoding: 8453 8453 323
+GlifName: afii61248
 Width: 1680
 GlyphClass: 2
 Flags: W
@@ -11048,7 +11373,8 @@ Validated: 33
 EndChar
 
 StartChar: afii61289
-Encoding: 560 8467 324
+Encoding: 8467 8467 324
+GlifName: afii61289
 Width: 1001
 GlyphClass: 2
 Flags: W
@@ -11083,7 +11409,8 @@ Validated: 33
 EndChar
 
 StartChar: tonos
-Encoding: 356 900 325
+Encoding: 900 900 325
+GlifName: tonos
 Width: 1139
 GlyphClass: 2
 Flags: W
@@ -11106,7 +11433,8 @@ Validated: 1
 EndChar
 
 StartChar: Amacron
-Encoding: 191 256 326
+Encoding: 256 256 326
+GlifName: A_macron
 Width: 1498
 GlyphClass: 2
 Flags: W
@@ -11118,7 +11446,8 @@ Validated: 1
 EndChar
 
 StartChar: amacron
-Encoding: 192 257 327
+Encoding: 257 257 327
+GlifName: amacron
 Width: 1048
 GlyphClass: 2
 Flags: W
@@ -11130,7 +11459,8 @@ Validated: 1
 EndChar
 
 StartChar: Ccircumflex
-Encoding: 199 264 328
+Encoding: 264 264 328
+GlifName: C_circumflex
 Width: 1234
 GlyphClass: 2
 Flags: W
@@ -11142,7 +11472,8 @@ Validated: 1
 EndChar
 
 StartChar: ccircumflex
-Encoding: 200 265 329
+Encoding: 265 265 329
+GlifName: ccircumflex
 Width: 1052
 GlyphClass: 2
 Flags: W
@@ -11154,7 +11485,8 @@ Validated: 1
 EndChar
 
 StartChar: Cdot
-Encoding: 201 266 330
+Encoding: 266 266 330
+GlifName: C_dot
 Width: 1234
 GlyphClass: 2
 Flags: W
@@ -11166,7 +11498,8 @@ Validated: 1
 EndChar
 
 StartChar: cdot
-Encoding: 202 267 331
+Encoding: 267 267 331
+GlifName: cdot
 Width: 1052
 GlyphClass: 2
 Flags: W
@@ -11178,7 +11511,8 @@ Validated: 1
 EndChar
 
 StartChar: Emacron
-Encoding: 209 274 332
+Encoding: 274 274 332
+GlifName: E_macron
 Width: 1279
 GlyphClass: 2
 Flags: W
@@ -11190,7 +11524,8 @@ Validated: 1
 EndChar
 
 StartChar: emacron
-Encoding: 210 275 333
+Encoding: 275 275 333
+GlifName: emacron
 Width: 1122
 GlyphClass: 2
 Flags: W
@@ -11202,7 +11537,8 @@ Validated: 1
 EndChar
 
 StartChar: Ebreve
-Encoding: 211 276 334
+Encoding: 276 276 334
+GlifName: E_breve
 Width: 1279
 GlyphClass: 2
 Flags: W
@@ -11214,7 +11550,8 @@ Validated: 1
 EndChar
 
 StartChar: ebreve
-Encoding: 212 277 335
+Encoding: 277 277 335
+GlifName: ebreve
 Width: 1122
 GlyphClass: 2
 Flags: W
@@ -11226,7 +11563,8 @@ Validated: 1
 EndChar
 
 StartChar: Edot
-Encoding: 213 278 336
+Encoding: 278 278 336
+GlifName: E_dot
 Width: 1279
 GlyphClass: 2
 Flags: W
@@ -11238,7 +11576,8 @@ Validated: 1
 EndChar
 
 StartChar: edot
-Encoding: 214 279 337
+Encoding: 279 279 337
+GlifName: edot
 Width: 1122
 GlyphClass: 2
 Flags: W
@@ -11250,7 +11589,8 @@ Validated: 1
 EndChar
 
 StartChar: Gcircumflex
-Encoding: 219 284 338
+Encoding: 284 284 338
+GlifName: G_circumflex
 Width: 1392
 GlyphClass: 2
 Flags: W
@@ -11262,7 +11602,8 @@ Validated: 1
 EndChar
 
 StartChar: gcircumflex
-Encoding: 220 285 339
+Encoding: 285 285 339
+GlifName: gcircumflex
 Width: 1087
 GlyphClass: 2
 Flags: W
@@ -11274,7 +11615,8 @@ Validated: 1
 EndChar
 
 StartChar: Gdot
-Encoding: 223 288 340
+Encoding: 288 288 340
+GlifName: G_dot
 Width: 1392
 GlyphClass: 2
 Flags: W
@@ -11286,7 +11628,8 @@ Validated: 1
 EndChar
 
 StartChar: gdot
-Encoding: 224 289 341
+Encoding: 289 289 341
+GlifName: gdot
 Width: 1087
 GlyphClass: 2
 Flags: W
@@ -11298,7 +11641,8 @@ Validated: 1
 EndChar
 
 StartChar: Gcedilla
-Encoding: 225 290 342
+Encoding: 290 290 342
+GlifName: G_cedilla
 Width: 1392
 GlyphClass: 2
 Flags: W
@@ -11310,7 +11654,8 @@ Validated: 5
 EndChar
 
 StartChar: gcedilla
-Encoding: 226 291 343
+Encoding: 291 291 343
+GlifName: gcedilla
 Width: 1087
 GlyphClass: 2
 Flags: W
@@ -11322,7 +11667,8 @@ Validated: 1
 EndChar
 
 StartChar: Hcircumflex
-Encoding: 227 292 344
+Encoding: 292 292 344
+GlifName: H_circumflex
 Width: 1573
 GlyphClass: 2
 Flags: W
@@ -11334,7 +11680,8 @@ Validated: 1
 EndChar
 
 StartChar: hcircumflex
-Encoding: 228 293 345
+Encoding: 293 293 345
+GlifName: hcircumflex
 Width: 1183
 GlyphClass: 2
 Flags: W
@@ -11346,7 +11693,8 @@ Validated: 1
 EndChar
 
 StartChar: Hbar
-Encoding: 229 294 346
+Encoding: 294 294 346
+GlifName: H_bar
 Width: 1573
 GlyphClass: 2
 Flags: W
@@ -11366,7 +11714,8 @@ Validated: 5
 EndChar
 
 StartChar: hbar
-Encoding: 230 295 347
+Encoding: 295 295 347
+GlifName: hbar
 Width: 1183
 GlyphClass: 2
 Flags: W
@@ -11386,7 +11735,8 @@ Validated: 37
 EndChar
 
 StartChar: Itilde
-Encoding: 231 296 348
+Encoding: 296 296 348
+GlifName: I_tilde
 Width: 1119
 GlyphClass: 2
 Flags: W
@@ -11398,7 +11748,8 @@ Validated: 1
 EndChar
 
 StartChar: itilde
-Encoding: 232 297 349
+Encoding: 297 297 349
+GlifName: itilde
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -11410,7 +11761,8 @@ Validated: 1
 EndChar
 
 StartChar: Imacron
-Encoding: 233 298 350
+Encoding: 298 298 350
+GlifName: I_macron
 Width: 1119
 GlyphClass: 2
 Flags: W
@@ -11422,7 +11774,8 @@ Validated: 1
 EndChar
 
 StartChar: imacron
-Encoding: 234 299 351
+Encoding: 299 299 351
+GlifName: imacron
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -11434,7 +11787,8 @@ Validated: 1
 EndChar
 
 StartChar: Ibreve
-Encoding: 235 300 352
+Encoding: 300 300 352
+GlifName: I_breve
 Width: 1119
 GlyphClass: 2
 Flags: W
@@ -11446,7 +11800,8 @@ Validated: 1
 EndChar
 
 StartChar: ibreve
-Encoding: 236 301 353
+Encoding: 301 301 353
+GlifName: ibreve
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -11458,7 +11813,8 @@ Validated: 1
 EndChar
 
 StartChar: Iogonek
-Encoding: 237 302 354
+Encoding: 302 302 354
+GlifName: I_ogonek
 Width: 1119
 GlyphClass: 2
 Flags: W
@@ -11470,7 +11826,8 @@ Validated: 5
 EndChar
 
 StartChar: iogonek
-Encoding: 238 303 355
+Encoding: 303 303 355
+GlifName: iogonek
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -11482,7 +11839,8 @@ Validated: 5
 EndChar
 
 StartChar: Jcircumflex
-Encoding: 243 308 356
+Encoding: 308 308 356
+GlifName: J_circumflex
 Width: 1362
 GlyphClass: 2
 Flags: W
@@ -11494,7 +11852,8 @@ Validated: 1
 EndChar
 
 StartChar: jcircumflex
-Encoding: 244 309 357
+Encoding: 309 309 357
+GlifName: jcircumflex
 Width: 826
 GlyphClass: 2
 Flags: W
@@ -11506,7 +11865,8 @@ Validated: 1
 EndChar
 
 StartChar: Kcedilla
-Encoding: 245 310 358
+Encoding: 310 310 358
+GlifName: K_cedilla
 Width: 1251
 GlyphClass: 2
 Flags: W
@@ -11518,7 +11878,8 @@ Validated: 1
 EndChar
 
 StartChar: kcedilla
-Encoding: 246 311 359
+Encoding: 311 311 359
+GlifName: kcedilla
 Width: 1106
 GlyphClass: 2
 Flags: W
@@ -11530,7 +11891,8 @@ Validated: 1
 EndChar
 
 StartChar: kgreenlandic
-Encoding: 247 312 360
+Encoding: 312 312 360
+GlifName: kgreenlandic
 Width: 1106
 GlyphClass: 2
 Flags: W
@@ -11559,7 +11921,8 @@ Validated: 33
 EndChar
 
 StartChar: Lcedilla
-Encoding: 250 315 361
+Encoding: 315 315 361
+GlifName: L_cedilla
 Width: 1128
 GlyphClass: 2
 Flags: W
@@ -11571,7 +11934,8 @@ Validated: 5
 EndChar
 
 StartChar: lcedilla
-Encoding: 251 316 362
+Encoding: 316 316 362
+GlifName: lcedilla
 Width: 561
 GlyphClass: 2
 Flags: W
@@ -11583,7 +11947,8 @@ Validated: 5
 EndChar
 
 StartChar: Ncedilla
-Encoding: 260 325 363
+Encoding: 325 325 363
+GlifName: N_cedilla
 Width: 1632
 GlyphClass: 2
 Flags: W
@@ -11595,7 +11960,8 @@ Validated: 1
 EndChar
 
 StartChar: ncedilla
-Encoding: 261 326 364
+Encoding: 326 326 364
+GlifName: ncedilla
 Width: 1072
 GlyphClass: 2
 Flags: W
@@ -11607,7 +11973,8 @@ Validated: 1
 EndChar
 
 StartChar: Eng
-Encoding: 265 330 365
+Encoding: 330 330 365
+GlifName: E_ng
 Width: 1632
 GlyphClass: 2
 Flags: W
@@ -11638,7 +12005,8 @@ Validated: 33
 EndChar
 
 StartChar: eng
-Encoding: 266 331 366
+Encoding: 331 331 366
+GlifName: eng
 Width: 1072
 GlyphClass: 2
 Flags: W
@@ -11673,7 +12041,8 @@ Validated: 33
 EndChar
 
 StartChar: Omacron
-Encoding: 267 332 367
+Encoding: 332 332 367
+GlifName: O_macron
 Width: 1635
 GlyphClass: 2
 Flags: W
@@ -11685,7 +12054,8 @@ Validated: 1
 EndChar
 
 StartChar: omacron
-Encoding: 268 333 368
+Encoding: 333 333 368
+GlifName: omacron
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -11697,7 +12067,8 @@ Validated: 1
 EndChar
 
 StartChar: Obreve
-Encoding: 269 334 369
+Encoding: 334 334 369
+GlifName: O_breve
 Width: 1635
 GlyphClass: 2
 Flags: W
@@ -11709,7 +12080,8 @@ Validated: 1
 EndChar
 
 StartChar: obreve
-Encoding: 270 335 370
+Encoding: 335 335 370
+GlifName: obreve
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -11721,7 +12093,8 @@ Validated: 1
 EndChar
 
 StartChar: Rcedilla
-Encoding: 277 342 371
+Encoding: 342 342 371
+GlifName: R_cedilla
 Width: 1287
 GlyphClass: 2
 Flags: W
@@ -11733,7 +12106,8 @@ Validated: 1
 EndChar
 
 StartChar: rcedilla
-Encoding: 278 343 372
+Encoding: 343 343 372
+GlifName: rcedilla
 Width: 984
 GlyphClass: 2
 Flags: W
@@ -11745,7 +12119,8 @@ Validated: 5
 EndChar
 
 StartChar: Scircumflex
-Encoding: 283 348 373
+Encoding: 348 348 373
+GlifName: S_circumflex
 Width: 1420
 GlyphClass: 2
 Flags: W
@@ -11757,7 +12132,8 @@ Validated: 1
 EndChar
 
 StartChar: scircumflex
-Encoding: 284 349 374
+Encoding: 349 349 374
+GlifName: scircumflex
 Width: 997
 GlyphClass: 2
 Flags: W
@@ -11769,7 +12145,8 @@ Validated: 1
 EndChar
 
 StartChar: Tbar
-Encoding: 293 358 375
+Encoding: 358 358 375
+GlifName: T_bar
 Width: 1392
 GlyphClass: 2
 Flags: W
@@ -11789,7 +12166,8 @@ Validated: 37
 EndChar
 
 StartChar: tbar
-Encoding: 294 359 376
+Encoding: 359 359 376
+GlifName: tbar
 Width: 965
 GlyphClass: 2
 Flags: W
@@ -11809,7 +12187,8 @@ Validated: 37
 EndChar
 
 StartChar: Utilde
-Encoding: 295 360 377
+Encoding: 360 360 377
+GlifName: U_tilde
 Width: 1509
 GlyphClass: 2
 Flags: W
@@ -11821,7 +12200,8 @@ Validated: 1
 EndChar
 
 StartChar: utilde
-Encoding: 296 361 378
+Encoding: 361 361 378
+GlifName: utilde
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -11833,7 +12213,8 @@ Validated: 1
 EndChar
 
 StartChar: Umacron
-Encoding: 297 362 379
+Encoding: 362 362 379
+GlifName: U_macron
 Width: 1509
 GlyphClass: 2
 Flags: W
@@ -11845,7 +12226,8 @@ Validated: 1
 EndChar
 
 StartChar: umacron
-Encoding: 298 363 380
+Encoding: 363 363 380
+GlifName: umacron
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -11857,7 +12239,8 @@ Validated: 1
 EndChar
 
 StartChar: Ubreve
-Encoding: 299 364 381
+Encoding: 364 364 381
+GlifName: U_breve
 Width: 1509
 GlyphClass: 2
 Flags: W
@@ -11869,7 +12252,8 @@ Validated: 1
 EndChar
 
 StartChar: ubreve
-Encoding: 300 365 382
+Encoding: 365 365 382
+GlifName: ubreve
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -11881,7 +12265,8 @@ Validated: 1
 EndChar
 
 StartChar: Uogonek
-Encoding: 305 370 383
+Encoding: 370 370 383
+GlifName: U_ogonek
 Width: 1509
 GlyphClass: 2
 Flags: W
@@ -11893,7 +12278,8 @@ Validated: 5
 EndChar
 
 StartChar: uogonek
-Encoding: 306 371 384
+Encoding: 371 371 384
+GlifName: uogonek
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -11905,7 +12291,8 @@ Validated: 5
 EndChar
 
 StartChar: Wcircumflex
-Encoding: 307 372 385
+Encoding: 372 372 385
+GlifName: W_circumflex
 Width: 2129
 GlyphClass: 2
 Flags: W
@@ -11917,7 +12304,8 @@ Validated: 1
 EndChar
 
 StartChar: wcircumflex
-Encoding: 308 373 386
+Encoding: 373 373 386
+GlifName: wcircumflex
 Width: 1401
 GlyphClass: 2
 Flags: W
@@ -11929,7 +12317,8 @@ Validated: 1
 EndChar
 
 StartChar: Ycircumflex
-Encoding: 309 374 387
+Encoding: 374 374 387
+GlifName: Y_circumflex
 Width: 1301
 GlyphClass: 2
 Flags: W
@@ -11941,7 +12330,8 @@ Validated: 1
 EndChar
 
 StartChar: ycircumflex
-Encoding: 310 375 388
+Encoding: 375 375 388
+GlifName: ycircumflex
 Width: 1066
 GlyphClass: 2
 Flags: W
@@ -11953,7 +12343,8 @@ Validated: 1
 EndChar
 
 StartChar: uF003
-Encoding: 603 -1 389
+Encoding: 1114116 -1 389
+GlifName: uF_003
 Width: 795
 GlyphClass: 2
 Flags: W
@@ -11974,7 +12365,8 @@ Validated: 33
 EndChar
 
 StartChar: uF004
-Encoding: 604 -1 390
+Encoding: 1114117 -1 390
+GlifName: uF_004
 Width: 795
 GlyphClass: 2
 Flags: W
@@ -11998,7 +12390,8 @@ Validated: 1
 EndChar
 
 StartChar: uF005
-Encoding: 605 -1 391
+Encoding: 1114118 -1 391
+GlifName: uF_005
 Width: 795
 GlyphClass: 2
 Flags: W
@@ -12019,7 +12412,8 @@ Validated: 33
 EndChar
 
 StartChar: longs
-Encoding: 318 383 392
+Encoding: 383 383 392
+GlifName: longs
 Width: 1041
 GlyphClass: 2
 Flags: W
@@ -12044,7 +12438,8 @@ Validated: 33
 EndChar
 
 StartChar: Aringacute
-Encoding: 320 506 393
+Encoding: 506 506 393
+GlifName: A_ringacute
 Width: 1498
 GlyphClass: 2
 Flags: W
@@ -12074,7 +12469,8 @@ Validated: 37
 EndChar
 
 StartChar: aringacute
-Encoding: 321 507 394
+Encoding: 507 507 394
+GlifName: aringacute
 Width: 1048
 GlyphClass: 2
 Flags: W
@@ -12087,7 +12483,8 @@ Validated: 5
 EndChar
 
 StartChar: AEacute
-Encoding: 322 508 395
+Encoding: 508 508 395
+GlifName: A_E_acute
 Width: 2226
 GlyphClass: 2
 Flags: W
@@ -12099,7 +12496,8 @@ Validated: 1
 EndChar
 
 StartChar: Oslashacute
-Encoding: 324 510 396
+Encoding: 510 510 396
+GlifName: O_slashacute
 Width: 1635
 GlyphClass: 2
 Flags: W
@@ -12111,7 +12509,8 @@ Validated: 5
 EndChar
 
 StartChar: oslashacute
-Encoding: 325 511 397
+Encoding: 511 511 397
+GlifName: oslashacute
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -12123,7 +12522,8 @@ Validated: 5
 EndChar
 
 StartChar: anoteleia
-Encoding: 359 903 398
+Encoding: 903 903 398
+GlifName: anoteleia
 Width: 510
 GlyphClass: 2
 Flags: W
@@ -12134,7 +12534,8 @@ Validated: 1
 EndChar
 
 StartChar: Wgrave
-Encoding: 522 7808 399
+Encoding: 7808 7808 399
+GlifName: W_grave
 Width: 2129
 GlyphClass: 2
 Flags: W
@@ -12146,7 +12547,8 @@ Validated: 1
 EndChar
 
 StartChar: wgrave
-Encoding: 523 7809 400
+Encoding: 7809 7809 400
+GlifName: wgrave
 Width: 1401
 GlyphClass: 2
 Flags: W
@@ -12158,7 +12560,8 @@ Validated: 1
 EndChar
 
 StartChar: Wacute
-Encoding: 524 7810 401
+Encoding: 7810 7810 401
+GlifName: W_acute
 Width: 2129
 GlyphClass: 2
 Flags: W
@@ -12170,7 +12573,8 @@ Validated: 1
 EndChar
 
 StartChar: wacute
-Encoding: 525 7811 402
+Encoding: 7811 7811 402
+GlifName: wacute
 Width: 1401
 GlyphClass: 2
 Flags: W
@@ -12182,7 +12586,8 @@ Validated: 1
 EndChar
 
 StartChar: Wdieresis
-Encoding: 526 7812 403
+Encoding: 7812 7812 403
+GlifName: W_dieresis
 Width: 2129
 GlyphClass: 2
 Flags: W
@@ -12194,7 +12599,8 @@ Validated: 1
 EndChar
 
 StartChar: wdieresis
-Encoding: 527 7813 404
+Encoding: 7813 7813 404
+GlifName: wdieresis
 Width: 1401
 GlyphClass: 2
 Flags: W
@@ -12206,7 +12612,8 @@ Validated: 1
 EndChar
 
 StartChar: Ygrave
-Encoding: 529 7922 405
+Encoding: 7922 7922 405
+GlifName: Y_grave
 Width: 1301
 GlyphClass: 2
 Flags: W
@@ -12218,7 +12625,8 @@ Validated: 1
 EndChar
 
 StartChar: ygrave
-Encoding: 530 7923 406
+Encoding: 7923 7923 406
+GlifName: ygrave
 Width: 1066
 GlyphClass: 2
 Flags: W
@@ -12230,7 +12638,8 @@ Validated: 1
 EndChar
 
 StartChar: radicalex
-Encoding: 552 8254 407
+Encoding: 8254 8254 407
+GlifName: radicalex
 Width: 1250
 GlyphClass: 2
 Flags: W
@@ -12249,7 +12658,8 @@ Validated: 33
 EndChar
 
 StartChar: afii08941
-Encoding: 556 8356 408
+Encoding: 8356 8356 408
+GlifName: afii08941
 Width: 1625
 GlyphClass: 2
 Flags: W
@@ -12306,7 +12716,8 @@ Validated: 33
 EndChar
 
 StartChar: estimated
-Encoding: 565 8494 409
+Encoding: 8494 8494 409
+GlifName: estimated
 Width: 1125
 GlyphClass: 2
 Flags: W
@@ -12338,7 +12749,8 @@ Validated: 33
 EndChar
 
 StartChar: oneeighth
-Encoding: 566 8539 410
+Encoding: 8539 8539 410
+GlifName: oneeighth
 Width: 1333
 GlyphClass: 2
 Flags: W
@@ -12351,7 +12763,8 @@ Validated: 1
 EndChar
 
 StartChar: threeeighths
-Encoding: 567 8540 411
+Encoding: 8540 8540 411
+GlifName: threeeighths
 Width: 1333
 GlyphClass: 2
 Flags: W
@@ -12364,7 +12777,8 @@ Validated: 1
 EndChar
 
 StartChar: fiveeighths
-Encoding: 568 8541 412
+Encoding: 8541 8541 412
+GlifName: fiveeighths
 Width: 1333
 GlyphClass: 2
 Flags: W
@@ -12398,7 +12812,8 @@ Validated: 33
 EndChar
 
 StartChar: seveneighths
-Encoding: 569 8542 413
+Encoding: 8542 8542 413
+GlifName: seveneighths
 Width: 1333
 GlyphClass: 2
 Flags: W
@@ -12424,7 +12839,8 @@ Validated: 33
 EndChar
 
 StartChar: dieresistonos
-Encoding: 357 901 414
+Encoding: 901 901 414
+GlifName: dieresistonos
 Width: 1139
 GlyphClass: 2
 Flags: W
@@ -12447,7 +12863,8 @@ Validated: 1
 EndChar
 
 StartChar: Alphatonos
-Encoding: 358 902 415
+Encoding: 902 902 415
+GlifName: A_lphatonos
 Width: 1498
 GlyphClass: 2
 Flags: W
@@ -12459,7 +12876,8 @@ Validated: 1
 EndChar
 
 StartChar: Epsilontonos
-Encoding: 360 904 416
+Encoding: 904 904 416
+GlifName: E_psilontonos
 Width: 1616
 GlyphClass: 2
 Flags: W
@@ -12471,7 +12889,8 @@ Validated: 1
 EndChar
 
 StartChar: Etatonos
-Encoding: 361 905 417
+Encoding: 905 905 417
+GlifName: E_tatonos
 Width: 2013
 GlyphClass: 2
 Flags: W
@@ -12483,7 +12902,8 @@ Validated: 1
 EndChar
 
 StartChar: Iotatonos
-Encoding: 362 906 418
+Encoding: 906 906 418
+GlifName: I_otatonos
 Width: 1549
 GlyphClass: 2
 Flags: W
@@ -12495,7 +12915,8 @@ Validated: 1
 EndChar
 
 StartChar: Omicrontonos
-Encoding: 363 908 419
+Encoding: 908 908 419
+GlifName: O_microntonos
 Width: 1795
 GlyphClass: 2
 Flags: W
@@ -12507,7 +12928,8 @@ Validated: 1
 EndChar
 
 StartChar: Upsilontonos
-Encoding: 364 910 420
+Encoding: 910 910 420
+GlifName: U_psilontonos
 Width: 1741
 GlyphClass: 2
 Flags: W
@@ -12519,7 +12941,8 @@ Validated: 1
 EndChar
 
 StartChar: Omegatonos
-Encoding: 365 911 421
+Encoding: 911 911 421
+GlifName: O_megatonos
 Width: 1966
 GlyphClass: 2
 Flags: W
@@ -12531,7 +12954,8 @@ Validated: 1
 EndChar
 
 StartChar: iotadieresistonos
-Encoding: 366 912 422
+Encoding: 912 912 422
+GlifName: iotadieresistonos
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -12543,7 +12967,8 @@ Validated: 1
 EndChar
 
 StartChar: Alpha
-Encoding: 367 913 423
+Encoding: 913 913 423
+GlifName: A_lpha
 Width: 1498
 GlyphClass: 2
 Flags: W
@@ -12554,7 +12979,8 @@ Validated: 1
 EndChar
 
 StartChar: Beta
-Encoding: 368 914 424
+Encoding: 914 914 424
+GlifName: B_eta
 Width: 1291
 GlyphClass: 2
 Flags: W
@@ -12565,7 +12991,8 @@ Validated: 1
 EndChar
 
 StartChar: Epsilon
-Encoding: 371 917 425
+Encoding: 917 917 425
+GlifName: E_psilon
 Width: 1279
 GlyphClass: 2
 Flags: W
@@ -12576,7 +13003,8 @@ Validated: 1
 EndChar
 
 StartChar: Zeta
-Encoding: 372 918 426
+Encoding: 918 918 426
+GlifName: Z_eta
 Width: 1420
 GlyphClass: 2
 Flags: W
@@ -12587,7 +13015,8 @@ Validated: 1
 EndChar
 
 StartChar: Eta
-Encoding: 373 919 427
+Encoding: 919 919 427
+GlifName: E_ta
 Width: 1573
 GlyphClass: 2
 Flags: W
@@ -12598,7 +13027,8 @@ Validated: 1
 EndChar
 
 StartChar: Iota
-Encoding: 375 921 428
+Encoding: 921 921 428
+GlifName: I_ota
 Width: 1119
 GlyphClass: 2
 Flags: W
@@ -12609,7 +13039,8 @@ Validated: 1
 EndChar
 
 StartChar: Kappa
-Encoding: 376 922 429
+Encoding: 922 922 429
+GlifName: K_appa
 Width: 1251
 GlyphClass: 2
 Flags: W
@@ -12620,7 +13051,8 @@ Validated: 1
 EndChar
 
 StartChar: Lambda
-Encoding: 377 923 430
+Encoding: 923 923 430
+GlifName: L_ambda
 Width: 1412
 GlyphClass: 2
 Flags: W
@@ -12643,7 +13075,8 @@ Validated: 33
 EndChar
 
 StartChar: Mu
-Encoding: 378 924 431
+Encoding: 924 924 431
+GlifName: M_u
 Width: 1808
 GlyphClass: 2
 Flags: W
@@ -12654,7 +13087,8 @@ Validated: 1
 EndChar
 
 StartChar: Nu
-Encoding: 379 925 432
+Encoding: 925 925 432
+GlifName: N_u
 Width: 1632
 GlyphClass: 2
 Flags: W
@@ -12665,7 +13099,8 @@ Validated: 1
 EndChar
 
 StartChar: Xi
-Encoding: 380 926 433
+Encoding: 926 926 433
+GlifName: X_i
 Width: 1475
 GlyphClass: 2
 Flags: W
@@ -12698,7 +13133,8 @@ Validated: 33
 EndChar
 
 StartChar: Omicron
-Encoding: 381 927 434
+Encoding: 927 927 434
+GlifName: O_micron
 Width: 1635
 GlyphClass: 2
 Flags: W
@@ -12709,7 +13145,8 @@ Validated: 1
 EndChar
 
 StartChar: Pi
-Encoding: 382 928 435
+Encoding: 928 928 435
+GlifName: P_i
 Width: 1860
 GlyphClass: 2
 Flags: W
@@ -12738,7 +13175,8 @@ Validated: 33
 EndChar
 
 StartChar: Rho
-Encoding: 383 929 436
+Encoding: 929 929 436
+GlifName: R_ho
 Width: 1066
 GlyphClass: 2
 Flags: W
@@ -12749,7 +13187,8 @@ Validated: 1
 EndChar
 
 StartChar: Sigma
-Encoding: 384 931 437
+Encoding: 931 931 437
+GlifName: S_igma
 Width: 1530
 GlyphClass: 2
 Flags: W
@@ -12784,7 +13223,8 @@ Validated: 33
 EndChar
 
 StartChar: Tau
-Encoding: 385 932 438
+Encoding: 932 932 438
+GlifName: T_au
 Width: 1392
 GlyphClass: 2
 Flags: W
@@ -12795,7 +13235,8 @@ Validated: 1
 EndChar
 
 StartChar: Upsilon
-Encoding: 386 933 439
+Encoding: 933 933 439
+GlifName: U_psilon
 Width: 1301
 GlyphClass: 2
 Flags: W
@@ -12806,7 +13247,8 @@ Validated: 1
 EndChar
 
 StartChar: Chi
-Encoding: 388 935 440
+Encoding: 935 935 440
+GlifName: C_hi
 Width: 1482
 GlyphClass: 2
 Flags: W
@@ -12817,7 +13259,8 @@ Validated: 1
 EndChar
 
 StartChar: Psi
-Encoding: 389 936 441
+Encoding: 936 936 441
+GlifName: P_si
 Width: 1380
 GlyphClass: 2
 Flags: W
@@ -12850,7 +13293,8 @@ Validated: 33
 EndChar
 
 StartChar: Iotadieresis
-Encoding: 391 938 442
+Encoding: 938 938 442
+GlifName: I_otadieresis
 Width: 1119
 GlyphClass: 2
 Flags: W
@@ -12862,7 +13306,8 @@ Validated: 1
 EndChar
 
 StartChar: Upsilondieresis
-Encoding: 392 939 443
+Encoding: 939 939 443
+GlifName: U_psilondieresis
 Width: 1301
 GlyphClass: 2
 Flags: W
@@ -12874,7 +13319,8 @@ Validated: 1
 EndChar
 
 StartChar: alphatonos
-Encoding: 393 940 444
+Encoding: 940 940 444
+GlifName: alphatonos
 Width: 1091
 GlyphClass: 2
 Flags: W
@@ -12886,7 +13332,8 @@ Validated: 1
 EndChar
 
 StartChar: epsilontonos
-Encoding: 394 941 445
+Encoding: 941 941 445
+GlifName: epsilontonos
 Width: 1007
 GlyphClass: 2
 Flags: W
@@ -12898,7 +13345,8 @@ Validated: 1
 EndChar
 
 StartChar: etatonos
-Encoding: 395 942 446
+Encoding: 942 942 446
+GlifName: etatonos
 Width: 1072
 GlyphClass: 2
 Flags: W
@@ -12910,7 +13358,8 @@ Validated: 1
 EndChar
 
 StartChar: upsilondieresistonos
-Encoding: 397 944 447
+Encoding: 944 944 447
+GlifName: upsilondieresistonos
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -12922,7 +13371,8 @@ Validated: 1
 EndChar
 
 StartChar: beta
-Encoding: 399 946 448
+Encoding: 946 946 448
+GlifName: beta
 Width: 1201
 GlyphClass: 2
 Flags: W
@@ -12962,7 +13412,8 @@ Validated: 33
 EndChar
 
 StartChar: gamma
-Encoding: 400 947 449
+Encoding: 947 947 449
+GlifName: gamma
 Width: 996
 GlyphClass: 2
 Flags: W
@@ -12989,7 +13440,8 @@ Validated: 33
 EndChar
 
 StartChar: zeta
-Encoding: 403 950 450
+Encoding: 950 950 450
+GlifName: zeta
 Width: 1052
 GlyphClass: 2
 Flags: W
@@ -13023,7 +13475,8 @@ Validated: 33
 EndChar
 
 StartChar: eta
-Encoding: 404 951 451
+Encoding: 951 951 451
+GlifName: eta
 Width: 1072
 GlyphClass: 2
 Flags: W
@@ -13051,7 +13504,8 @@ Validated: 33
 EndChar
 
 StartChar: theta
-Encoding: 405 952 452
+Encoding: 952 952 452
+GlifName: theta
 Width: 1250
 GlyphClass: 2
 Flags: W
@@ -13076,7 +13530,8 @@ Validated: 1
 EndChar
 
 StartChar: iota
-Encoding: 406 953 453
+Encoding: 953 953 453
+GlifName: iota
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -13087,7 +13542,8 @@ Validated: 1
 EndChar
 
 StartChar: kappa
-Encoding: 407 954 454
+Encoding: 954 954 454
+GlifName: kappa
 Width: 1106
 GlyphClass: 2
 Flags: W
@@ -13116,7 +13572,8 @@ Validated: 33
 EndChar
 
 StartChar: lambda
-Encoding: 408 955 455
+Encoding: 955 955 455
+GlifName: lambda
 Width: 996
 GlyphClass: 2
 Flags: W
@@ -13141,7 +13598,8 @@ Validated: 33
 EndChar
 
 StartChar: nu
-Encoding: 410 957 456
+Encoding: 957 957 456
+GlifName: nu
 Width: 996
 GlyphClass: 2
 Flags: W
@@ -13152,7 +13610,8 @@ Validated: 1
 EndChar
 
 StartChar: xi
-Encoding: 411 958 457
+Encoding: 958 958 457
+GlifName: xi
 Width: 1052
 GlyphClass: 2
 Flags: W
@@ -13190,7 +13649,8 @@ Validated: 33
 EndChar
 
 StartChar: omicron
-Encoding: 412 959 458
+Encoding: 959 959 458
+GlifName: omicron
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -13201,7 +13661,8 @@ Validated: 1
 EndChar
 
 StartChar: rho
-Encoding: 414 961 459
+Encoding: 961 961 459
+GlifName: rho
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -13234,7 +13695,8 @@ Validated: 33
 EndChar
 
 StartChar: sigma1
-Encoding: 415 962 460
+Encoding: 962 962 460
+GlifName: sigma1
 Width: 1052
 GlyphClass: 2
 Flags: W
@@ -13265,7 +13727,8 @@ Validated: 33
 EndChar
 
 StartChar: upsilon
-Encoding: 418 965 461
+Encoding: 965 965 461
+GlifName: upsilon
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -13290,7 +13753,8 @@ Validated: 33
 EndChar
 
 StartChar: chi
-Encoding: 420 967 462
+Encoding: 967 967 462
+GlifName: chi
 Width: 1209
 GlyphClass: 2
 Flags: W
@@ -13301,7 +13765,8 @@ Validated: 1
 EndChar
 
 StartChar: psi
-Encoding: 421 968 463
+Encoding: 968 968 463
+GlifName: psi
 Width: 1199
 GlyphClass: 2
 Flags: W
@@ -13334,7 +13799,8 @@ Validated: 33
 EndChar
 
 StartChar: omega
-Encoding: 422 969 464
+Encoding: 969 969 464
+GlifName: omega
 Width: 1557
 GlyphClass: 2
 Flags: W
@@ -13371,7 +13837,8 @@ Validated: 33
 EndChar
 
 StartChar: iotadieresis
-Encoding: 423 970 465
+Encoding: 970 970 465
+GlifName: iotadieresis
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -13383,7 +13850,8 @@ Validated: 1
 EndChar
 
 StartChar: upsilondieresis
-Encoding: 424 971 466
+Encoding: 971 971 466
+GlifName: upsilondieresis
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -13395,7 +13863,8 @@ Validated: 1
 EndChar
 
 StartChar: omicrontonos
-Encoding: 425 972 467
+Encoding: 972 972 467
+GlifName: omicrontonos
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -13407,7 +13876,8 @@ Validated: 1
 EndChar
 
 StartChar: upsilontonos
-Encoding: 426 973 468
+Encoding: 973 973 468
+GlifName: upsilontonos
 Width: 1065
 GlyphClass: 2
 Flags: W
@@ -13419,7 +13889,8 @@ Validated: 1
 EndChar
 
 StartChar: omegatonos
-Encoding: 427 974 469
+Encoding: 974 974 469
+GlifName: omegatonos
 Width: 1557
 GlyphClass: 2
 Flags: W
@@ -13431,7 +13902,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10023
-Encoding: 428 1025 470
+Encoding: 1025 1025 470
+GlifName: afii10023
 Width: 1279
 GlyphClass: 2
 Flags: W
@@ -13443,7 +13915,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10051
-Encoding: 429 1026 471
+Encoding: 1026 1026 471
+GlifName: afii10051
 Width: 1741
 GlyphClass: 2
 Flags: W
@@ -13468,7 +13941,8 @@ Validated: 37
 EndChar
 
 StartChar: afii10052
-Encoding: 430 1027 472
+Encoding: 1027 1027 472
+GlifName: afii10052
 Width: 1262
 GlyphClass: 2
 Flags: W
@@ -13480,7 +13954,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10053
-Encoding: 431 1028 473
+Encoding: 1028 1028 473
+GlifName: afii10053
 Width: 1234
 GlyphClass: 2
 Flags: W
@@ -13516,7 +13991,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10054
-Encoding: 432 1029 474
+Encoding: 1029 1029 474
+GlifName: afii10054
 Width: 1420
 GlyphClass: 2
 Flags: W
@@ -13527,7 +14003,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10055
-Encoding: 433 1030 475
+Encoding: 1030 1030 475
+GlifName: afii10055
 Width: 1119
 GlyphClass: 2
 Flags: W
@@ -13538,7 +14015,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10056
-Encoding: 434 1031 476
+Encoding: 1031 1031 476
+GlifName: afii10056
 Width: 1119
 GlyphClass: 2
 Flags: W
@@ -13550,7 +14028,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10057
-Encoding: 435 1032 477
+Encoding: 1032 1032 477
+GlifName: afii10057
 Width: 1362
 GlyphClass: 2
 Flags: W
@@ -13561,7 +14040,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10058
-Encoding: 436 1033 478
+Encoding: 1033 1033 478
+GlifName: afii10058
 Width: 2048
 GlyphClass: 2
 Flags: W
@@ -13605,7 +14085,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10059
-Encoding: 437 1034 479
+Encoding: 1034 1034 479
+GlifName: afii10059
 Width: 2001
 GlyphClass: 2
 Flags: W
@@ -13648,7 +14129,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10060
-Encoding: 438 1035 480
+Encoding: 1035 1035 480
+GlifName: afii10060
 Width: 1734
 GlyphClass: 2
 Flags: W
@@ -13673,7 +14155,8 @@ Validated: 37
 EndChar
 
 StartChar: afii10061
-Encoding: 439 1036 481
+Encoding: 1036 1036 481
+GlifName: afii10061
 Width: 1297
 GlyphClass: 2
 Flags: W
@@ -13685,7 +14168,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10062
-Encoding: 440 1038 482
+Encoding: 1038 1038 482
+GlifName: afii10062
 Width: 1301
 GlyphClass: 2
 Flags: W
@@ -13697,7 +14181,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10145
-Encoding: 441 1039 483
+Encoding: 1039 1039 483
+GlifName: afii10145
 Width: 1494
 GlyphClass: 2
 Flags: W
@@ -13729,7 +14214,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10017
-Encoding: 442 1040 484
+Encoding: 1040 1040 484
+GlifName: afii10017
 Width: 1498
 GlyphClass: 2
 Flags: W
@@ -13740,7 +14226,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10018
-Encoding: 443 1041 485
+Encoding: 1041 1041 485
+GlifName: afii10018
 Width: 1238
 GlyphClass: 2
 Flags: W
@@ -13774,7 +14261,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10019
-Encoding: 444 1042 486
+Encoding: 1042 1042 486
+GlifName: afii10019
 Width: 1291
 GlyphClass: 2
 Flags: W
@@ -13785,7 +14273,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10020
-Encoding: 445 1043 487
+Encoding: 1043 1043 487
+GlifName: afii10020
 Width: 1262
 GlyphClass: 2
 Flags: W
@@ -13809,7 +14298,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10021
-Encoding: 446 1044 488
+Encoding: 1044 1044 488
+GlifName: afii10021
 Width: 1573
 GlyphClass: 2
 Flags: W
@@ -13852,7 +14342,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10022
-Encoding: 447 1045 489
+Encoding: 1045 1045 489
+GlifName: afii10022
 Width: 1279
 GlyphClass: 2
 Flags: W
@@ -13863,7 +14354,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10024
-Encoding: 448 1046 490
+Encoding: 1046 1046 490
+GlifName: afii10024
 Width: 1760
 GlyphClass: 2
 Flags: W
@@ -13904,7 +14396,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10025
-Encoding: 449 1047 491
+Encoding: 1047 1047 491
+GlifName: afii10025
 Width: 1231
 GlyphClass: 2
 Flags: W
@@ -13940,7 +14433,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10026
-Encoding: 450 1048 492
+Encoding: 1048 1048 492
+GlifName: afii10026
 Width: 1531
 GlyphClass: 2
 Flags: W
@@ -13967,7 +14461,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10027
-Encoding: 451 1049 493
+Encoding: 1049 1049 493
+GlifName: afii10027
 Width: 1531
 GlyphClass: 2
 Flags: W
@@ -13979,7 +14474,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10028
-Encoding: 452 1050 494
+Encoding: 1050 1050 494
+GlifName: afii10028
 Width: 1297
 GlyphClass: 2
 Flags: W
@@ -14009,7 +14505,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10029
-Encoding: 453 1051 495
+Encoding: 1051 1051 495
+GlifName: afii10029
 Width: 1513
 GlyphClass: 2
 Flags: W
@@ -14039,7 +14536,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10030
-Encoding: 454 1052 496
+Encoding: 1052 1052 496
+GlifName: afii10030
 Width: 1808
 GlyphClass: 2
 Flags: W
@@ -14050,7 +14548,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10031
-Encoding: 455 1053 497
+Encoding: 1053 1053 497
+GlifName: afii10031
 Width: 1573
 GlyphClass: 2
 Flags: W
@@ -14061,7 +14560,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10032
-Encoding: 456 1054 498
+Encoding: 1054 1054 498
+GlifName: afii10032
 Width: 1635
 GlyphClass: 2
 Flags: W
@@ -14072,7 +14572,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10033
-Encoding: 457 1055 499
+Encoding: 1055 1055 499
+GlifName: afii10033
 Width: 1860
 GlyphClass: 2
 Flags: W
@@ -14083,7 +14584,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10034
-Encoding: 458 1056 500
+Encoding: 1056 1056 500
+GlifName: afii10034
 Width: 1066
 GlyphClass: 2
 Flags: W
@@ -14094,7 +14596,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10035
-Encoding: 459 1057 501
+Encoding: 1057 1057 501
+GlifName: afii10035
 Width: 1234
 GlyphClass: 2
 Flags: W
@@ -14105,7 +14608,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10036
-Encoding: 460 1058 502
+Encoding: 1058 1058 502
+GlifName: afii10036
 Width: 1392
 GlyphClass: 2
 Flags: W
@@ -14116,7 +14620,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10037
-Encoding: 461 1059 503
+Encoding: 1059 1059 503
+GlifName: afii10037
 Width: 1301
 GlyphClass: 2
 Flags: W
@@ -14143,7 +14648,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10038
-Encoding: 462 1060 504
+Encoding: 1060 1060 504
+GlifName: afii10038
 Width: 1307
 GlyphClass: 2
 Flags: W
@@ -14154,7 +14660,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10039
-Encoding: 463 1061 505
+Encoding: 1061 1061 505
+GlifName: afii10039
 Width: 1482
 GlyphClass: 2
 Flags: W
@@ -14165,7 +14672,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10040
-Encoding: 464 1062 506
+Encoding: 1062 1062 506
+GlifName: afii10040
 Width: 1584
 GlyphClass: 2
 Flags: W
@@ -14197,7 +14705,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10041
-Encoding: 465 1063 507
+Encoding: 1063 1063 507
+GlifName: afii10041
 Width: 1264
 GlyphClass: 2
 Flags: W
@@ -14225,7 +14734,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10042
-Encoding: 466 1064 508
+Encoding: 1064 1064 508
+GlifName: afii10042
 Width: 1856
 GlyphClass: 2
 Flags: W
@@ -14257,7 +14767,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10043
-Encoding: 467 1065 509
+Encoding: 1065 1065 509
+GlifName: afii10043
 Width: 1960
 GlyphClass: 2
 Flags: W
@@ -14295,7 +14806,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10044
-Encoding: 468 1066 510
+Encoding: 1066 1066 510
+GlifName: afii10044
 Width: 1556
 GlyphClass: 2
 Flags: W
@@ -14329,7 +14841,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10045
-Encoding: 469 1067 511
+Encoding: 1067 1067 511
+GlifName: afii10045
 Width: 2202
 GlyphClass: 2
 Flags: W
@@ -14341,7 +14854,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10046
-Encoding: 470 1068 512
+Encoding: 1068 1068 512
+GlifName: afii10046
 Width: 1238
 GlyphClass: 2
 Flags: W
@@ -14371,7 +14885,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10047
-Encoding: 471 1069 513
+Encoding: 1069 1069 513
+GlifName: afii10047
 Width: 1340
 GlyphClass: 2
 Flags: W
@@ -14407,7 +14922,8 @@ Validated: 41
 EndChar
 
 StartChar: afii10048
-Encoding: 472 1070 514
+Encoding: 1070 1070 514
+GlifName: afii10048
 Width: 2315
 GlyphClass: 2
 Flags: W
@@ -14445,7 +14961,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10049
-Encoding: 473 1071 515
+Encoding: 1071 1071 515
+GlifName: afii10049
 Width: 1287
 GlyphClass: 2
 Flags: W
@@ -14480,7 +14997,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10065
-Encoding: 474 1072 516
+Encoding: 1072 1072 516
+GlifName: afii10065
 Width: 1048
 GlyphClass: 2
 Flags: W
@@ -14491,7 +15009,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10066
-Encoding: 475 1073 517
+Encoding: 1073 1073 517
+GlifName: afii10066
 Width: 1077
 GlyphClass: 2
 Flags: W
@@ -14521,7 +15040,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10067
-Encoding: 476 1074 518
+Encoding: 1074 1074 518
+GlifName: afii10067
 Width: 1032
 GlyphClass: 2
 Flags: W
@@ -14562,7 +15082,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10068
-Encoding: 477 1075 519
+Encoding: 1075 1075 519
+GlifName: afii10068
 Width: 963
 GlyphClass: 2
 Flags: W
@@ -14585,7 +15106,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10069
-Encoding: 478 1076 520
+Encoding: 1076 1076 520
+GlifName: afii10069
 Width: 1214
 GlyphClass: 2
 Flags: W
@@ -14630,7 +15152,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10070
-Encoding: 479 1077 521
+Encoding: 1077 1077 521
+GlifName: afii10070
 Width: 1122
 GlyphClass: 2
 Flags: W
@@ -14641,7 +15164,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10072
-Encoding: 480 1078 522
+Encoding: 1078 1078 522
+GlifName: afii10072
 Width: 1398
 GlyphClass: 2
 Flags: W
@@ -14682,7 +15206,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10073
-Encoding: 481 1079 523
+Encoding: 1079 1079 523
+GlifName: afii10073
 Width: 900
 GlyphClass: 2
 Flags: W
@@ -14717,7 +15242,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10074
-Encoding: 482 1080 524
+Encoding: 1080 1080 524
+GlifName: afii10074
 Width: 1304
 GlyphClass: 2
 Flags: W
@@ -14745,7 +15271,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10075
-Encoding: 483 1081 525
+Encoding: 1081 1081 525
+GlifName: afii10075
 Width: 1304
 GlyphClass: 2
 Flags: W
@@ -14757,7 +15284,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10076
-Encoding: 484 1082 526
+Encoding: 1082 1082 526
+GlifName: afii10076
 Width: 1008
 GlyphClass: 2
 Flags: W
@@ -14788,7 +15316,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10077
-Encoding: 485 1083 527
+Encoding: 1083 1083 527
+GlifName: afii10077
 Width: 1325
 GlyphClass: 2
 Flags: W
@@ -14818,7 +15347,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10078
-Encoding: 486 1084 528
+Encoding: 1084 1084 528
+GlifName: afii10078
 Width: 1504
 GlyphClass: 2
 Flags: W
@@ -14849,7 +15379,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10079
-Encoding: 487 1085 529
+Encoding: 1085 1085 529
+GlifName: afii10079
 Width: 1146
 GlyphClass: 2
 Flags: W
@@ -14878,7 +15409,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10080
-Encoding: 488 1086 530
+Encoding: 1086 1086 530
+GlifName: afii10080
 Width: 1211
 GlyphClass: 2
 Flags: W
@@ -14889,7 +15421,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10081
-Encoding: 489 1087 531
+Encoding: 1087 1087 531
+GlifName: afii10081
 Width: 1325
 GlyphClass: 2
 Flags: W
@@ -14918,7 +15451,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10082
-Encoding: 490 1088 532
+Encoding: 1088 1088 532
+GlifName: afii10082
 Width: 1095
 GlyphClass: 2
 Flags: W
@@ -14929,7 +15463,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10083
-Encoding: 491 1089 533
+Encoding: 1089 1089 533
+GlifName: afii10083
 Width: 1052
 GlyphClass: 2
 Flags: W
@@ -14940,7 +15475,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10084
-Encoding: 492 1090 534
+Encoding: 1090 1090 534
+GlifName: afii10084
 Width: 965
 GlyphClass: 2
 Flags: W
@@ -14964,7 +15500,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10085
-Encoding: 493 1091 535
+Encoding: 1091 1091 535
+GlifName: afii10085
 Width: 1066
 GlyphClass: 2
 Flags: W
@@ -14975,7 +15512,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10086
-Encoding: 494 1092 536
+Encoding: 1092 1092 536
+GlifName: afii10086
 Width: 1659
 GlyphClass: 2
 Flags: W
@@ -15024,7 +15562,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10087
-Encoding: 495 1093 537
+Encoding: 1093 1093 537
+GlifName: afii10087
 Width: 1209
 GlyphClass: 2
 Flags: W
@@ -15035,7 +15574,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10088
-Encoding: 496 1094 538
+Encoding: 1094 1094 538
+GlifName: afii10088
 Width: 1267
 GlyphClass: 2
 Flags: W
@@ -15068,7 +15608,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10089
-Encoding: 497 1095 539
+Encoding: 1095 1095 539
+GlifName: afii10089
 Width: 1093
 GlyphClass: 2
 Flags: W
@@ -15096,7 +15637,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10090
-Encoding: 498 1096 540
+Encoding: 1096 1096 540
+GlifName: afii10090
 Width: 1581
 GlyphClass: 2
 Flags: W
@@ -15129,7 +15671,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10091
-Encoding: 499 1097 541
+Encoding: 1097 1097 541
+GlifName: afii10091
 Width: 1624
 GlyphClass: 2
 Flags: W
@@ -15166,7 +15709,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10092
-Encoding: 500 1098 542
+Encoding: 1098 1098 542
+GlifName: afii10092
 Width: 1272
 GlyphClass: 2
 Flags: W
@@ -15201,7 +15745,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10093
-Encoding: 501 1099 543
+Encoding: 1099 1099 543
+GlifName: afii10093
 Width: 1619
 GlyphClass: 2
 Flags: W
@@ -15231,7 +15776,8 @@ Validated: 37
 EndChar
 
 StartChar: afii10094
-Encoding: 502 1100 544
+Encoding: 1100 1100 544
+GlifName: afii10094
 Width: 1007
 GlyphClass: 2
 Flags: W
@@ -15262,7 +15808,8 @@ Validated: 37
 EndChar
 
 StartChar: afii10095
-Encoding: 503 1101 545
+Encoding: 1101 1101 545
+GlifName: afii10095
 Width: 1051
 GlyphClass: 2
 Flags: W
@@ -15296,7 +15843,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10096
-Encoding: 504 1102 546
+Encoding: 1102 1102 546
+GlifName: afii10096
 Width: 1848
 GlyphClass: 2
 Flags: W
@@ -15333,7 +15881,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10097
-Encoding: 505 1103 547
+Encoding: 1103 1103 547
+GlifName: afii10097
 Width: 1035
 GlyphClass: 2
 Flags: W
@@ -15368,7 +15917,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10071
-Encoding: 506 1105 548
+Encoding: 1105 1105 548
+GlifName: afii10071
 Width: 1122
 GlyphClass: 2
 Flags: W
@@ -15380,7 +15930,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10099
-Encoding: 507 1106 549
+Encoding: 1106 1106 549
+GlifName: afii10099
 Width: 1147
 GlyphClass: 2
 Flags: W
@@ -15420,7 +15971,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10100
-Encoding: 508 1107 550
+Encoding: 1107 1107 550
+GlifName: afii10100
 Width: 963
 GlyphClass: 2
 Flags: W
@@ -15432,7 +15984,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10101
-Encoding: 509 1108 551
+Encoding: 1108 1108 551
+GlifName: afii10101
 Width: 1051
 GlyphClass: 2
 Flags: W
@@ -15466,7 +16019,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10102
-Encoding: 510 1109 552
+Encoding: 1109 1109 552
+GlifName: afii10102
 Width: 997
 GlyphClass: 2
 Flags: W
@@ -15477,7 +16031,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10103
-Encoding: 511 1110 553
+Encoding: 1110 1110 553
+GlifName: afii10103
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -15488,7 +16043,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10104
-Encoding: 512 1111 554
+Encoding: 1111 1111 554
+GlifName: afii10104
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -15500,7 +16056,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10105
-Encoding: 513 1112 555
+Encoding: 1112 1112 555
+GlifName: afii10105
 Width: 826
 GlyphClass: 2
 Flags: W
@@ -15511,7 +16068,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10106
-Encoding: 514 1113 556
+Encoding: 1113 1113 556
+GlifName: afii10106
 Width: 1822
 GlyphClass: 2
 Flags: W
@@ -15553,7 +16111,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10107
-Encoding: 515 1114 557
+Encoding: 1114 1114 557
+GlifName: afii10107
 Width: 1585
 GlyphClass: 2
 Flags: W
@@ -15593,7 +16152,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10108
-Encoding: 516 1115 558
+Encoding: 1115 1115 558
+GlifName: afii10108
 Width: 1183
 GlyphClass: 2
 Flags: W
@@ -15631,7 +16191,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10109
-Encoding: 517 1116 559
+Encoding: 1116 1116 559
+GlifName: afii10109
 Width: 1008
 GlyphClass: 2
 Flags: W
@@ -15643,7 +16204,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10110
-Encoding: 518 1118 560
+Encoding: 1118 1118 560
+GlifName: afii10110
 Width: 1066
 GlyphClass: 2
 Flags: W
@@ -15655,7 +16217,8 @@ Validated: 1
 EndChar
 
 StartChar: afii10193
-Encoding: 519 1119 561
+Encoding: 1119 1119 561
+GlifName: afii10193
 Width: 1267
 GlyphClass: 2
 Flags: W
@@ -15687,7 +16250,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10050
-Encoding: 520 1168 562
+Encoding: 1168 1168 562
+GlifName: afii10050
 Width: 1262
 GlyphClass: 2
 Flags: W
@@ -15715,7 +16279,8 @@ Validated: 33
 EndChar
 
 StartChar: afii10098
-Encoding: 521 1169 563
+Encoding: 1169 1169 563
+GlifName: afii10098
 Width: 963
 GlyphClass: 2
 Flags: W
@@ -15743,7 +16308,8 @@ Validated: 33
 EndChar
 
 StartChar: afii00208
-Encoding: 533 8213 564
+Encoding: 8213 8213 564
+GlifName: afii00208
 Width: 1808
 GlyphClass: 2
 Flags: W
@@ -15754,7 +16320,8 @@ Validated: 1
 EndChar
 
 StartChar: afii61352
-Encoding: 561 8470 565
+Encoding: 8470 8470 565
+GlifName: afii61352
 Width: 2370
 GlyphClass: 2
 Flags: W
@@ -15804,7 +16371,8 @@ Validated: 33
 EndChar
 
 StartChar: H22073
-Encoding: 590 9633 566
+Encoding: 9633 9633 566
+GlifName: H_22073
 Width: 1504
 GlyphClass: 2
 Flags: W
@@ -15826,7 +16394,8 @@ Validated: 1
 EndChar
 
 StartChar: H18543
-Encoding: 591 9642 567
+Encoding: 9642 9642 567
+GlifName: H_18543
 Width: 1316
 GlyphClass: 2
 Flags: W
@@ -15843,7 +16412,8 @@ Validated: 1
 EndChar
 
 StartChar: H18551
-Encoding: 592 9643 568
+Encoding: 9643 9643 568
+GlifName: H_18551
 Width: 1316
 GlyphClass: 2
 Flags: W
@@ -15865,7 +16435,8 @@ Validated: 1
 EndChar
 
 StartChar: H18533
-Encoding: 594 9679 569
+Encoding: 9679 9679 569
+GlifName: H_18533
 Width: 1316
 GlyphClass: 2
 Flags: W
@@ -15893,7 +16464,8 @@ Validated: 1
 EndChar
 
 StartChar: openbullet
-Encoding: 595 9702 570
+Encoding: 9702 9702 570
+GlifName: openbullet
 Width: 1316
 GlyphClass: 2
 Flags: W
@@ -15937,7 +16509,8 @@ Validated: 33
 EndChar
 
 StartChar: currency
-Encoding: 99 164 571
+Encoding: 164 164 571
+GlifName: currency
 Width: 1253
 GlyphClass: 2
 Flags: W
@@ -15998,7 +16571,8 @@ Validated: 33
 EndChar
 
 StartChar: aeacute
-Encoding: 323 509 572
+Encoding: 509 509 572
+GlifName: aeacute
 Width: 1867
 GlyphClass: 2
 Flags: W
@@ -16010,7 +16584,8 @@ Validated: 5
 EndChar
 
 StartChar: iotatonos
-Encoding: 396 943 573
+Encoding: 943 943 573
+GlifName: iotatonos
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -16022,7 +16597,8 @@ Validated: 1
 EndChar
 
 StartChar: uni2120
-Encoding: 562 8480 574
+Encoding: 8480 8480 574
+GlifName: uni2120
 Width: 2384
 GlyphClass: 2
 Flags: W
@@ -16086,7 +16662,8 @@ Validated: 33
 EndChar
 
 StartChar: uni2500
-Encoding: 584 9472 575
+Encoding: 9472 9472 575
+GlifName: uni2500
 Width: 1451
 GlyphClass: 2
 Flags: W
@@ -16103,7 +16680,8 @@ Validated: 1
 EndChar
 
 StartChar: uni2502
-Encoding: 585 9474 576
+Encoding: 9474 9474 576
+GlifName: uni2502
 Width: 1451
 GlyphClass: 2
 Flags: W
@@ -16120,7 +16698,8 @@ Validated: 1
 EndChar
 
 StartChar: uni250C
-Encoding: 586 9484 577
+Encoding: 9484 9484 577
+GlifName: uni250C_
 Width: 1451
 GlyphClass: 2
 Flags: W
@@ -16139,7 +16718,8 @@ Validated: 1
 EndChar
 
 StartChar: uni2510
-Encoding: 587 9488 578
+Encoding: 9488 9488 578
+GlifName: uni2510
 Width: 1451
 GlyphClass: 2
 Flags: W
@@ -16158,7 +16738,8 @@ Validated: 1
 EndChar
 
 StartChar: uni2514
-Encoding: 588 9492 579
+Encoding: 9492 9492 579
+GlifName: uni2514
 Width: 1451
 GlyphClass: 2
 Flags: W
@@ -16177,7 +16758,8 @@ Validated: 1
 EndChar
 
 StartChar: uni2518
-Encoding: 589 9496 580
+Encoding: 9496 9496 580
+GlifName: uni2518
 Width: 1451
 GlyphClass: 2
 Flags: W
@@ -16196,7 +16778,8 @@ Validated: 1
 EndChar
 
 StartChar: uni266A
-Encoding: 596 9834 581
+Encoding: 9834 9834 581
+GlifName: uni266A_
 Width: 1024
 GlyphClass: 2
 Flags: W
@@ -16220,7 +16803,8 @@ Validated: 33
 EndChar
 
 StartChar: Scommaaccent
-Encoding: 326 536 582
+Encoding: 536 536 582
+GlifName: S_commaaccent
 Width: 1420
 GlyphClass: 2
 Flags: W
@@ -16232,7 +16816,8 @@ Validated: 1
 EndChar
 
 StartChar: scommaaccent
-Encoding: 327 537 583
+Encoding: 537 537 583
+GlifName: scommaaccent
 Width: 997
 GlyphClass: 2
 Flags: W
@@ -16244,7 +16829,8 @@ Validated: 1
 EndChar
 
 StartChar: Tcedilla
-Encoding: 289 354 584
+Encoding: 354 354 584
+GlifName: T_cedilla
 Width: 1392
 GlyphClass: 2
 Flags: W
@@ -16257,7 +16843,8 @@ Substitution2: "'locl' Localized Forms in Latin lookup 1 subtable" Tcommaaccent
 EndChar
 
 StartChar: tcedilla
-Encoding: 290 355 585
+Encoding: 355 355 585
+GlifName: tcedilla
 Width: 965
 GlyphClass: 2
 Flags: W
@@ -16270,7 +16857,8 @@ Substitution2: "'locl' Localized Forms in Latin lookup 1 subtable" tcommaaccent
 EndChar
 
 StartChar: dottediacute
-Encoding: 606 -1 586
+Encoding: 1114119 -1 586
+GlifName: dottediacute
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -16283,7 +16871,8 @@ Validated: 1
 EndChar
 
 StartChar: NameMe.591
-Encoding: 607 -1 587
+Encoding: 1114120 -1 587
+GlifName: N_ameM_e.591
 Width: 1333
 Flags: W
 LayerCount: 2
@@ -16314,7 +16903,8 @@ Validated: 524321
 EndChar
 
 StartChar: NameMe.339
-Encoding: 608 -1 588
+Encoding: 1114121 -1 588
+GlifName: N_ameM_e.339
 Width: 612
 Flags: W
 LayerCount: 2
@@ -16324,7 +16914,8 @@ Validated: 1
 EndChar
 
 StartChar: NameMe.559
-Encoding: 609 -1 589
+Encoding: 1114122 -1 589
+GlifName: N_ameM_e.559
 Width: 1333
 Flags: W
 LayerCount: 2
@@ -16354,7 +16945,8 @@ Validated: 33
 EndChar
 
 StartChar: uni1E9E
-Encoding: 528 7838 590
+Encoding: 7838 7838 590
+GlifName: uni1E_9E_
 Width: 1293
 Flags: W
 LayerCount: 2
@@ -16388,7 +16980,8 @@ Validated: 524321
 EndChar
 
 StartChar: gravecomb
-Encoding: 340 768 591
+Encoding: 768 768 591
+GlifName: gravecomb
 Width: 0
 Flags: W
 LayerCount: 2
@@ -16398,7 +16991,8 @@ Validated: 1
 EndChar
 
 StartChar: acutecomb
-Encoding: 341 769 592
+Encoding: 769 769 592
+GlifName: acutecomb
 Width: 0
 Flags: W
 LayerCount: 2
@@ -16408,7 +17002,8 @@ Validated: 1
 EndChar
 
 StartChar: uni0302
-Encoding: 342 770 593
+Encoding: 770 770 593
+GlifName: uni0302
 Width: 0
 Flags: W
 LayerCount: 2
@@ -16418,7 +17013,8 @@ Validated: 1
 EndChar
 
 StartChar: tildecomb
-Encoding: 343 771 594
+Encoding: 771 771 594
+GlifName: tildecomb
 Width: 0
 Flags: W
 LayerCount: 2
@@ -16428,7 +17024,8 @@ Validated: 1
 EndChar
 
 StartChar: uni0304
-Encoding: 344 772 595
+Encoding: 772 772 595
+GlifName: uni0304
 Width: 0
 Flags: W
 LayerCount: 2
@@ -16438,7 +17035,8 @@ Validated: 1
 EndChar
 
 StartChar: uni0305
-Encoding: 345 773 596
+Encoding: 773 773 596
+GlifName: uni0305
 Width: 0
 Flags: W
 LayerCount: 2
@@ -16448,7 +17046,8 @@ Validated: 1
 EndChar
 
 StartChar: uni0306
-Encoding: 346 774 597
+Encoding: 774 774 597
+GlifName: uni0306
 Width: 0
 Flags: W
 LayerCount: 2
@@ -16458,7 +17057,8 @@ Validated: 1
 EndChar
 
 StartChar: uni0307
-Encoding: 347 775 598
+Encoding: 775 775 598
+GlifName: uni0307
 Width: 0
 Flags: W
 LayerCount: 2
@@ -16468,7 +17068,8 @@ Validated: 1
 EndChar
 
 StartChar: uni0308
-Encoding: 348 776 599
+Encoding: 776 776 599
+GlifName: uni0308
 Width: 0
 Flags: W
 LayerCount: 2
@@ -16478,7 +17079,8 @@ Validated: 1
 EndChar
 
 StartChar: uni030A
-Encoding: 349 778 600
+Encoding: 778 778 600
+GlifName: uni030A_
 Width: 0
 Flags: W
 LayerCount: 2
@@ -16488,7 +17090,8 @@ Validated: 65537
 EndChar
 
 StartChar: uni030B
-Encoding: 350 779 601
+Encoding: 779 779 601
+GlifName: uni030B_
 Width: 0
 Flags: W
 LayerCount: 2
@@ -16498,7 +17101,8 @@ Validated: 1
 EndChar
 
 StartChar: uni030C
-Encoding: 351 780 602
+Encoding: 780 780 602
+GlifName: uni030C_
 Width: 0
 Flags: W
 LayerCount: 2
@@ -16508,7 +17112,8 @@ Validated: 1
 EndChar
 
 StartChar: uni0326
-Encoding: 352 806 603
+Encoding: 806 806 603
+GlifName: uni0326
 Width: 0
 Flags: W
 LayerCount: 2
@@ -16518,7 +17123,8 @@ Validated: 1
 EndChar
 
 StartChar: uni0327
-Encoding: 353 807 604
+Encoding: 807 807 604
+GlifName: uni0327
 Width: 0
 Flags: W
 LayerCount: 2
@@ -16528,7 +17134,8 @@ Validated: 1
 EndChar
 
 StartChar: uni0328
-Encoding: 354 808 605
+Encoding: 808 808 605
+GlifName: uni0328
 Width: 0
 Flags: W
 LayerCount: 2
