@@ -4,7 +4,7 @@ FullName: Comic Relief Bold
 FamilyName: Comic Relief
 Weight: Bold
 Copyright: Copyright 2013 The Comic Relief Project Authors (https://github.com/loudifier/Comic-Relief)
-FontLog: "V1.0 17 JAN 2013+AAoA-- Initial release. Contains all glyphs necessary to replace Comic Sans MS Regular V5.0+AAoACgAA-V1.1 19 NOV 2013+AAoA-- Bold Variant added+AAoA-- Very minor changes+AAoA    - Highest/lowest points adjusted for better compatibility with Comic Sans MS+AAoA    - Crossbar of lowercase 't' raised slightly+AAoACgAA-V1.1.1 12 AUG 2017+AAoA-- Points removed from subscript '4'+AAoACgAA-V1.1.2 15 JUL 2023+AAoA-- Changed OS/2 Win Descent from -42 to 0 to get sources to compile with gftools+AAoA-- Several name table changes to pass Fontbakery Google Font errors+AAoACgAA-V1.2 3 FEB 2025 - Added to Google Fonts!+AAoA-- Added capital German double S, which extends Comic Relief slightly outside the character set of Comic Sans MS+AAoA-- Updated OS/2 metrics to meet Google Fonts requirements, or otherwise match Comic Sans MS 5.1+AAoA-- Adjusted width on bold non-breaking space to match regular space, mismatch in Comic Sans MS appears to be abug+AAoA-- Corrected dottlessj glyph name in bold font+AAoA-- Update copyright strings to match Google Fonts format"
+FontLog: "V1.0 17 JAN 2013+AAoA-- Initial release. Contains all glyphs necessary to replace Comic Sans MS Regular V5.0+AAoACgAA-V1.1 19 NOV 2013+AAoA-- Bold Variant added+AAoA-- Very minor changes+AAoA    - Highest/lowest points adjusted for better compatibility with Comic Sans MS+AAoA    - Crossbar of lowercase 't' raised slightly+AAoACgAA-V1.1.1 12 AUG 2017+AAoA-- Points removed from subscript '4'+AAoACgAA-V1.1.2 15 JUL 2023+AAoA-- Changed OS/2 Win Descent from -42 to 0 to get sources to compile with gftools+AAoA-- Several name table changes to pass Fontbakery Google Font errors+AAoACgAA-V1.2 8 FEB 2025 - Added to Google Fonts!+AAoA-- Added missing glyphs from Google Fonts Latin_core glyphset, which extends Comic Relief slightly outside the character set of Comic Sans MS+AAoA    - Capital German double S+AAoA    - All of the combining diacritics in the Latin_core list+AAoA-- Updated OS/2 metrics to meet Google Fonts requirements, or otherwise match Comic Sans MS 5.1+AAoA-- Adjusted width on bold non-breaking space to match regular space, mismatch in Comic Sans MS appears to be abug+AAoA-- Corrected dottlessj glyph name in bold font+AAoA-- Fix minor issues with bold capital 'P' and 'R'+AAoA-- Update copyright strings to match Google Fonts format"
 Version: 1.200
 ItalicAngle: 0
 UnderlinePosition: -185
@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358538608
-ModificationTime: 1739044997
+ModificationTime: 1739046187
 PfmFamily: 65
 TTFWeight: 700
 TTFWidth: 5
@@ -3944,7 +3944,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 20 8
+WinInfo: 32 8 2
 BeginPrivate: 0
 EndPrivate
 Grid

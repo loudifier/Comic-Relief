@@ -24,6 +24,8 @@ Comic Relief includes every glyph in Comic Sans MS Regular and Bold, as it exist
 
 Similarly, there is a "Pro" version of Comic Sans that includes additional glyphs, swashes, ligatures, etc. Comic Relief is not a metrically equivalent replacement for Comic Sans Pro, but some sort of "Comic Relief Preaux" typeface is on the list of someday-when-I-have-more-time projects.
 
+In order to get Comic Relief to a state suitable for inclusion in Google Fonts a small number of glyphs have been added, technically making the Comic Relief character set a slight superset of the Comic Sans MS character set.
+
 Comic Relief is in maintenance mode. Bugfixes to the Regular and Bold weights will be prioritized, but there is no timeline for italic or Preaux variants. Please file a bug if you find an issue or would like to see something tweaked. Contributions are very welcome, especially if you want to tackle italic or Preaux.
 
 ## Building
@@ -43,11 +45,14 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Most Recent Change
 
-**V1.2 3 FEB 2025 - Added to Google Fonts!**
-- Added capital German double S, which extends Comic Relief slightly outside the character set of Comic Sans MS
+**V1.2 8 FEB 2025 - Added to Google Fonts!**
+- Added missing glyphs from Google Fonts Latin_core glyphset, which extends Comic Relief slightly outside the character set of Comic Sans MS
+    - Capital German double S
+    - All of the combining diacritics in the Latin_core list
 - Updated OS/2 metrics to meet Google Fonts requirements, or otherwise match Comic Sans MS 5.1
 - Adjusted width on bold non-breaking space to match regular space, mismatch in Comic Sans MS appears to be abug
 - Corrected dottlessj glyph name in bold font
+- Fix minor issues with bold capital 'P' and 'R'
 - Update copyright strings to match Google Fonts format
 
 ## License
