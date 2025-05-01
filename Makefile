@@ -10,6 +10,7 @@ help:
 	@echo
 	@echo "  make convert: Converts FontForge .sfd source files to .ufo
 	@echo "  make build:  Builds the fonts and places them in the fonts/ directory"
+        @echo "  make buildff: Generate fonts directly with FontForge (recommended)
 	@echo "  make test:   Tests the fonts with fontbakery"
 	@echo "  make proof:  Creates HTML proof documents in the proof/ directory"
 	@echo "  make images: Creates PNG specimen images in the documentation/ directory"
@@ -58,3 +59,11 @@ update-project-template:
 
 update:
 	echo 'update' breaks any customization, manually update from google font template
+
+fontforge:
+	rm -rf fonts
+	mkdir fonts
+	mkdir fonts/ttf
+	mkdir fonts/webfonts
+	(for sfd in sources/*.sfd; do font=$${sfd##*/}; fontforge -c 'open(argv[1]).generate(argv[2])' $$sfd fonts/ttf/$${font%.*}.ttf; fontforge -c 'open(argv[1]).generate(argv[2])' $$sfd fonts/webfonts/$${font%.*}.woff2; done)
+	#(for sfd in sources/*.sfd; do fontforge -c 'open(argsv[1]).generate(argsv[2])' $$sfd $${sfd%.*}; done)
