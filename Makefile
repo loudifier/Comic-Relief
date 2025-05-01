@@ -10,7 +10,7 @@ help:
 	@echo
 	@echo "  make convert: Converts FontForge .sfd source files to .ufo
 	@echo "  make build:  Builds the fonts and places them in the fonts/ directory"
-        @echo "  make buildff: Generate fonts directly with FontForge (recommended)
+        @echo "  make fontforge: Generate fonts directly with FontForge (recommended)
 	@echo "  make test:   Tests the fonts with fontbakery"
 	@echo "  make proof:  Creates HTML proof documents in the proof/ directory"
 	@echo "  make images: Creates PNG specimen images in the documentation/ directory"
@@ -39,15 +39,15 @@ venv-test/touchfile: requirements-test.txt
 	. venv-test/bin/activate; pip install -Ur requirements-test.txt
 	touch venv-test/touchfile
 
-test: venv-test build.stamp
+test: venv-test #build.stamp # skip build step
 	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv-test/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $$TOCHECK  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
 
-proof: venv build.stamp
+proof: venv #build.stamp # skip build step
 	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $$TOCHECK -o out/proof
 
 images: venv $(DRAWBOT_OUTPUT)
 
-%.png: %.py build.stamp
+%.png: %.py #build.stamp # skip build step
 	. venv/bin/activate; python3 $< --output $@
 
 clean:
@@ -66,4 +66,3 @@ fontforge:
 	mkdir fonts/ttf
 	mkdir fonts/webfonts
 	(for sfd in sources/*.sfd; do font=$${sfd##*/}; fontforge -c 'open(argv[1]).generate(argv[2])' $$sfd fonts/ttf/$${font%.*}.ttf; fontforge -c 'open(argv[1]).generate(argv[2])' $$sfd fonts/webfonts/$${font%.*}.woff2; done)
-	#(for sfd in sources/*.sfd; do fontforge -c 'open(argsv[1]).generate(argsv[2])' $$sfd $${sfd%.*}; done)
