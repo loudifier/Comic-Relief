@@ -52,11 +52,7 @@ jobs:
     - name: Generate fonts with FontForge
       #run: make fontforge # I'm not smart enough for makefiles...
       run:
-        rm -rf fonts
-        mkdir fonts
-        mkdir fonts/ttf
-        mkdir fonts/webfonts
-        (for sfd in sources/*.sfd; do font=${sfd##*/}; fontforge -c 'open(argv[1]).generate(argv[2])' $sfd fonts/ttf/${font%.*}.ttf; fontforge -c 'open(argv[1]).generate(argv[2])' $sfd fonts/webfonts/${font%.*}.woff2; done)
+        ./scripts/build.sh
 
     - name: Check with fontbakery
       run: make test
