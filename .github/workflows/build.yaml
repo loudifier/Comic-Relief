@@ -43,16 +43,16 @@ jobs:
       #     done
 
     # original build process used sfdlib to convert .sfd files to .ufo and then built the .ufo files with gftools/fontmake
-    #- name: Convert .sfd files to .ufo
-    #  run: make convert
-    #- name: Build font
-    #  run: make build
+    - name: Convert .sfd files to .ufo
+      run: make convert
+    - name: Build font
+      run: make build
 
     # generate fonts directly with FontForge, which retains hinting information
-    - name: Generate fonts with FontForge
-      #run: make fontforge # I'm not smart enough for makefiles...
-      run:
-        ./scripts/build.sh
+    #- name: Generate fonts with FontForge
+    #  run: make fontforge # I'm not smart enough for makefiles...
+    #  run:
+    #    ./scripts/build.sh
 
     - name: Check with fontbakery
       run: make test
