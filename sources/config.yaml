@@ -7,4 +7,4 @@ buildOTF: false
 googleFonts: true
 removeOutlineOverlaps: false
 buildVariable: false
-#autohintTTF: false
+autohintTTF: false
