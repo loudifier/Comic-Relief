@@ -1,20 +1,25 @@
 # Comic Relief
 
 [![][Fontbakery]](https://loudifier.github.io/Comic-Relief/fontbakery/fontbakery-report.html)
+
+[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Floudifier%2FComic-Relief%2Fgh-pages%2Fbadges%2Foverall.json
+
+<!-- only the main badge is working in the current version of fontbakery. Hide the others for now
 [![][Universal]](https://loudifier.github.io/Comic-Relief/fontbakery/fontbakery-report.html)
 [![][GF Profile]](https://loudifier.github.io/Comic-Relief/fontbakery/fontbakery-report.html)
 [![][Outline Correctness]](https://loudifier.github.io/Comic-Relief/fontbakery/fontbakery-report.html)
 [![][Shaping]](https://loudifier.github.io/Comic-Relief/fontbakery/fontbakery-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Floudifier%2FComic-Relief%2Fgh-pages%2Fbadges%2Foverall.json
+
 [GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Floudifier%2FComic-Relief%2Fgh-pages%2Fbadges%2FGoogleFonts.json
 [Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Floudifier%2FComic-Relief%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Floudifier%2FComic-Relief%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Floudifier%2FComic-Relief%2Fgh-pages%2Fbadges%2FUniversal.json
+-->
 
 Comic Relief is a typeface designed to be metrically equivalent to the popular Comic Sans MS. Comic Relief can be used in place of Comic Sans MS without having to move, resize, or reset any part of the copy. Perfect for missing cat posters and all of your WordArt needs!
 
-Comic Relief is copylefted using the SIL Open Font License, so feel free to use it, modify it, or embed it as you see fit. It is available here on GitHub and is in the process of being added to Google Fonts.
+Comic Relief is copylefted using the SIL Open Font License, so feel free to use it, modify it, or embed it as you see fit. It is available [here on GitHub](https://github.com/loudifier/Comic-Relief/releases/latest) and [Google Fonts](https://fonts.google.com/specimen/Comic+Relief).
 
 ![Sample Image](documentation/cat-poster.jpg)
 
@@ -36,24 +41,20 @@ The build and test process is customized from the googlefonts-project-template. 
 
 If you want to build fonts manually on your own computer:
 
-* `make convert` will convert .sfd sources to .ufo
-* `make build` will produce font files.
-* `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
-* `make proof` will generate HTML proof files.
+<!--* `make convert` will convert .sfd sources to .ufo-->
+* run `scripts/convert.sh` to convert .sfd sources to .ufo
+* `make build` will produce font files from .ufo files
+* `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests
+* `make proof` will generate HTML proof files
 
 The proof files and QA tests are also available automatically via GitHub Actions - look at https://loudifier.github.io/Comic-Relief.
 
 ## Most Recent Change
 
-**V1.2 8 FEB 2025 - Added to Google Fonts!**
-- Added missing glyphs from Google Fonts Latin_core glyphset, which extends Comic Relief slightly outside the character set of Comic Sans MS
-    - Capital German double S
-    - All of the combining diacritics in the Latin_core list
-- Updated OS/2 metrics to meet Google Fonts requirements, or otherwise match Comic Sans MS 5.1
-- Adjusted width on bold non-breaking space to match regular space, mismatch in Comic Sans MS appears to be abug
-- Corrected dottlessj glyph name in bold font
-- Fix minor issues with bold capital 'P' and 'R'
-- Update copyright strings to match Google Fonts format
+**V1.210 6 May 2025**
+- Fixed width of bold Cyrillic glyphs 'ю' and 'о'
+- Update build process to generate .ufo sources using FontForge, which avoids a bug in sfdlib that clips points outside glyph extents in characters like 'Ω'
+- Disable gftools/fontmake autohinting. Makes characters softer at small sizes, but more even overall. Fixes issues like stems of 'm' and 'n' sitting at different heights.
 
 ## License
 

@@ -4,8 +4,8 @@ FullName: Comic Relief Bold
 FamilyName: Comic Relief
 Weight: Bold
 Copyright: Copyright 2013 The Comic Relief Project Authors (https://github.com/loudifier/Comic-Relief)
-FontLog: "V1.0 17 JAN 2013+AAoA-- Initial release. Contains all glyphs necessary to replace Comic Sans MS Regular V5.0+AAoACgAA-V1.1 19 NOV 2013+AAoA-- Bold Variant added+AAoA-- Very minor changes+AAoA    - Highest/lowest points adjusted for better compatibility with Comic Sans MS+AAoA    - Crossbar of lowercase 't' raised slightly+AAoACgAA-V1.1.1 12 AUG 2017+AAoA-- Points removed from subscript '4'+AAoACgAA-V1.1.2 15 JUL 2023+AAoA-- Changed OS/2 Win Descent from -42 to 0 to get sources to compile with gftools+AAoA-- Several name table changes to pass Fontbakery Google Font errors+AAoACgAA-V1.2 8 FEB 2025 - Added to Google Fonts!+AAoA-- Added missing glyphs from Google Fonts Latin_core glyphset, which extends Comic Relief slightly outside the character set of Comic Sans MS+AAoA    - Capital German double S+AAoA    - All of the combining diacritics in the Latin_core list+AAoA-- Updated OS/2 metrics to meet Google Fonts requirements, or otherwise match Comic Sans MS 5.1+AAoA-- Adjusted width on bold non-breaking space to match regular space, mismatch in Comic Sans MS appears to be abug+AAoA-- Corrected dottlessj glyph name in bold font+AAoA-- Fix minor issues with bold capital 'P' and 'R'+AAoA-- Update copyright strings to match Google Fonts format"
-Version: 1.200
+FontLog: "V1.0 17 JAN 2013+AAoA-- Initial release. Contains all glyphs necessary to replace Comic Sans MS Regular V5.0+AAoACgAA-V1.1 19 NOV 2013+AAoA-- Bold Variant added+AAoA-- Very minor changes+AAoA    - Highest/lowest points adjusted for better compatibility with Comic Sans MS+AAoA    - Crossbar of lowercase 't' raised slightly+AAoACgAA-V1.1.1 12 AUG 2017+AAoA-- Points removed from subscript '4'+AAoACgAA-V1.1.2 15 JUL 2023+AAoA-- Changed OS/2 Win Descent from -42 to 0 to get sources to compile with gftools+AAoA-- Several name table changes to pass Fontbakery Google Font errors+AAoACgAA-V1.2 8 FEB 2025 - Added to Google Fonts!+AAoA-- Added missing glyphs from Google Fonts Latin_core glyphset, which extends Comic Relief slightly outside the character set of Comic Sans MS+AAoA    - Capital German double S+AAoA    - All of the combining diacritics in the Latin_core list+AAoA-- Updated OS/2 metrics to meet Google Fonts requirements, or otherwise match Comic Sans MS 5.1+AAoA-- Adjusted width on bold non-breaking space to match regular space, mismatch in Comic Sans MS appears to be abug+AAoA-- Corrected dottlessj glyph name in bold font+AAoA-- Fix minor issues with bold capital 'P' and 'R'+AAoA-- Update copyright strings to match Google Fonts format+AAoACgAA-V1.210 6 May 2025+AAoA-- Fixed width of bold Cyrillic glyphs '+BE4A' and '+BD4A'+AAoA-- Update build process to generate .ufo sources using FontForge, which avoids a bug in sfdlib that clips points outside glyph extents in characters like '+A6kA'+AAoA-- Disable gftools/fontmake autohinting. Makes characters softer at small sizes, but more even overall. Fixes issues like stems of 'm' and 'n' sitting at different heights."
+Version: 1.210
 ItalicAngle: 0
 UnderlinePosition: -185
 UnderlineWidth: 175
@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358538608
-ModificationTime: 1746246528
+ModificationTime: 1746597939
 PfmFamily: 65
 TTFWeight: 700
 TTFWidth: 5
@@ -784,7 +784,7 @@ LangName: 1030 "" "" "fed"
 LangName: 1029 "" "" "tu+AQ0A-n+AOkA"
 LangName: 1027 "" "" "Negreta"
 LangName: 1069 "" "" "Lodia"
-LangName: 1033 "" "" "" "" "" "Version 1.200" "" "" "Loudifier" "Jeff Davis" "Comic Relief is a typeface designed to be metrically equivalent to the popular Comic Sans MS. Go to https://github.com/loudifier/Comic-Relief for more info." "https://github.com/loudifier/Comic-Relief" "https://github.com/loudifier/Comic-Relief" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL"
+LangName: 1033 "" "" "" "" "" "Version 1.210" "" "" "Loudifier" "Jeff Davis" "Comic Relief is a typeface designed to be metrically equivalent to the popular Comic Sans MS. Go to https://github.com/loudifier/Comic-Relief for more info." "https://github.com/loudifier/Comic-Relief" "https://github.com/loudifier/Comic-Relief" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL"
 GaspTable: 3 8 2 10 1 65535 3 0
 Encoding: Custom
 UnicodeInterp: none

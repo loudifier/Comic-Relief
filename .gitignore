@@ -13,6 +13,9 @@ instance_ufo
 .ninja_log
 build.ninja
 
+# font outputs removed from base repo. Outputs should be downloaded from releases or actions artifacts (or built/exported manually)
+fonts/
+
 # OS generated files #
 ######################
 .DS_Store
