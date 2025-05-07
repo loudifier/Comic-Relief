@@ -15,7 +15,7 @@ jobs:
     - name: Install sys tools/deps
       run: |
         sudo apt-get update
-        sudo apt-get install ttfautohint libcairo2-dev python3-cairo-dev pkg-config python3-dev
+        sudo apt-get install ttfautohint libcairo2-dev python3-cairo-dev pkg-config python3-dev fontforge xmlstarlet
         sudo snap install yq
     - uses: actions/cache@v4
       with:
@@ -42,10 +42,19 @@ jobs:
       #       bumpfontversion sources/$src --new-version $TAG_NAME;
       #     done
 
+    # original build process used sfdlib to convert .sfd files to .ufo and then built the .ufo files with gftools/fontmake
     - name: Convert .sfd files to .ufo
-      run: make convert
+    #  run: make convert # convert using sfdlib/sfd2ufo
+      run: ./scripts/convert.sh
     - name: Build font
       run: make build
+
+    # generate fonts directly with FontForge, which retains hinting information
+    #- name: Generate fonts with FontForge
+    #  run: make fontforge # I'm not smart enough for makefiles...
+    #  run:
+    #    ./scripts/build.sh
+
     - name: Check with fontbakery
       run: make test
       continue-on-error: true
