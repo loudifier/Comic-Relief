@@ -1,6 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 0.13.2
+fontbakery version: 0.13.3
 
 
 
@@ -12,7 +12,7 @@ fontbakery version: 0.13.2
 
 
 
-<details><summary>[17] ComicRelief-Regular.ttf</summary>
+<details><summary>[16] ComicRelief-Regular.ttf</summary>
 <div>
 <details>
     <summary>💥 <b>ERROR</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-alignment-miss">outline_alignment_miss</a></summary>
@@ -25,7 +25,7 @@ fontbakery version: 0.13.2
 
 
 * 💥 **ERROR** <p>Failed with IndexError: list index out of range</p>
-<pre><code>  File &quot;/home/runner/work/Comic-Relief/Comic-Relief/venv-test/lib/python3.10/site-packages/fontbakery/checkrunner.py&quot;, line 222, in _run_check
+<pre><code>  File &quot;/home/runner/work/Comic-Relief/Comic-Relief/venv-test/lib/python3.10/site-packages/fontbakery/checkrunner.py&quot;, line 223, in _run_check
     subresults = list(subresults)
   File &quot;/home/runner/work/Comic-Relief/Comic-Relief/venv-test/lib/python3.10/site-packages/fontbakery/checks/outline_alignment_miss.py&quot;, line 61, in check_outline_alignment_miss
     for node in p.asNodelist():
@@ -237,38 +237,12 @@ acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), un
 * ⚠️ **WARN** <p>The most common width is 984 among a set of 6 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 781:
-lessequal, less, greaterequal, greater</p>
+greaterequal, less, lessequal, greater</p>
 <p>Width = 1045:
 equal, notequal</p>
 <p>Width = 1269:
 approxequal</p>
  [code: width-outliers]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
-<pre><code>* R (U+0052): L&lt;&lt;1105.0,20.0&gt;--&lt;1105.0,20.0&gt;&gt; has the same coordinates as a previous segment.
-
-* Racute (U+0154): L&lt;&lt;1105.0,20.0&gt;--&lt;1105.0,20.0&gt;&gt; has the same coordinates as a previous segment.
-
-* Rcedilla (U+0156): L&lt;&lt;1105.0,20.0&gt;--&lt;1105.0,20.0&gt;&gt; has the same coordinates as a previous segment.
-
-* Rcaron (U+0158): L&lt;&lt;1105.0,20.0&gt;--&lt;1105.0,20.0&gt;&gt; has the same coordinates as a previous segment.
-</code></pre>
- [code: overlapping-path-segments]
 
 
 
@@ -358,12 +332,12 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: math, gothic, coptic, glagolitic, elbasan</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, old-permic, canadian-aboriginal, duployan, math, hebrew, malayalam, coptic, tai-le, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: coptic, gothic, glagolitic, math, elbasan</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, tai-le, old-permic, malayalam, math, hebrew, tifinagh, todhri, canadian-aboriginal, syriac</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -388,7 +362,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, math, yi, symbols</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: yi, math, symbols, tai-tham</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -439,6 +413,14 @@ definitions.</p>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʻ</td>
+<td align="left">en_Latn (English)</td>
+</tr>
 <tr>
 <td align="left">Auxiliary orthography codepoints:</td>
 <td align="left"></td>
@@ -727,14 +709,6 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
 <pre><code>* Delta (U+2206): L&lt;&lt;202.0,-51.0&gt;--&lt;1507.0,-51.0&gt;&gt; -&gt; L&lt;&lt;1507.0,-51.0&gt;--&lt;1554.0,-51.0&gt;&gt;
-
-* R (U+0052): L&lt;&lt;1105.0,20.0&gt;--&lt;1105.0,20.0&gt;&gt; -&gt; L&lt;&lt;1105.0,20.0&gt;--&lt;1105.0,20.0&gt;&gt;
-
-* Racute (U+0154): L&lt;&lt;1105.0,20.0&gt;--&lt;1105.0,20.0&gt;&gt; -&gt; L&lt;&lt;1105.0,20.0&gt;--&lt;1105.0,20.0&gt;&gt;
-
-* Rcaron (U+0158): L&lt;&lt;1105.0,20.0&gt;--&lt;1105.0,20.0&gt;&gt; -&gt; L&lt;&lt;1105.0,20.0&gt;--&lt;1105.0,20.0&gt;&gt;
-
-* Rcedilla (U+0156): L&lt;&lt;1105.0,20.0&gt;--&lt;1105.0,20.0&gt;&gt; -&gt; L&lt;&lt;1105.0,20.0&gt;--&lt;1105.0,20.0&gt;&gt;
 
 * uni0394 (U+0394): L&lt;&lt;202.0,-51.0&gt;--&lt;1507.0,-51.0&gt;&gt; -&gt; L&lt;&lt;1507.0,-51.0&gt;--&lt;1554.0,-51.0&gt;&gt;
 </code></pre>
@@ -2712,11 +2686,7 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* fi (U+FB01): B&lt;&lt;1170.0,917.0&gt;-&lt;1172.0,1045.0&gt;-&lt;1077.0,1047.0&gt;&gt;/L&lt;&lt;1077.0,1047.0&gt;--&lt;1077.0,1047.0&gt;&gt; = 1.2060487792199448
-
-* fi (U+FB01): L&lt;&lt;1077.0,1047.0&gt;--&lt;1077.0,1047.0&gt;&gt;/B&lt;&lt;1077.0,1047.0&gt;-&lt;1069.0,1048.0&gt;-&lt;1061.0,1048.0&gt;&gt; = 7.125016348901757
-
-* thorn (U+00FE): B&lt;&lt;330.0,-452.0&gt;-&lt;346.0,-20.0&gt;-&lt;326.0,-19.0&gt;&gt;/B&lt;&lt;326.0,-19.0&gt;-&lt;1000.0,-40.0&gt;-&lt;1006.0,414.0&gt;&gt; = 1.0778024857010011
+<pre><code>* thorn (U+00FE): B&lt;&lt;330.0,-452.0&gt;-&lt;346.0,-20.0&gt;-&lt;326.0,-19.0&gt;&gt;/B&lt;&lt;326.0,-19.0&gt;-&lt;1000.0,-40.0&gt;-&lt;1006.0,414.0&gt;&gt; = 1.0778024857010011
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -3902,12 +3872,12 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: math, gothic, coptic, glagolitic, elbasan</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, old-permic, canadian-aboriginal, duployan, math, hebrew, malayalam, coptic, tai-le, syriac, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: coptic, gothic, glagolitic, math, elbasan</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, duployan, tai-le, old-permic, malayalam, math, hebrew, tifinagh, todhri, canadian-aboriginal, syriac</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -3932,7 +3902,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, math, yi, symbols</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: yi, math, symbols, tai-tham</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -3983,6 +3953,14 @@ definitions.</p>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʻ</td>
+<td align="left">en_Latn (English)</td>
+</tr>
 <tr>
 <td align="left">Auxiliary orthography codepoints:</td>
 <td align="left"></td>
@@ -6376,7 +6354,7 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* cent (U+00A2): B&lt;&lt;1106.5,454.5&gt;-&lt;1131.0,473.0&gt;-&lt;1141.0,517.0&gt;&gt;/B&lt;&lt;1141.0,517.0&gt;-&lt;1136.0,486.0&gt;-&lt;1136.0,486.0&gt;&gt; = 3.641919019564956
+<pre><code>* cent (U+00A2): B&lt;&lt;1081.5,435.5&gt;-&lt;1131.0,473.0&gt;-&lt;1141.0,517.0&gt;&gt;/B&lt;&lt;1141.0,517.0&gt;-&lt;1136.0,486.0&gt;-&lt;1136.0,486.0&gt;&gt; = 3.641919019564956
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -7186,8 +7164,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 1 | 0 | 0 | 30 | 212 | 11 | 201 | 0 | 
-| 0% | 0% | 0% | 7% | 47% | 2% | 44% | 0% | 
+| 1 | 0 | 0 | 29 | 214 | 13 | 198 | 0 | 
+| 0% | 0% | 0% | 6% | 47% | 3% | 44% | 0% | 
 
 
 
