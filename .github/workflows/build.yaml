@@ -3,12 +3,7 @@ name: Build font and specimen
 on:
   workflow_dispatch:
   pull_request:
-  push:
-    branches:
-      - main
-      - master # for backwards compatibility; use your default branch if different
-    tags:
-      - "*"
+  push: # all branches and tags
 
 permissions: write-all
 
