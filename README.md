@@ -1,21 +1,14 @@
 # Comic Relief
 
-[![][Fontbakery]](https://loudifier.github.io/Comic-Relief/fontbakery/fontbakery-report.html)
+[![][Fontspector]](https://loudifier.github.io/Comic-Relief/fontspector/fontspector-report.html)
+[![][Google Fonts]](https://loudifier.github.io/Comic-Relief/fontspector/fontspector-report.html)
+[![][Glyphset]](https://loudifier.github.io/Comic-Relief/fontspector/fontspector-report.html)
+[![][OpenType]](https://loudifier.github.io/Comic-Relief/fontspector/fontspector-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Floudifier%2FComic-Relief%2Fgh-pages%2Fbadges%2Foverall.json
-
-<!-- only the main badge is working in the current version of fontbakery. Hide the others for now
-[![][Universal]](https://loudifier.github.io/Comic-Relief/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://loudifier.github.io/Comic-Relief/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://loudifier.github.io/Comic-Relief/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://loudifier.github.io/Comic-Relief/fontbakery/fontbakery-report.html)
-
-
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Floudifier%2FComic-Relief%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Floudifier%2FComic-Relief%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Floudifier%2FComic-Relief%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Floudifier%2FComic-Relief%2Fgh-pages%2Fbadges%2FUniversal.json
--->
+[Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Floudifier.github.io%2FComic-Relief%2Fbadges%2FFontspectorQA.json
+[Google Fonts]: https://img.shields.io/endpoint?url=https%3A%2F%2Floudifier.github.io%2FComic-Relief%2Fbadges%2FFontFileChecks.json
+[Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Floudifier.github.io%2FComic-Relief%2Fbadges%2FGlyphsetChecks.json
+[OpenType]: https://img.shields.io/endpoint?url=https%3A%2F%2Floudifier.github.io%2FComic-Relief%2Fbadges%2FOpenTypeSpecificationChecks.json
 
 Comic Relief is a typeface designed to be metrically equivalent to the popular Comic Sans MS. Comic Relief can be used in place of Comic Sans MS without having to move, resize, or reset any part of the copy. Perfect for missing cat posters and all of your WordArt needs!
 
@@ -37,15 +30,20 @@ Comic Relief is in maintenance mode. Bugfixes to the Regular and Bold weights wi
 
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
 
-The build and test process is customized from the googlefonts-project-template. Comic Relief is drawn in FontForge and an extra step is needed to convert the .sfd sources to .ufo and the automated builds are a bit of a house of cards that you don't want to try running on Windows. If you are not worried about automated building and tests, you can open the .sfd project files in the /sources/ folder with FontForge on Windows or Linux and export in any common font format.
+The build and test process is customized from the [googlefonts-project-template](https://github.com/googlefonts/googlefonts-project-template). Comic Relief is drawn in FontForge, so an extra step is needed to convert the .sfd sources to .ufo before `gftools builder` runs. That conversion requires FontForge and xmlstarlet. If you are not worried about automated building and tests, you can open the .sfd project files in the /sources/ folder with FontForge on Windows or Linux and export in any common font format.
 
 If you want to build fonts manually on your own computer:
 
-<!--* `make convert` will convert .sfd sources to .ufo-->
-* run `scripts/convert.sh` to convert .sfd sources to .ufo
+* `make convert` will convert .sfd sources to .ufo
 * `make build` will produce font files from .ufo files
-* `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests
+* `make test` will run [Fontspector](https://github.com/fonttools/fontspector)'s quality assurance tests
 * `make proof` will generate HTML proof files
+
+`make test` and `make proof` call out to the Rust tools `fontspector` and `diff3proof`, which are installed in CI. To run them locally, install them with [`cargo binstall`](https://github.com/cargo-bins/cargo-binstall):
+
+```
+cargo binstall fontspector diffenator3
+```
 
 The proof files and QA tests are also available automatically via GitHub Actions - look at https://loudifier.github.io/Comic-Relief.
 

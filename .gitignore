@@ -10,11 +10,13 @@ package-lock.json
 package.json
 master_ufo
 instance_ufo
+instance_ufos
+subset-files
 .ninja_log
 build.ninja
 
 # font outputs removed from base repo. Outputs should be downloaded from releases or actions artifacts (or built/exported manually)
-fonts/
+fonts
 
 # OS generated files #
 ######################
