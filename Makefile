@@ -41,7 +41,7 @@ test: build.stamp
 	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; test -n "$$TOCHECK" || { echo "No fonts found in fonts/variable or fonts/ttf. Run 'make build' first."; exit 1; }; mkdir -p out/ out/fontspector out/badges; fontspector --profile googlefonts -x googlefonts/repo/dirname_matches_nameid_1 -l warn --full-lists --succinct --html out/fontspector/fontspector-report.html --ghmarkdown out/fontspector/fontspector-report.md --badges out/badges $$TOCHECK || echo '::warning file=sources/config.yaml,title=fontspector failures::The fontspector QA check reported errors in your font. Please check the generated report.'
 
 coverage: venv build.stamp
-	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; test -n "$$TOCHECK" || { echo "No fonts found in fonts/variable or fonts/ttf. Run 'make build' first."; exit 1; }; for f in $$TOCHECK; do echo "=== $$(basename $$f) ==="; glyphsets coverage $$f; echo; done
+	. venv/bin/activate; TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; test -n "$$TOCHECK" || { echo "No fonts found in fonts/variable or fonts/ttf. Run 'make build' first."; exit 1; }; for f in $$TOCHECK; do echo "=== $$(basename $$f) ==="; glyphsets coverage $$f; echo; done
 
 proof: venv build.stamp
 	which diff3proof || (echo "diff3proof not found. Please install it with 'cargo bininstall diffenator3'." && exit 1)
