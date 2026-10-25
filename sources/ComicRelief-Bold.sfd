@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358538608
-ModificationTime: 1746597939
+ModificationTime: 1792903629
 PfmFamily: 65
 TTFWeight: 700
 TTFWidth: 5
@@ -792,7 +792,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 304 16 8
+WinInfo: 352 32 12
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -812,7 +812,7 @@ Grid
  1904 1504.19 l 25
 EndSplineSet
 TeXData: 1 0 0 454656 227328 151552 530944 -1048576 151552 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 610 606
+BeginChars: 705 701
 
 StartChar: glyph0
 Encoding: 599 -1 0
@@ -8134,7 +8134,7 @@ VStem: 141 285<0.443848 762.866> 150 334<1224.87 1448.67> 158 282<232.134 995.61
 LayerCount: 2
 Fore
 Refer: 17 46 S 1 0 0 1 -122 1306 2
-Refer: 214 305 N 1 0 0 1 -2 0 2
+Refer: 214 305 S 1 0 0 1 -2 0 2
 Validated: 1
 EndChar
 
@@ -33231,6 +33231,1221 @@ VStem: -854.5 566.5
 LayerCount: 2
 Fore
 Refer: 223 731 S 1 0 0 1 -1135 0 2
+EndChar
+
+StartChar: Ohorn
+Encoding: 610 416 606
+Width: 1635
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 611 795 S 1 0 0 1 1291 386 2
+Refer: 50 79 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ohorn
+Encoding: 611 417 607
+Width: 1077
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 82 111 N 1 0 0 1 0 0 2
+Refer: 611 795 S 1 0 0 1 775 -55 2
+EndChar
+
+StartChar: Uhorn
+Encoding: 612 431 608
+Width: 1509
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 611 795 S 1 0 0 1 1435 390 2
+Refer: 56 85 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uhorn
+Encoding: 613 432 609
+Width: 1065
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 611 795 S 1 0 0 1 1030 -39 2
+Refer: 88 117 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: hookabovecomb
+Encoding: 614 777 610
+Width: 0
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-509.55037037 1736.01111111 m 0
+ -413.58439516 1736.01111111 -413.58439516 1736.01111111 -345.235915791 1693.94144364 c 0
+ -260.830594035 1641.98851283 -260.830594035 1641.98851283 -225.824341121 1529.96850351 c 0
+ -210.429951691 1480.88073344 -210.429951691 1480.88073344 -210.429951691 1438.60451819 c 0
+ -210.429951691 1365.06792761 -210.429951691 1365.06792761 -255.917393778 1314.00578389 c 0
+ -290.62958978 1275.03944373 -290.62958978 1275.03944373 -350.639260748 1251.65905245 c 0
+ -386.650611352 1237.94044269 -386.650611352 1237.94044269 -400.474821838 1226.01089246 c 1
+ -398.247311828 1212.88945499 -398.247311828 1212.88945499 -398.247311828 1200.77338421 c 0
+ -398.247311828 1151.98413447 -398.247311828 1151.98413447 -432.65630282 1123.89667239 c 0
+ -457.010747936 1104.01656158 -457.010747936 1104.01656158 -496.7008192 1098.3465514 c 0
+ -506.915661417 1097.0966412 -506.915661417 1097.0966412 -516.181412489 1097.0966412 c 0
+ -543.280879481 1097.0966412 -543.280879481 1097.0966412 -565.290701656 1107.30740057 c 0
+ -630.197625166 1137.41891042 -630.197625166 1137.41891042 -634.958192184 1242.15664221 c 2
+ -634.969243211 1242.41848025 l 2
+ -635.057281844 1244.67813851 -635.057281844 1244.67813851 -635.057324841 1246.9459613 c 0
+ -635.057324841 1295.20251095 -635.057324841 1295.20251095 -594.412779282 1343.35969089 c 0
+ -553.768233723 1391.51687084 -553.768233723 1391.51687084 -463.431892154 1441.96443821 c 0
+ -450.977470246 1448.90624714 -450.977470246 1448.90624714 -445.600499829 1455.71783682 c 0
+ -440.223529412 1462.5294265 -440.223529412 1462.5294265 -440.223529412 1470.22048443 c 0
+ -440.223529412 1477.9442474 -440.223529412 1477.9442474 -444.260225381 1488.43095067 c 0
+ -449.842866913 1502.42515571 -449.842866913 1502.42515571 -465.338681131 1509.21257786 c 0
+ -480.834495348 1516 -480.834495348 1516 -508 1516 c 0
+ -529.058055692 1516 -529.058055692 1516 -553.301839528 1496.17995178 c 0
+ -616.632786084 1434.87394958 -616.632786084 1434.87394958 -669.836875927 1434.87394958 c 0
+ -704.973624249 1434.87394958 -704.973624249 1434.87394958 -732.067832093 1459.55978339 c 0
+ -767.727272727 1492.36646878 -767.727272727 1492.36646878 -767.727272727 1537.43352596 c 0
+ -767.727272727 1582.50058314 -767.727272727 1582.50058314 -725.940374922 1633.3413088 c 0
+ -641.728065161 1736.01111111 -641.728065161 1736.01111111 -509.55037037 1736.01111111 c 0
+EndSplineSet
+EndChar
+
+StartChar: horncomb
+Encoding: 615 795 611
+Width: 0
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+53.5471728866 1197.57726687 m 2
+ 52.51 1228.861 l 1
+ 52.51 1284.14493974 52.51 1284.14493974 77.2243857626 1318.12722016 c 0
+ 110.586407463 1364 110.586407463 1364 179 1364 c 0
+ 206.619668109 1364 206.619668109 1364 228.797858222 1352.3904781 c 0
+ 291.078656793 1319.78861603 291.078656793 1319.78861603 292.993514333 1208.72687872 c 0
+ 293.098655558 1202.83924489 293.098655558 1202.83924489 293.098780051 1197.03530646 c 0
+ 293.098780051 1010.65828506 293.098780051 1010.65828506 184.546666915 924.365320931 c 0
+ 98.9051698544 856.285037462 98.9051698544 856.285037462 -49.5639230476 856.285037462 c 0
+ -152.305425864 856.285037462 -152.305425864 856.285037462 -207.35655374 880.701198633 c 0
+ -246.873640458 898.227734338 -246.873640458 898.227734338 -264.085616953 929.053564851 c 0
+ -276.010666575 950.410761025 -276.010666575 950.410761025 -276.011235955 978.099229895 c 0
+ -276.011235955 1027.30198124 -276.011235955 1027.30198124 -255.033254683 1057.94397636 c 0
+ -238.224154102 1082.49659518 -238.224154102 1082.49659518 -210.086088403 1093.27706611 c 0
+ -190.028876665 1100.96153846 -190.028876665 1100.96153846 -165.100221893 1100.96153846 c 0
+ -154.61106037 1100.96153846 -154.61106037 1100.96153846 -131.87206361 1098.12737376 c 0
+ -109.133066851 1095.29320906 -109.133066851 1095.29320906 -80.0927715938 1095.29320906 c 0
+ -14.8575790142 1095.29320906 -14.8575790142 1095.29320906 18.0660796775 1116.87585478 c 0
+ 37.2572518057 1129.45636028 37.2572518057 1129.45636028 45.4022123462 1149.81250023 c 0
+ 53.5471728866 1170.16864018 53.5471728866 1170.16864018 53.5471728866 1197.57726687 c 2
+EndSplineSet
+EndChar
+
+StartChar: dotbelowcomb
+Encoding: 616 803 612
+Width: 0
+VWidth: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 N 1 0 0 1 -968 -300 2
+EndChar
+
+StartChar: Adotbelow
+Encoding: 617 7840 613
+Width: 1498
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 S 1 0 0 1 312 -300 2
+Refer: 36 65 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: adotbelow
+Encoding: 618 7841 614
+Width: 1048
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 S 1 0 0 1 152 -300 2
+Refer: 68 97 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ahookabove
+Encoding: 619 7842 615
+Width: 1498
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 S 1 0 0 1 1255 489 2
+Refer: 36 65 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ahookabove
+Encoding: 620 7843 616
+Width: 1138
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 S 1 0 0 1 1143 18 2
+Refer: 68 97 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Acircumflexacute
+Encoding: 621 7844 617
+Width: 1498
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 141 180 S 1 0 0 1 742 738 2
+Refer: 215 710 S 1 0 0 1 135 282 2
+Refer: 36 65 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: acircumflexacute
+Encoding: 622 7845 618
+Width: 1138
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 141 180 S 1 0 0 1 586 428 2
+Refer: 215 710 S 1 0 0 1 -1 -38 2
+Refer: 68 97 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Acircumflexgrave
+Encoding: 623 7846 619
+Width: 1498
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 67 96 N 1 0 0 1 700 572 2
+Refer: 215 710 N 1 0 0 1 135 282 2
+Refer: 36 65 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: acircumflexgrave
+Encoding: 624 7847 620
+Width: 1138
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 67 96 S 1 0 0 1 564 282 2
+Refer: 215 710 S 1 0 0 1 -1 -38 2
+Refer: 68 97 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Acircumflexhookabove
+Encoding: 625 7848 621
+Width: 1498
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 S 1 0 0 1 1634 682 2
+Refer: 215 710 S 1 0 0 1 135 282 2
+Refer: 36 65 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: acircumflexhookabove
+Encoding: 626 7849 622
+Width: 1138
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 S 1 0 0 1 1498 392 2
+Refer: 215 710 S 1 0 0 1 -1 -38 2
+Refer: 68 97 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Acircumflextilde
+Encoding: 627 7850 623
+Width: 1498
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 216 732 S 1 0 0 1 151 815 2
+Refer: 215 710 S 1 0 0 1 135 282 2
+Refer: 36 65 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: acircumflextilde
+Encoding: 628 7851 624
+Width: 1138
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 216 732 S 1 0 0 1 15 525 2
+Refer: 215 710 S 1 0 0 1 -1 -38 2
+Refer: 68 97 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Acircumflexdotbelow
+Encoding: 629 7852 625
+Width: 1498
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 N 1 0 0 1 312 -300 2
+Refer: 215 710 N 1 0 0 1 135 472 2
+Refer: 36 65 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: acircumflexdotbelow
+Encoding: 630 7853 626
+Width: 1048
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 N 1 0 0 1 152 -300 2
+Refer: 215 710 N 1 0 0 1 -1 -8 2
+Refer: 68 97 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Abreveacute
+Encoding: 631 7854 627
+Width: 1498
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 141 180 S 1 0 0 1 388 714 2
+Refer: 218 728 N 1 0 0 1 111 457 2
+Refer: 36 65 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: abreveacute
+Encoding: 632 7855 628
+Width: 1138
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 141 180 S 1 0 0 1 185 238 2
+Refer: 218 728 N 1 0 0 1 -92 -19 2
+Refer: 68 97 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Abrevegrave
+Encoding: 633 7856 629
+Width: 1498
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 67 96 S 1 0 0 1 320 718 2
+Refer: 218 728 N 1 0 0 1 111 457 2
+Refer: 36 65 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: abrevegrave
+Encoding: 634 7857 630
+Width: 1138
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 67 96 S 1 0 0 1 107 242 2
+Refer: 218 728 N 1 0 0 1 -92 -19 2
+Refer: 68 97 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Abrevehookabove
+Encoding: 635 7858 631
+Width: 1498
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 S 1 0 0 1 1252 716 2
+Refer: 218 728 S 1 0 0 1 111 457 2
+Refer: 36 65 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: abrevehookabove
+Encoding: 636 7859 632
+Width: 1138
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 N 1 0 0 1 1049 250 2
+Refer: 218 728 S 1 0 0 1 -92 -19 2
+Refer: 68 97 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Abrevetilde
+Encoding: 637 7860 633
+Width: 1498
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 218 728 N 1 0 0 1 111 457 2
+Refer: 216 732 S 1 0 0 1 151 909 2
+Refer: 36 65 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: abrevetilde
+Encoding: 638 7861 634
+Width: 1138
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 216 732 S 1 0 0 1 -52 443 2
+Refer: 218 728 N 1 0 0 1 -92 -19 2
+Refer: 68 97 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Abrevedotbelow
+Encoding: 639 7862 635
+Width: 1498
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 S 1 0 0 1 312 -300 2
+Refer: 218 728 N 1 0 0 1 113 471 2
+Refer: 36 65 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: abrevedotbelow
+Encoding: 640 7863 636
+Width: 1048
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 N 1 0 0 1 152 -300 2
+Refer: 218 728 N 1 0 0 1 -92 -9 2
+Refer: 68 97 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Edotbelow
+Encoding: 641 7864 637
+Width: 1279
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 40 69 N 1 0 0 1 0 0 2
+Refer: 17 46 S 1 0 0 1 192 -300 2
+EndChar
+
+StartChar: edotbelow
+Encoding: 642 7865 638
+Width: 1122
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 S 1 0 0 1 152 -300 2
+Refer: 72 101 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ehookabove
+Encoding: 643 7866 639
+Width: 1279
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 S 1 0 0 1 1225 489 2
+Refer: 40 69 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ehookabove
+Encoding: 644 7867 640
+Width: 1048
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 N 1 0 0 1 152 -300 2
+Refer: 610 777 N 1 0 0 1 1143 18 2
+Refer: 72 101 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Etilde
+Encoding: 645 7868 641
+Width: 1279
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 216 732 N 1 0 0 1 61 471 2
+Refer: 40 69 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: etilde
+Encoding: 646 7869 642
+Width: 1122
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 216 732 S 1 0 0 1 -35 -9 2
+Refer: 72 101 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ecircumflexacute
+Encoding: 647 7870 643
+Width: 1279
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 141 180 S 1 0 0 1 662 938 2
+Refer: 215 710 S 1 0 0 1 85 442 2
+Refer: 40 69 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ecircumflexacute
+Encoding: 648 7871 644
+Width: 1122
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 141 180 N 1 0 0 1 586 428 2
+Refer: 215 710 N 1 0 0 1 -1 -38 2
+Refer: 72 101 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ecircumflexgrave
+Encoding: 649 7872 645
+Width: 1279
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 67 96 N 1 0 0 1 650 732 2
+Refer: 215 710 N 1 0 0 1 85 442 2
+Refer: 40 69 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ecircumflexgrave
+Encoding: 650 7873 646
+Width: 1122
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 67 96 N 1 0 0 1 564 282 2
+Refer: 215 710 N 1 0 0 1 -1 -38 2
+Refer: 72 101 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ecircumflexhookabove
+Encoding: 651 7874 647
+Width: 1279
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 N 1 0 0 1 1584 842 2
+Refer: 215 710 N 1 0 0 1 85 442 2
+Refer: 40 69 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ecircumflexhookabove
+Encoding: 652 7875 648
+Width: 1122
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 N 1 0 0 1 1498 392 2
+Refer: 215 710 N 1 0 0 1 -1 -38 2
+Refer: 72 101 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ecircumflextilde
+Encoding: 653 7876 649
+Width: 1279
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 216 732 N 1 0 0 1 101 975 2
+Refer: 215 710 N 1 0 0 1 85 442 2
+Refer: 40 69 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ecircumflextilde
+Encoding: 654 7877 650
+Width: 1122
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 216 732 N 1 0 0 1 15 525 2
+Refer: 215 710 N 1 0 0 1 -1 -38 2
+Refer: 72 101 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ecircumflexdotbelow
+Encoding: 655 7878 651
+Width: 1279
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 N 1 0 0 1 192 -300 2
+Refer: 215 710 N 1 0 0 1 125 461 2
+Refer: 40 69 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ecircumflexdotbelow
+Encoding: 656 7879 652
+Width: 1122
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 N 1 0 0 1 152 -300 2
+Refer: 215 710 N 1 0 0 1 0 -1 2
+Refer: 72 101 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ihookabove
+Encoding: 657 7880 653
+Width: 1119
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 N 1 0 0 1 1065 449 2
+Refer: 44 73 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ihookabove
+Encoding: 658 7881 654
+Width: 574
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+288 -50 m 0
+ 181 -49 181 -49 184 77 c 2
+ 201 916 l 2
+ 204 1049 204 1049 305 1047 c 1024
+EndSplineSet
+Refer: 610 777 N 1 0 0 1 823 18 2
+Refer: 214 305 S 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Idotbelow
+Encoding: 659 7882 655
+Width: 1119
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 S 1 0 0 1 82 -300 2
+Refer: 44 73 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: idotbelow
+Encoding: 660 7883 656
+Width: 574
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 N 1 0 0 1 -122 1306 2
+Refer: 17 46 N 1 0 0 1 -168 -300 2
+Refer: 214 305 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Odotbelow
+Encoding: 661 7884 657
+Width: 1635
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 S 1 0 0 1 312 -300 2
+Refer: 50 79 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: odotbelow
+Encoding: 662 7885 658
+Width: 1077
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 S 1 0 0 1 72 -300 2
+Refer: 82 111 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ohookabove
+Encoding: 663 7886 659
+Width: 1635
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 S 1 0 0 1 1455 489 2
+Refer: 50 79 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ohookabove
+Encoding: 664 7887 660
+Width: 1077
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 N 1 0 0 1 1083 18 2
+Refer: 82 111 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ocircumflexacute
+Encoding: 665 7888 661
+Width: 1635
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 141 180 S 1 0 0 1 932 858 2
+Refer: 215 710 S 1 0 0 1 325 402 2
+Refer: 50 79 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ocircumflexacute
+Encoding: 666 7889 662
+Width: 1077
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 141 180 N 1 0 0 1 546 428 2
+Refer: 215 710 N 1 0 0 1 -45 -38 2
+Refer: 82 111 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Ocircumflexgrave
+Encoding: 667 7890 663
+Width: 1635
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 67 96 N 1 0 0 1 890 692 2
+Refer: 215 710 N 1 0 0 1 325 402 2
+Refer: 50 79 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ocircumflexgrave
+Encoding: 668 7891 664
+Width: 1077
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 67 96 N 1 0 0 1 520 282 2
+Refer: 215 710 N 1 0 0 1 -45 -38 2
+Refer: 82 111 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Ocircumflexhookabove
+Encoding: 669 7892 665
+Width: 1635
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 S 1 0 0 1 1824 802 2
+Refer: 215 710 S 1 0 0 1 325 402 2
+Refer: 50 79 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ocircumflexhookabove
+Encoding: 670 7893 666
+Width: 1077
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 N 1 0 0 1 1454 392 2
+Refer: 215 710 N 1 0 0 1 -45 -38 2
+Refer: 82 111 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Ocircumflextilde
+Encoding: 671 7894 667
+Width: 1635
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 216 732 S 1 0 0 1 341 935 2
+Refer: 215 710 S 1 0 0 1 325 402 2
+Refer: 50 79 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ocircumflextilde
+Encoding: 672 7895 668
+Width: 1077
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 216 732 N 1 0 0 1 -29 525 2
+Refer: 215 710 N 1 0 0 1 -45 -38 2
+Refer: 82 111 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Ocircumflexdotbelow
+Encoding: 673 7896 669
+Width: 1635
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 S 1 0 0 1 312 -300 2
+Refer: 215 710 N 1 0 0 1 329 455 2
+Refer: 50 79 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ocircumflexdotbelow
+Encoding: 674 7897 670
+Width: 1077
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 S 1 0 0 1 72 -300 2
+Refer: 215 710 N 1 0 0 1 -44 -8 2
+Refer: 82 111 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ohornacute
+Encoding: 675 7898 671
+Width: 1635
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 611 795 N 1 0 0 1 1291 386 2
+Refer: 141 180 N 1 0 0 1 644 445 2
+Refer: 50 79 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ohornacute
+Encoding: 676 7899 672
+Width: 1077
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 611 795 N 1 0 0 1 775 -55 2
+Refer: 82 111 N 1 0 0 1 0 0 3
+Refer: 141 180 N 1 0 0 1 250 -18 2
+EndChar
+
+StartChar: Ohorngrave
+Encoding: 677 7900 673
+Width: 1635
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 611 795 N 1 0 0 1 1291 386 2
+Refer: 67 96 N 1 0 0 1 387 445 2
+Refer: 50 79 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ohorngrave
+Encoding: 678 7901 674
+Width: 1077
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 611 795 N 1 0 0 1 775 -55 2
+Refer: 82 111 N 1 0 0 1 0 0 3
+Refer: 67 96 N 1 0 0 1 13 -18 2
+EndChar
+
+StartChar: Ohornhookabove
+Encoding: 679 7902 675
+Width: 1635
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 611 795 N 1 0 0 1 1291 386 2
+Refer: 610 777 N 1 0 0 1 1455 489 2
+Refer: 50 79 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ohornhookabove
+Encoding: 680 7903 676
+Width: 1077
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 611 795 N 1 0 0 1 775 -55 2
+Refer: 82 111 N 1 0 0 1 0 0 2
+Refer: 610 777 N 1 0 0 1 1053 18 2
+EndChar
+
+StartChar: Ohorntilde
+Encoding: 681 7904 677
+Width: 1635
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 611 795 N 1 0 0 1 1291 386 2
+Refer: 216 732 N 1 0 0 1 245 454 2
+Refer: 50 79 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ohorntilde
+Encoding: 682 7905 678
+Width: 1077
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 611 795 N 1 0 0 1 775 -55 2
+Refer: 82 111 N 1 0 0 1 0 0 3
+Refer: 216 732 N 1 0 0 1 -149 91 2
+EndChar
+
+StartChar: Ohorndotbelow
+Encoding: 683 7906 679
+Width: 1635
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 N 1 0 0 1 312 -300 2
+Refer: 611 795 N 1 0 0 1 1291 386 2
+Refer: 50 79 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ohorndotbelow
+Encoding: 684 7907 680
+Width: 1077
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 N 1 0 0 1 72 -300 2
+Refer: 611 795 N 1 0 0 1 775 -55 2
+Refer: 82 111 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Udotbelow
+Encoding: 685 7908 681
+Width: 1509
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 S 1 0 0 1 302 -300 2
+Refer: 56 85 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: udotbelow
+Encoding: 686 7909 682
+Width: 1065
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 S 1 0 0 1 102 -300 2
+Refer: 88 117 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Uhookabove
+Encoding: 687 7910 683
+Width: 1509
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 S 1 0 0 1 1295 489 2
+Refer: 56 85 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uhookabove
+Encoding: 688 7911 684
+Width: 1065
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 S 1 0 0 1 1053 18 2
+Refer: 88 117 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Uhornacute
+Encoding: 689 7912 685
+Width: 1509
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 141 180 N 1 0 0 1 346 445 2
+Refer: 608 431 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uhornacute
+Encoding: 690 7913 686
+Width: 1065
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 611 795 N 1 0 0 1 1030 -39 2
+Refer: 141 180 N 1 0 0 1 158 -12 2
+Refer: 88 117 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Uhorngrave
+Encoding: 691 7914 687
+Width: 1509
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 67 96 N 1 0 0 1 312 451 2
+Refer: 608 431 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uhorngrave
+Encoding: 692 7915 688
+Width: 1065
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 611 795 N 1 0 0 1 1030 -39 2
+Refer: 67 96 N 1 0 0 1 205 -6 2
+Refer: 88 117 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Uhornhookabove
+Encoding: 693 7916 689
+Width: 1509
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 N 1 0 0 1 1295 489 2
+Refer: 608 431 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uhornhookabove
+Encoding: 694 7917 690
+Width: 1161
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 N 1 0 0 1 1100 0 2
+Refer: 609 432 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Uhorntilde
+Encoding: 695 7918 691
+Width: 1509
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 216 732 S 1 0 0 1 152 457 2
+Refer: 611 795 N 1 0 0 1 1449 424 2
+Refer: 56 85 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uhorntilde
+Encoding: 696 7919 692
+Width: 1065
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 216 732 N 1 0 0 1 -87 12 2
+Refer: 609 432 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Uhorndotbelow
+Encoding: 697 7920 693
+Width: 1509
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 N 1 0 0 1 302 -300 2
+Refer: 611 795 N 1 0 0 1 1449 424 2
+Refer: 56 85 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uhorndotbelow
+Encoding: 698 7921 694
+Width: 1065
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 N 1 0 0 1 102 -300 2
+Refer: 611 795 N 1 0 0 1 1030 -39 2
+Refer: 88 117 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ydotbelow
+Encoding: 699 7924 695
+Width: 1301
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 S 1 0 0 1 222 -300 2
+Refer: 60 89 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ydotbelow
+Encoding: 700 7925 696
+Width: 1066
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 46 S 1 0 0 1 402 -480 2
+Refer: 92 121 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Yhookabove
+Encoding: 701 7926 697
+Width: 1301
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 N 1 0 0 1 1145 489 2
+Refer: 60 89 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: yhookabove
+Encoding: 702 7927 698
+Width: 1066
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 610 777 N 1 0 0 1 1030 0 2
+Refer: 92 121 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Ytilde
+Encoding: 703 7928 699
+Width: 1301
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 216 732 N 1 0 0 1 12 457 2
+Refer: 60 89 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ytilde
+Encoding: 704 7929 700
+Width: 1066
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 216 732 N 1 0 0 1 -115 -9 2
+Refer: 92 121 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
