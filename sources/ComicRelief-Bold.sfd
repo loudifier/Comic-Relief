@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358538608
-ModificationTime: 1793079123
+ModificationTime: 1793080632
 PfmFamily: 65
 TTFWeight: 700
 TTFWidth: 5
@@ -792,7 +792,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 64 16 8
+WinInfo: 112 16 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -10176,12 +10176,11 @@ Width: 1279
 GlyphClass: 2
 Flags: W
 HStem: -40 274<376 1132.4> 703 273<397 1083.4> 1236 274<405 1194.4> 1555 555
-VStem: 86 290<234 657.973> 119 278<976 1232> 665.5 511.5
+VStem: 86 290<234 657.973> 119 278<976 1232> 435.5 511.5
 LayerCount: 2
 Fore
-Refer: 141 180 S 1 0 0 1 481 448 2
+Refer: 141 180 S 1 0 0 1 251 448 2
 Refer: 40 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Ntilde
@@ -10817,7 +10816,7 @@ StartChar: cent
 Encoding: 97 162 132
 Width: 1250
 GlyphClass: 2
-Flags: WO
+Flags: W
 VStem: 82 254<674.846 1006.82> 502 255<79.0221 279 571 1163 1470.33 1477 1478.78 1697.14>
 LayerCount: 2
 Back
@@ -15591,9 +15590,8 @@ HStem: -40 274<376 1132.4> 703 273<397 1083.4> 1236 274<405 1194.4> 1553 607
 VStem: 86 290<234 657.973> 119 278<976 1232>
 LayerCount: 2
 Fore
-Refer: 215 710 S 1 0 0 1 126 455 2
+Refer: 215 710 N 1 0 0 1 86 455 2
 Refer: 40 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Aacute
@@ -15615,13 +15613,12 @@ Encoding: 138 203 202
 Width: 1279
 GlyphClass: 2
 Flags: W
-HStem: -40 274<376 1132.4> 703 273<397 1083.4> 1236 274<405 1194.4> 1556 268<424.897 656.525 929.413 1161.04>
-VStem: 86 290<234 657.973> 119 278<976 1232> 379 326<1592.16 1786.87> 883 326<1592.16 1786.87>
+HStem: -40 274<376 1132.4> 703 273<397 1083.4> 1236 274<405 1194.4> 1556 268<294.897 526.525 799.413 1031.04>
+VStem: 86 290<234 657.973> 119 278<976 1232> 249 326<1592.16 1786.87> 753 326<1592.16 1786.87>
 LayerCount: 2
 Fore
-Refer: 142 168 S 1 0 0 1 199 412 2
+Refer: 142 168 S 1 0 0 1 69 412 2
 Refer: 40 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Egrave
@@ -15630,12 +15627,11 @@ Width: 1279
 GlyphClass: 2
 Flags: W
 HStem: -40 274<376 1132.4> 703 273<397 1083.4> 1236 274<405 1194.4> 1548.5 555
-VStem: 86 290<234 657.973> 119 278<976 1232> 604 510.5
+VStem: 86 290<234 657.973> 119 278<976 1232> 354 510.5
 LayerCount: 2
 Fore
-Refer: 67 96 S 1 0 0 1 498 439 2
+Refer: 67 96 S 1 0 0 1 248 439 2
 Refer: 40 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Iacute
@@ -17883,9 +17879,8 @@ HStem: -40 274<376 1132.4> 703 273<397 1083.4> 1236 274<405 1194.4> 1561 532.5
 VStem: 86 290<234 657.973> 119 278<976 1232>
 LayerCount: 2
 Fore
-Refer: 224 711 S 1 0 0 1 147 469 2
+Refer: 224 711 S 1 0 0 1 97 469 2
 Refer: 40 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: ecaron
@@ -19851,13 +19846,12 @@ Encoding: 209 274 332
 Width: 1279
 GlyphClass: 2
 Flags: W
-HStem: -40 274<376 1132.4> 703 273<397 1083.4> 1236 274<405 1194.4> 1552 236<478.521 1178.23>
+HStem: -40 274<376 1132.4> 703 273<397 1083.4> 1236 274<405 1194.4> 1552 236<328.521 1028.23>
 VStem: 86 290<234 657.973> 119 278<976 1232>
 LayerCount: 2
 Fore
-Refer: 217 713 S 1 0 0 1 207 404 2
+Refer: 217 713 S 1 0 0 1 57 404 2
 Refer: 40 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: emacron
@@ -19878,13 +19872,12 @@ Encoding: 211 276 334
 Width: 1279
 GlyphClass: 2
 Flags: W
-HStem: -40 274<376 1132.4> 703 273<397 1083.4> 1236 274<405 1194.4> 1557 229<582.638 888.333>
+HStem: -40 274<376 1132.4> 703 273<397 1083.4> 1236 274<405 1194.4> 1557 229<522.638 828.333>
 VStem: 86 290<234 657.973> 119 278<976 1232>
 LayerCount: 2
 Fore
-Refer: 218 728 S 1 0 0 1 106 457 2
+Refer: 218 728 S 1 0 0 1 46 457 2
 Refer: 40 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: ebreve
@@ -19905,13 +19898,12 @@ Encoding: 213 278 336
 Width: 1279
 GlyphClass: 2
 Flags: W
-HStem: -40 274<376 1132.4> 703 273<397 1083.4> 1236 274<405 1194.4> 1547 334<680.188 907.761>
-VStem: 86 290<234 657.973> 119 278<976 1232> 626 334<1601.87 1825.67>
+HStem: -40 274<376 1132.4> 703 273<397 1083.4> 1236 274<405 1194.4> 1547 334<590.188 817.761>
+VStem: 86 290<234 657.973> 119 278<976 1232> 536 334<1601.87 1825.67>
 LayerCount: 2
 Fore
-Refer: 219 729 S 1 0 0 1 354 423 2
+Refer: 219 729 S 1 0 0 1 264 423 2
 Refer: 40 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: edot
@@ -33844,7 +33836,7 @@ VStem: 86 290<234 657.973> 119 278<976 1232> 949.042 236.711<1966.78 2067.6>
 LayerCount: 2
 Fore
 Refer: 610 777 N 1 0 0 1 1584 842 2
-Refer: 215 710 N 1 0 0 1 85 442 2
+Refer: 215 710 S 1 0 0 1 85 442 2
 Refer: 40 69 N 1 0 0 1 0 0 2
 EndChar
 
