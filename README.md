@@ -5,10 +5,12 @@
 [![][Glyphset]](https://loudifier.github.io/Comic-Relief/fontspector/fontspector-report.html)
 [![][OpenType]](https://loudifier.github.io/Comic-Relief/fontspector/fontspector-report.html)
 
+
 [Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Floudifier.github.io%2FComic-Relief%2Fbadges%2FFontspectorQA.json
 [Google Fonts]: https://img.shields.io/endpoint?url=https%3A%2F%2Floudifier.github.io%2FComic-Relief%2Fbadges%2FFontFileChecks.json
 [Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Floudifier.github.io%2FComic-Relief%2Fbadges%2FGlyphsetChecks.json
 [OpenType]: https://img.shields.io/endpoint?url=https%3A%2F%2Floudifier.github.io%2FComic-Relief%2Fbadges%2FOpenTypeSpecificationChecks.json
+[![AI disclosure](https://img.shields.io/badge/%F0%9F%8D%8E_Organic-95%25-green)](ai.md)
 
 Comic Relief is a typeface designed to be metrically equivalent to the popular Comic Sans MS. Comic Relief can be used in place of Comic Sans MS without having to move, resize, or reset any part of the copy. Perfect for missing cat posters and all of your WordArt needs!
 
@@ -49,10 +51,10 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Most Recent Change
 
-**V1.210 6 May 2025**
-- Fixed width of bold Cyrillic glyphs 'ю' and 'о'
-- Update build process to generate .ufo sources using FontForge, which avoids a bug in sfdlib that clips points outside glyph extents in characters like 'Ω'
-- Disable gftools/fontmake autohinting. Makes characters softer at small sizes, but more even overall. Fixes issues like stems of 'm' and 'n' sitting at different heights.
+**V1.300 26 Oct 2025**
+- Added glyphs for full Vietnamese language coverage
+- Fixed jagged outlines on regular weight 'þ' and bold '₵'
+- Fixed poor diacritic alignment on combined variants of bold 'E'
 
 ## License
 
