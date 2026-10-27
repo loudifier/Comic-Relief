@@ -2,15 +2,12 @@
 
 [![][Fontspector]](https://loudifier.github.io/Comic-Relief/fontspector/fontspector-report.html)
 [![][Google Fonts]](https://loudifier.github.io/Comic-Relief/fontspector/fontspector-report.html)
-[![][Glyphset]](https://loudifier.github.io/Comic-Relief/fontspector/fontspector-report.html)
 [![][OpenType]](https://loudifier.github.io/Comic-Relief/fontspector/fontspector-report.html)
-
+[![AI disclosure](https://img.shields.io/badge/%F0%9F%8D%8E_Organic-95%25-green)](ai.md)
 
 [Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Floudifier.github.io%2FComic-Relief%2Fbadges%2FFontspectorQA.json
 [Google Fonts]: https://img.shields.io/endpoint?url=https%3A%2F%2Floudifier.github.io%2FComic-Relief%2Fbadges%2FFontFileChecks.json
-[Glyphset]: https://img.shields.io/endpoint?url=https%3A%2F%2Floudifier.github.io%2FComic-Relief%2Fbadges%2FGlyphsetChecks.json
-[OpenType]: https://img.shields.io/endpoint?url=https%3A%2F%2Floudifier.github.io%2FComic-Relief%2Fbadges%2FOpenTypeSpecificationChecks.json
-[![AI disclosure](https://img.shields.io/badge/%F0%9F%8D%8E_Organic-95%25-green)](ai.md)
+[OpenType]: https://img.shields.io/endpoint?url=https%3A%2F%2Floudifier.github.io%2FComic-Relief%2Fbadges%2FOpentypeSpecificationChecks.json
 
 Comic Relief is a typeface designed to be metrically equivalent to the popular Comic Sans MS. Comic Relief can be used in place of Comic Sans MS without having to move, resize, or reset any part of the copy. Perfect for missing cat posters and all of your WordArt needs!
 
